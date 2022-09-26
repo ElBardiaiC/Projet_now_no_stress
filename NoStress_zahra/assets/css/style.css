@@ -1,0 +1,89 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    /* text-align: center; */
+    font-family: dosis;
+}
+#fond_ecran{
+   
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+.container{
+ position: absolute;
+ margin: 0%;
+
+}
+
+#logo{
+    position: absolute;
+    width: 300px;
+    margin-left: 0%;
+    
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    position: relative;
+    
+}
+
+
+.containt{
+    color: white;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    text-align: center;
+    border:none;
+    border-radius: 15px;
+    background-color:#4b548136;
+}
+
+
+.btn-questionnaire{
+    background-color: #E58D6D;
+    position: relative;
+    height: 70px;
+    width: 230px;
+    margin: 30px;
+    color: white;
+    border: 1.5px solid white;
+    border-radius: 15px;
+    font-size: 30px;
+}
+
+.pasDeCompte{
+    position: fixed; 
+    right: 20px;
+    font-size: 20px;
+    font-weight:500;
+    color: white;
+    margin-right: 100px;
+
+}
+a{
+    color: white;
+}
+
+#retour{
+  
+    position: fixed; 
+    left: 20px; 
+    bottom: -200px; 
+    left: -150px; 
+    }
+    

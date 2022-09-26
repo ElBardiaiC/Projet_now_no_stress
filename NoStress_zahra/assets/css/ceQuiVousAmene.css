@@ -1,0 +1,83 @@
+body{
+
+    /* text-align: center; */
+    font-family: dosis;
+}
+
+
+#fond_ecran{
+ /* Fixe l'image en haut à gauche de la page */
+ position: fixed;
+ top: 0; 
+ left: 0; 
+ /* Préserve le ratio de l'image */
+ min-width: 100%;
+ min-height: 100%;
+}
+.container{
+    position: absolute;
+    margin: 0%;
+}   
+
+#logo{
+
+    position: absolute;
+    width: 300px;
+    margin-left: 0%;
+    
+}
+
+h2 {
+    color: white;
+    font-size: 70px;
+    position: relative;
+    padding-top: 120px;
+    padding-bottom: 100px;
+    padding-left: 300px;
+}
+
+.reponses{
+
+  
+    justify-content: center;
+    background-color: #E58D6D;
+    position: relative;
+    height: 80px;
+    width: 350px;
+    margin: 30px;
+    color: white;
+    border: 1.5px solid white;
+    border-radius: 15px;
+    font-size: 30px;
+    margin-left: 40%;
+    
+}
+.containt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+
+
+}
+
+.pasDeCompte{
+    position: fixed; 
+    right: 20px;
+    font-size: 20px;
+    font-weight:500;
+    color: white;
+    margin-right: 100px;
+
+}
+a{
+    color: white;
+}
+
+#retour{
+    position: fixed; 
+    left: 20px; 
+    bottom: -200px; 
+    left: -150px; 
+}
