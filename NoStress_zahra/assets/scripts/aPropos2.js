@@ -1,8 +1,8 @@
+'use strict'
 
+ const btnQuestionnaire=document.getElementById('questionnaire');
+ console.log(btnQuestionnaire);
 
-const btnCommencer=document.getElementById('btn-commencer');
-console.log(btnCommencer);
-
-btnCommencer.addEventListener('click', () =>{
-    window.location.href= 'aPropos1.html' ;
+ btnQuestionnaire.addEventListener('click', () => {
+  window.location.href= 'ceQuiVousAmene.html' ;
  })
