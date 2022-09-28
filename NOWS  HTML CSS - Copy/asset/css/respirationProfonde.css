@@ -59,3 +59,31 @@ position: fixed;
  left: -80px; 
  
 }
+
+main #back_content{
+
+    background-color: #525d9141;
+    position: relative;
+    height: 500px;
+    width: 50%;
+margin-left: 25%;
+border-radius: 20px;  
+
+}
+
+#yoga-pic{
+
+    border-radius: 80px;
+    margin-top: 15px;
+}
+#start{
+    font-size: 25px;
+    color: white;
+    border-radius: 15px ;
+    border-style:  solid;
+    border-color:white;
+    background-color: #E58D6D;
+    margin-top: 50px;
+    padding: 10px;
+    
+}
