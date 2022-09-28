@@ -21,7 +21,7 @@ body{
 
 #logo{
 
-    position: absolute;
+    /* position: absolute; */
     width: 300px;
     margin-left: 0%;
     
@@ -76,8 +76,7 @@ a{
 }
 
 #retour{
-    position: fixed; 
+    position: fixed;  
+    bottom: 20px; 
     left: 20px; 
-    bottom: -200px; 
-    left: -150px; 
 }

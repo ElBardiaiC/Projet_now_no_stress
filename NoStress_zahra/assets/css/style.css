@@ -1,10 +1,11 @@
 
-*{
-    box-sizing: border-box;
-}
+
 body{
     /* text-align: center; */
     font-family: dosis;
+    background-image: url(../img/ciel\ officiel.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #fond_ecran{
    
@@ -16,22 +17,29 @@ body{
 }
 
 .container{
- position: absolute;
- margin: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    margin: auto;
+    
 
 }
-
+/* header{
+    jus
+} */
 #logo{
-    position: absolute;
     width: 300px;
-    margin-left: 0%;
+    margin-top: 20px;
+    margin-left: -250px;
     
 }
-h2{
-    text-align: center;
+h2{   
     color: white;
     font-size: 70px;
-    position: relative;
+    padding-top: 120px;
+    text-align: center;
+    margin-top: -20px;
     
 }
 
@@ -39,9 +47,6 @@ h2{
 .containt{
     color: white;
     font-size: 2.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding: 20px;
     width: auto;
     margin-left: 20%;
@@ -56,7 +61,6 @@ h2{
 
 .btn-questionnaire{
     background-color: #E58D6D;
-    position: relative;
     height: 70px;
     width: 230px;
     margin: 30px;
@@ -67,12 +71,10 @@ h2{
 }
 
 .pasDeCompte{
-    position: fixed; 
-    right: 20px;
+    text-align: right;
     font-size: 20px;
     font-weight:500;
     color: white;
-    margin-right: 100px;
 
 }
 a{
@@ -81,9 +83,8 @@ a{
 
 #retour{
   
-    position: fixed; 
+    position: fixed;  
+    bottom: 20px; 
     left: 20px; 
-    bottom: -200px; 
-    left: -150px; 
     }
     
