@@ -1,10 +1,10 @@
 'use strict'
 
-const btnSommeil=document.getElementById('rep1');
+// const btnSommeil=document.getElementById('rep1');
 
-btnSommeil.addEventListener('click', () =>{
-  location.href='http://localhost/NOW_NO_S/Projet_now_no_stress/NOWS%20%20HTML%20CSS%20-%20Copy/ProblemeSommeil.html';
-})
+// btnSommeil.addEventListener('click', () =>{
+//   location.href='http://localhost/NOW_NO_S/Projet_now_no_stress/NOWS%20%20HTML%20CSS%20-%20Copy/ProblemeSommeil.html';
+// })
 
 // const btnCommencer=document.getElementById('btn-commencer');
 // console.log(btnCommencer);
@@ -16,6 +16,6 @@ btnSommeil.addEventListener('click', () =>{
  const btnQuestionnaire=document.getElementById('questionnaire');
  console.log(btnQuestionnaire);
 
-btnQuestionnaire.addEventListener('click', () => {
+ btnQuestionnaire.addEventListener('click', () => {
   window.location.href= 'ceQuiVousAmene.html' ;
  })
