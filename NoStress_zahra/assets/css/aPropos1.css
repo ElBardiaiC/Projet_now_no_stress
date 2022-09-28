@@ -1,5 +1,3 @@
-
-
 body{
     /* text-align: center; */
     font-family: dosis;
@@ -26,7 +24,7 @@ body{
 
 }
 /* header{
-    jus
+    
 } */
 #logo{
     width: 300px;
@@ -70,21 +68,30 @@ h2{
     font-size: 30px;
 }
 
-.pasDeCompte{
-    text-align: right;
+#basDePage{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    margin-top: 170px;
+   
+}
+
+.pasDeCompte{ 
     font-size: 20px;
     font-weight:500;
     color: white;
+    margin-right: -500px;
+    margin-bottom: 50px;
+   
 
+}
+.retour{
+    text-align: left;  
+    margin-left: -500px;
+   
 }
 a{
     color: white;
 }
-
-#retour{
-  
-    position: fixed;  
-    bottom: 20px; 
-    left: 20px; 
-    }
-    

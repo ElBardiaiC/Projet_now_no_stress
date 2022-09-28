@@ -1,61 +1,49 @@
-body{
 
+
+body{
     /* text-align: center; */
     font-family: dosis;
     background-image: url(../img/ciel\ officiel.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-
 #fond_ecran{
- /* Fixe l'image en haut à gauche de la page */
- position: fixed;
- top: 0; 
- left: 0; 
- /* Préserve le ratio de l'image */
- min-width: 100%;
- min-height: 100%;
+   
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    top: 0px;
+    left: 0px;
 }
+
 .container{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     flex-wrap: nowrap;
     margin: auto;
-}   
+    
 
+}
+/* header{
+    
+} */
 #logo{
-
     width: 300px;
     margin-top: 20px;
     margin-left: -250px;
     
 }
-
-h2 {
+h2{   
     color: white;
     font-size: 70px;
     padding-top: 120px;
     text-align: center;
     margin-top: -20px;
-}
-
-.reponses{
-
-  
-    justify-content: center;
-    background-color:#6A6F92;
-    height: 80px;
-    width: 350px;
-    margin: 30px;
-    color: white;
-    border:none; /*1.5px solid white; */
-    border-radius: 15px;
-    font-size: 30px;
-    /* margin-left: 40%; */
     
 }
+
+
 .containt{
     color: white;
     font-size: 2.5rem;
@@ -68,16 +56,28 @@ h2 {
     border:none;
     border-radius: 15px;
     background-color:#4b548136;
-
-
 }
-#basPage{
+
+
+.btn-questionnaire{
+    background-color: #E58D6D;
+    height: 70px;
+    width: 230px;
+    margin: 30px;
+    color: white;
+    border: 1.5px solid white;
+    border-radius: 15px;
+    font-size: 30px;
+}
+
+#basDePage{
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: nowrap;
     margin-top: 100px;
+   
 }
 
 .pasDeCompte{ 
@@ -85,16 +85,14 @@ h2 {
     font-weight:500;
     color: white;
     margin-right: -500px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 
 }
 .retour{
     text-align: left;  
-    margin-bottom: 40px; 
     margin-left: -500px;
+
 }
 a{
     color: white;
 }
-
-
