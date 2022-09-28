@@ -15,7 +15,7 @@ btnPlus.addEventListener('click' , () => {
 
 
    
-    window.location.href='C_respirationprofonde.html';
+    window.location.href='';
     
     
     })
