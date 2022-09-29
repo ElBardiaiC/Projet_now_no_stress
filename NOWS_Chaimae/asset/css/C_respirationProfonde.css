@@ -27,10 +27,26 @@ section#logo{
  position: fixed; 
  margin: 20px;
 }
+
+#burger{
+   
+    position: fixed;
+    top: 50px;
+    right: 20px;
+font-size: 20px;
+font-weight:500;
+text-decoration: underline 1px;
+    color: white;
+   margin-right: 100px;
+ 
+   height: 40px;
+
+}
 h1{
     position: relative;
     color: white;
     font-size: 60px;
+    margin-top: 20px;
     margin-bottom: 100px;
     text-decoration: underline 2px;
 }
@@ -40,7 +56,7 @@ p{
     font-size: 20px;
 }
 
- #connecter{
+ #connect{
     position: fixed;
     bottom: 50px;
     right: 20px;
@@ -54,17 +70,17 @@ text-decoration: underline 1px;
 
 #sparrow{
   
-position: fixed; 
- bottom: -170px; 
- left: -80px; 
- 
+    position: fixed; 
+     bottom: 80px; 
+     left: 100px; 
+     
 }
 
 main #back_content{
 
     background-color: #525d9141;
     position: relative;
-    height: 500px;
+    height: 600px;
     width: 50%;
 margin-left: 25%;
 border-radius: 20px;  

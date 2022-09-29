@@ -30,6 +30,21 @@ section#logo{
    
 }
 
+#burger{
+   
+    position: fixed;
+    top: 50px;
+    right: 20px;
+font-size: 20px;
+font-weight:500;
+text-decoration: underline 1px;
+    color: white;
+   margin-right: 100px;
+ 
+   height: 40px;
+
+}
+
 h1 {
     color: white;
     font-size: 70px;
@@ -48,7 +63,7 @@ button{
     width: 200px;
     margin: 30px;
     color: white;
-    border: 1.5px solid white;
+    border: none;
     border-radius: 15px;
     font-size: 30px;
     
@@ -71,11 +86,10 @@ text-decoration: underline 1px;
    margin-right: 100px;
    margin-bottom: 50px;
 }
-
 #sparrow{
   
-position: fixed; 
- bottom: -170px; 
- left: -80px; 
- 
+    position: fixed; 
+     bottom: 80px; 
+     left: 100px; 
+     
 }
