@@ -3,5 +3,5 @@
 const btnSommeil=document.getElementById('rep1');
 
 btnSommeil.addEventListener('click', () =>{
-  location.href='http://localhost/NOW_NO_S/Projet_now_no_stress/NOWS%20%20HTML%20CSS%20-%20Copy/ProblemeSommeil.html';
+  location.href='http://127.0.0.1:5500/NOWS_Chaimae/ProblemeSommeil.html';
 })

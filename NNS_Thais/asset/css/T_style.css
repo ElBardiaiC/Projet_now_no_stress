@@ -48,10 +48,28 @@ header > div > img{
     color: var(--color-content);
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
    
 }
+#titres{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#content-login{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#titres > h2{
+    
+    font-size: 2rem;
+}
+/*todo Concernant le login */
+/*todo **************************/
 #login{
     
     width: 25%;
@@ -63,10 +81,15 @@ header > div > img{
     align-items: center;
     
 }
-#login > h2{
-    
-    font-size: 2rem;
+#login > div{
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
+
 
 #essai{
     
@@ -82,16 +105,17 @@ header > div > img{
     
     font-size: 2rem;
 }
-#content > section > input{
+#content > div > section > div > input{
     border: none;
     border-radius: 3em;
     padding: 5%;
+    margin: 10px;
     width: 70%;
 }
-#content > section > p > a{
-    text-decoration: underline;
-}
-#content > section > div > p > a{
+
+
+#content > div > section > div > p > a{
+    color: white;
     text-decoration: underline;
 } 
 .classic-btn{
@@ -115,8 +139,8 @@ header > div > img{
 /**Concernant le footer */
 /****************************************************/
 
-footer{
+/* footer{
     height: 150px;
     width: 100%;
     background-color: white;
-}
+} */
