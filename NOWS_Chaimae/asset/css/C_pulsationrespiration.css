@@ -24,7 +24,23 @@ section#logo{
     position: fixed; 
     margin: 20px;
     }
-    #connecter{
+
+    #burger{
+   
+        position: fixed;
+        top: 50px;
+        right: 20px;
+    font-size: 20px;
+    font-weight:500;
+    text-decoration: underline 1px;
+        color: white;
+       margin-right: 100px;
+     
+       height: 40px;
+    
+}
+
+    #connect{
         position: fixed;
         bottom: 50px;
         right: 20px;
@@ -37,11 +53,11 @@ section#logo{
     }
     
     #sparrow{
-
-    position: fixed; 
-    bottom: -170px; 
-    left: -80px; 
-    
+  
+        position: fixed; 
+         bottom: 80px; 
+         left: 100px; 
+         
     }
     .blob {
         background: rgba(236, 231, 231, 0.747);

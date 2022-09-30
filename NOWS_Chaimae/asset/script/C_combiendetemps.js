@@ -6,7 +6,7 @@ btnMoin.addEventListener('click' , () => {
 
 
    
-window.location.href='C_respirationprofonde.html';
+window.location.href='';
 
 
 })
@@ -15,7 +15,7 @@ btnPlus.addEventListener('click' , () => {
 
 
    
-    window.location.href='';
+    window.location.href='C_respirationprofonde.html';
     
     
     })
