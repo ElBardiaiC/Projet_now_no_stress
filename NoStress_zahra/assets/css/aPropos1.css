@@ -1,35 +1,26 @@
 body{
-    /* text-align: center; */
     font-family: dosis;
     background-image: url(../img/ciel\ officiel.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
-#fond_ecran{
-   
-    position: fixed;
-    min-width: 100%;
-    min-height: 100%;
-    top: 0px;
-    left: 0px;
-}
+
 
 .container{
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     flex-wrap: nowrap;
     margin: auto;
     
-
 }
-/* header{
-    
-} */
+
 #logo{
     width: 300px;
-    margin-top: 20px;
-    margin-left: -250px;
+    height: 60px;
+    margin: 20px;
+  
     
 }
 h2{   

@@ -1,4 +1,5 @@
 body{
+    /* text-align: center; */
     font-family: dosis;
     background-image: url(../img/ciel\ officiel.png);
     background-repeat: no-repeat;
@@ -9,65 +10,61 @@ body{
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: nowrap;
     margin: auto;
-}   
+    align-items: center;
 
+}
+header{
+     align-self: flex-start;
+}
 #logo{
-
+   
     width: 300px;
     height: 60px;
     margin: 20px;
-    
 }
 
-h2 {
+h2{   
     color: white;
     font-size: 70px;
-    padding-top: 120px;
+    padding-top: 80px;
     text-align: center;
-    margin-top: -20px;
-}
-
-.reponses{
-
-  
-    justify-content: center;
-    background-color:#6A6F92;
-    height: 80px;
-    width: 350px;
-    margin: 30px;
-    color: white;
-    border:1.5px solid grey;
-    box-shadow: 5px; 
-    border-radius: 15px;
-    font-size: 30px;
-    /* margin-left: 40%; */
+    margin-top: -50px;
     
 }
+#img-relax{
+    width: 250px;
+    height:250px ;
+    border-radius: 50%;
+    
+}
+
+
 .containt{
     color: white;
     font-size: 2.5rem;
     padding: 20px;
     width: auto;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-top: 5%;
     text-align: center;
     border:none;
     border-radius: 15px;
     background-color:#4b548136;
-
-
 }
-#basPage{
+
+
+#basDePage{
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: nowrap;
     margin-top: 100px;
+   
 }
 
 .pasDeCompte{ 
@@ -75,16 +72,14 @@ h2 {
     font-weight:500;
     color: white;
     margin-right: -500px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 
 }
 .retour{
     text-align: left;  
-    margin-bottom: 40px; 
     margin-left: -500px;
+
 }
 a{
     color: white;
 }
-
-
