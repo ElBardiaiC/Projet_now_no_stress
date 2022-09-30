@@ -25,6 +25,16 @@ header{
     height: 60px;
     margin: 20px;
 }
+#menuBurger{
+   
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    color: white;
+    margin-right: 100px;
+    height: 40px;
+
+}
 
 h2{   
     color: white;
