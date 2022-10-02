@@ -70,6 +70,7 @@ h2{
     color: white;
     border: 1.5px solid white;
     border-radius: 15px;
+    box-shadow: 5px 5px 10px black;
     font-size: 30px;
 }
 
@@ -84,14 +85,12 @@ h2{
    
 }
 .retour{
-    margin-left: 71px;
+    margin-left: 70px;
 }
 .pasDeCompte{ 
     font-size: 20px;
     color: white;
-    margin-right: 71px;
-    
-
+    margin-right: 70px;
 }
 
 a{
