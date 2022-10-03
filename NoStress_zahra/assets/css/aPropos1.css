@@ -71,6 +71,9 @@ h2{
     box-shadow: 5px 5px 10px black;
     font-size: 30px;
 }
+a , button{
+    cursor: pointer;
+}
 
 #basDePage{
     width: 100%;

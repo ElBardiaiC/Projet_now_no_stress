@@ -72,6 +72,9 @@ h2{
     border-radius: 15px;
     font-size: 30px;
 }
+a , button{
+    cursor: pointer;
+}
 
 #basPage{
     width: 100%;
