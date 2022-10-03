@@ -2,6 +2,11 @@
 const btnRelax=document.getElementById('rel');
 
 btnRelax.addEventListener('click', () =>{
-  location.href='relax.html';
+  window.location.href='relax.html';
 })
 
+const btnMarche=document.getElementById('marche');
+
+btnMarche.addEventListener('click', () =>{
+  window.location.href='marche.html';
+})
