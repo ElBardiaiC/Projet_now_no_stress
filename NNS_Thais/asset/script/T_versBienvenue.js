@@ -2,5 +2,5 @@ const versBienvenue = document.getElementById('log-in');
 
 versBienvenue.addEventListener('click' , () =>{
 
-    window.location.href='T_welcome.html';
+    window.location.href='views/T_welcome.html';
 })
