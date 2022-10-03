@@ -113,12 +113,9 @@ header > div > img{
     justify-content: center;
     align-items: center;
 }
-#essai > button{
-    margin-left: 3%;
+#essai-btn{
     margin-bottom: 40%;
-}
-
-
+} 
 
 #content > div > section > div > p > a{
     color: white;
