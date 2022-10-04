@@ -1,6 +1,6 @@
 const versYoga = document.getElementById('yoga-btn');
 
 versYoga.addEventListener('click' , () => {
-
-window.location.href='../views/T_yoga.html';
+console.log('yoga-btn');
+window.location.href='T_yoga.html';
 })
