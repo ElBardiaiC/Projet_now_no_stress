@@ -65,8 +65,8 @@
                     <h2>Créer mon compte</h2>
                 </div>
             </section>   
+            
             <form  method="post" action="#">
-                
                 <div id="formu">
                     <div class="demi-form">
                         <article id="radio">
@@ -92,20 +92,20 @@
                             
                     </div>
                     <div class="demi-form">
-                            <article id="formu-part-2">
-                                <input placeholder="Email" type="email" name="email">
-                                <input placeholder="Mot de Passe" type="password" name="password">
-                                <input placeholder="Confirmez votre mot de passe" type="password" name="confirm">
-                            </article>
+                        <article id="formu-part-2">
+                            <input placeholder="Email" type="email" name="email">
+                            <input placeholder="Mot de Passe" type="password" name="password">
+                            <input placeholder="Confirmez votre mot de passe" type="password" name="confirm">
+                        </article>
                             
                     </div>
                 </div>
                     
-                <section>
+                <div>
                     <div id="bouton">
                         <input name="submit" class="classic-btn" type="submit" value="Créer mon compte">
                     </div>
-                </section>
+                </div>
             </form> 
                 
         </div>
