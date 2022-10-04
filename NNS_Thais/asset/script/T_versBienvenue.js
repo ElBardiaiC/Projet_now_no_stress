@@ -13,10 +13,10 @@ window.location.href='../NoStress_zahra/views/aPropos2.html';
 
 })
 
-const welcome = document.getElementById('welcome');
+// const welcome = document.getElementById('welcome');
 
-welcome.addEventListener('click' , () =>{
+// welcome.addEventListener('click' , () =>{
 
-window.location.href='T_welcome.html';
+// window.location.href='T_welcome.html';
 
-})
+// })
