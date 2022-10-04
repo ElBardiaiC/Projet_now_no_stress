@@ -32,7 +32,8 @@
                     && validateForm()
                 ) {
 
-                    // enregistrer les données dans la db
+                    //todo enregistrer les données dans la db 
+                    //>< l'utilisation du try qu'on a vu avec espoir qui lui verifi juste la concordance.
                     $pdo = new PDO("mysql:host=localhost;dbname=noStress.db", "root", "root");
                     $stmt = $pdo->prepare("INSERT INTO user (nom, prenom, email, password, genre, dateNaiss) VALUES (?, ?, ?, ?, ?, ?)");
                     $stmt->execute([
