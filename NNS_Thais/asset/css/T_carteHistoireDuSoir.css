@@ -30,7 +30,7 @@
 /** Concernant le header */ 
 /**************************************************/
 header{
-    height: 150px;
+    height: 125px;
 } 
 
 header > div > img{
@@ -48,7 +48,7 @@ header > div > img{
 /*todo *******************************/
 #content{
     width: 100%;
-    height: 90vh;
+    height: 80vh;
     color: var(--color-content);
 
     display: flex;
@@ -66,8 +66,8 @@ header > div > img{
 /*todo *****************************/
 
 #carte{
-    width: 50%;
-    padding: 3%;
+    width: 70%;
+    padding: 2%;
     background-color: var(--background-carte);
     border-radius: 30px;
 
@@ -78,13 +78,16 @@ header > div > img{
 }
 
 #carte > div{
-    padding: 2%;
+    padding: 1%;
 }
 #carte > div > h2{
     font-size: 2rem;
 }
 #carte > div > p {
     text-align: center;
+}
+#para{
+    font-size: 1.5rem;
 }
 
 #carte > div > img{

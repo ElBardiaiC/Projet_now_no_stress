@@ -30,7 +30,7 @@
 /** Concernant le header */ 
 /**************************************************/
 header{
-    height: 150px;
+    height: 125px;
 } 
 
 header > div > img{
@@ -67,7 +67,7 @@ header > div > img{
 
 #carte{
     width: 60%;
-    padding: 3%;
+    padding: 2%;
     background-color: var(--background-carte);
     border-radius: 30px;
 
@@ -78,13 +78,16 @@ header > div > img{
 }
 
 #carte > div{
-    padding: 2%;
+    padding: 1%;
 }
 #carte > div > h2{
     font-size: 2rem;
 }
 #carte > div > p {
     text-align: center;
+}
+#para{
+    font-size: 1.5rem;
 }
 
 #carte > div > img{
