@@ -62,10 +62,7 @@ header > div > img{
 
 /*todo Concernant la section carte */
 /* todo *****************************/
-/*! Enregistrement méditation */
-#carte > div > p{
 
-}
 /*todo Concernant la section liens*/
 /*todo *****************************/
 #liens{
@@ -96,3 +93,10 @@ header > div > img{
     #creer-compte{
         text-align: center;
     }
+
+/*todo Concernant la creer-compte ******/
+/*todo *********************************/
+
+#creer-compte > p > a{
+    color: white;
+}
