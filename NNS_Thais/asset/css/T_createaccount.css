@@ -28,7 +28,7 @@
 /**  Concernant la header */ 
 /** ************************************************/
 header{
-    height: 150px;
+    height: 125px;
 } 
 
 header > div > img{
@@ -55,13 +55,23 @@ header > div > img{
     align-items: center;
     
 }
+/*todo Concernant le form *************/
+/*todo ********************************/
+form{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
 /*todo Les sections*/
 /*todo *********************************/
 h2{
     font-size: 2rem;
 }
 div > h2{
-    font-family: dosis; /*! Check pourquoi la font ne s'applique pas à ce titre*/
+    font-family: dosis;
 }
 #content > section{
     width: 100%;
@@ -88,6 +98,10 @@ div > h2{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+}
+::placeholder{
+    color: #E58D6D;
+    font-size: 1rem;
 }
 /* todo Concernant les demi-form */
 /*todo *******************************/
@@ -116,6 +130,8 @@ div > h2{
     width: 70%;
     
 }
+
+
 /*todo Concernant le formur-part-2*/
 /*todo ******************************/
 #formu-part-2{

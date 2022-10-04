@@ -66,9 +66,8 @@
                 </div>
             </section>   
             <form  method="post" action="#">
-
-                <section>
-                    <div id="formu">
+                
+                <div id="formu">
                     <div class="demi-form">
                         <article id="radio">
                             <div>
@@ -84,30 +83,30 @@
                                 <input id="x" name="genre" value="X" type="radio">
                             </div> 
                         </article>
-                        
+                            
                         <article id="formu-part-1">
-                            <input type="text" name="nom">
-                            <input type="text" name="prenom">
-                            <input type="date" name="dateNaiss">
+                            <input placeholder="Nom" type="text" name="nom">
+                            <input placeholder="Prénom" type="text" name="prenom">
+                            <input placeholder="Date de Naissance" type="date" name="dateNaiss">
                         </article>
-                        
+                            
                     </div>
                     <div class="demi-form">
-                        <article id="formu-part-2">
-                            <input type="email" name="email">
-                            <input type="password" name="password">
-                            <input type="password" name="confirm">
-                        </article>
-                        
+                            <article id="formu-part-2">
+                                <input placeholder="Email" type="email" name="email">
+                                <input placeholder="Mot de Passe" type="password" name="password">
+                                <input placeholder="Confirmez votre mot de passe" type="password" name="confirm">
+                            </article>
+                            
                     </div>
                 </div>
-            </section>    
-            <section>
-                <div id="bouton">
-                    <input name="submit" class="classic-btn" type="submit" value="Créer mon compte">
-                </div>
-            </section>
-        </form> 
+                    
+                <section>
+                    <div id="bouton">
+                        <input name="submit" class="classic-btn" type="submit" value="Créer mon compte">
+                    </div>
+                </section>
+            </form> 
                 
         </div>
         <!-- <footer> 
