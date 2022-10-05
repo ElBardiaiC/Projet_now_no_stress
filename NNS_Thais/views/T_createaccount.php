@@ -35,7 +35,7 @@
                     
                     //todo ↓ On enregistre les données dans la db (PDO = PhP Data Object)// 
                     //>< l'utilisation du try qu'on a vu avec espoir qui lui verifie juste la concordance avec une db existante //
-                    $pdo = new PDO("mysql:host=localhost;dbname=noStress.db", "root", "root"); //todo → On cible la DB que l'on veut avec son "adresse", son nom , et ses username et pwd //
+                    $pdo = new PDO("mysql:host=localhost;dbname=noStress.db", "root", "root"); //todo → On initialise la connexion à notre DB //
                     $stmt = $pdo->prepare("INSERT INTO user (nom, prenom, email, password, genre, dateNaiss) VALUES (?, ?, ?, ?, ?, ?)"); //todo On produit le modèle(template) de la requete que l'on va faire au serveur//
                     $stmt->execute([ //todo On exécute  mtn la requête "$stmt" en question //
                         $_POST["nom"],
