@@ -32,6 +32,12 @@ nav{
    background-color: #585e91;
    transition: .5s;
 }
+.navBar h3{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+}
 
 .navBar ul li{
 
@@ -40,7 +46,7 @@ nav{
    text-transform: uppercase;
    list-style-type:none;
    font-size: 1,5em;
-   padding: 20px 30px;
+   padding: 30px 30px;
    border-bottom: 1pt solid white;
 }
 #menuBurger{
