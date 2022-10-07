@@ -20,9 +20,9 @@
 
         </header>
         <?php
-            if(isset($_POST["submit"])) {
+            if(isset($_POST["submit"])) { //todo → on verifie qu'il y a des données soumises à POST //
 
-                if(
+                if( //todo ↓ ensuite on vérifie qu'il existe bien un champ nom, un champ prenom etc dans POST //
                     isset($_POST["nom"]) 
                     && isset($_POST["prenom"]) 
                     && isset($_POST["email"]) 
@@ -32,11 +32,12 @@
                     && validateForm()
                 ) {
 
-                    //todo enregistrer les données dans la db 
-                    //>< l'utilisation du try qu'on a vu avec espoir qui lui verifi juste la concordance.
-                    $pdo = new PDO("mysql:host=localhost;dbname=noStress.db", "root", "root");
-                    $stmt = $pdo->prepare("INSERT INTO user (nom, prenom, email, password, genre, dateNaiss) VALUES (?, ?, ?, ?, ?, ?)");
-                    $stmt->execute([
+                    
+                    //todo ↓ On enregistre les données dans la db (PDO = PhP Data Object)// 
+                    //>< l'utilisation du try qu'on a vu avec espoir qui lui verifie juste la concordance avec une db existante //
+                    $pdo = new PDO("mysql:host=localhost;dbname=noStress.db", "root", "root"); //todo → On initialise la connexion à notre DB //
+                    $stmt = $pdo->prepare("INSERT INTO user (nom, prenom, email, password, genre, dateNaiss) VALUES (?, ?, ?, ?, ?, ?)"); //todo On produit le modèle(template) de la requete que l'on va faire au serveur//
+                    $stmt->execute([ //todo On exécute  mtn la requête "$stmt" en question //
                         $_POST["nom"],
                         $_POST["prenom"], 
                         $_POST["email"], 
@@ -45,11 +46,11 @@
                         $_POST["dateNaiss"]
                     ]);
                     // redirection vers index.html
-                    header('location:http://localhost/Projet_now_no_stress/NNS_Thais/T_index.html');
+                    header('location:http://localhost/Projet_now_no_stress/NNS_Thais/T_index.html'); //todo une fois les données enregistrées dans la DB, on redirige le visiteur vers la page de login //
                 }
 
             }
-
+            //todo ↓ on dévelope la fonction de validation des inputs values  remplies par l'utilisateur//
             function validateForm() {
                 if($_POST["password"] != $_POST["confirm"]) {
                     return false;
@@ -87,7 +88,8 @@
                         <article id="formu-part-1">
                             <input placeholder="Nom" type="text" name="nom">
                             <input placeholder="Prénom" type="text" name="prenom">
-                            <input placeholder="Date de Naissance" type="date" name="dateNaiss">
+                            <input placeholder="Date de Naissance" type="date" name="dateNaiss"> 
+                            //!Checker comment arranger le placeholder de l'input date//
                         </article>
                             
                     </div>
