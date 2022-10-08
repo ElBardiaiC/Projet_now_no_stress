@@ -89,7 +89,7 @@
                             <input placeholder="Nom" type="text" name="nom">
                             <input placeholder="Prénom" type="text" name="prenom">
                             <input placeholder="Date de Naissance" type="date" name="dateNaiss"> 
-                            //!Checker comment arranger le placeholder de l'input date//
+                            <!-- !Checker comment arranger le placeholder de l'input date-->
                         </article>
                             
                     </div>
