@@ -92,7 +92,7 @@ header > div > img{
     justify-content: space-around;
     align-items: center;
 }
-#content > div > section > div > input{
+#content > div > form > div > input{
     border: none;
     border-radius: 3em;
     padding: 5%;
@@ -117,7 +117,7 @@ header > div > img{
     margin-bottom: 40%;
 } 
 
-#content > div > section > div > p > a{
+#content > div > form > div > p > a{
     color: white;
     text-decoration: underline;
 }

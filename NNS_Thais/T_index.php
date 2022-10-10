@@ -20,6 +20,20 @@
             </div>
             <!--! Ajouter ici la nav menu burger de chez zahra + son css-->
         </header>
+        <?php
+            if (isset($_POST["submit"])) { 
+                if ( 
+                    
+                    isset($_POST["email"])
+                    && isset($_POST["password"])
+                    && validateForm()
+                ) {
+                    $pdo = new PDO("mysql:host=localhost;dbname=noStress.db", "root", "root");
+                    $stmt = $pdo->prepare("")
+                }
+            
+        
+        ?>
 
         <div id="content">
     
@@ -31,7 +45,7 @@
                 </section>
             </div>
             <div id="content-login">
-                <section id="login">
+                <form id="login">
                         
                     <div>
                         <input type="email">
@@ -51,7 +65,7 @@
                         <p><a href="http://localhost/Projet_now_no_stress/NNS_Thais/views/T_createaccount.php">Créer un compte ici</a></p>
                     </div>
 
-                </section>
+                </form>
                 <section id="essai">
                     <button class="classic-btn" id="essai-btn" type="submit">Essai</button>
                 </section>
