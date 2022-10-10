@@ -132,9 +132,9 @@ h2{
     width: 230px;
     margin: 30px;
     color: white;
-    border: 1.5px solid white;
+    border: none;
     border-radius: 15px;
-    box-shadow: 5px 5px 10px black;
+    box-shadow: 5px 5px 10px #585e91;
     font-size: 30px;
 }
 
