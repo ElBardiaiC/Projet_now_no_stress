@@ -20,20 +20,7 @@
             </div>
             <!--! Ajouter ici la nav menu burger de chez zahra + son css-->
         </header>
-        <?php
-            if (isset($_POST["submit"])) { 
-                if ( 
-                    
-                    isset($_POST["email"])
-                    && isset($_POST["password"])
-                    && validateForm()
-                ) {
-                    $pdo = new PDO("mysql:host=localhost;dbname=noStress.db", "root", "root");
-                    $stmt = $pdo->prepare("")
-                }
-            
         
-        ?>
 
         <div id="content">
     

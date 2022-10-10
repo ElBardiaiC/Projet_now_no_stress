@@ -130,6 +130,7 @@ header > div > img{
     background-color: var(--classic-btn);
     opacity: 83%;
     font-size: 1.5rem;
+    box-shadow: 5px 5px 10px #585e91;
     
     padding: 2%;
     width: 55%;
@@ -137,6 +138,7 @@ header > div > img{
 .classic-btn:hover{
     background-color: white;
     color: #E58D6D;
+    
 }
 #creer-compte{
     text-align: center;

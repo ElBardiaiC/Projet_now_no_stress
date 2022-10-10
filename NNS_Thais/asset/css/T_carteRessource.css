@@ -143,6 +143,7 @@ header > div > img{
 }
 #creer-compte{
     text-align: center;
+    font-size: 1.2rem;
 }
 
 
@@ -155,6 +156,7 @@ header > div > img{
     color: var(--color-content);
     background-color: var(--classic-btn);
     opacity: 83%;
+    box-shadow: 5px 5px 10px #585e91;
     font-size: 1.5rem;
     
     padding: 2%;
