@@ -1,6 +1,7 @@
 :root{
     --classic-btn:#E58D6D;
-    --color-content:white; 
+    --color-content:white;
+    --background-carte : #525d9175; 
 }
 /** Concernant le fond d'écran*/
 /** ************************************************/
@@ -25,7 +26,7 @@
 }
   
 
-/**  Concernant la header */ 
+/**  Concernant le header */ 
 /** ************************************************/
 header{
     height: 150px;
@@ -62,7 +63,18 @@ header > div > img{
 
 /*todo Concernant la section carte */
 /* todo *****************************/
-/*! Enregistrement méditation */
+#carte{
+    width: 60%;
+    height: 800px;
+    padding: 2%;
+    background-color: var(--background-carte);
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
 
 /*todo Concernant la section liens*/
 /*todo *****************************/
