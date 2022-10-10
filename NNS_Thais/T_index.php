@@ -18,7 +18,11 @@
             <div>
                 <img src="./asset/img/T_logo.png" alt="logo now no stress">
             </div>
-            <!--! Ajouter ici la nav menu burger de chez zahra + son css-->
+            <div>
+                 <button class="burger" onclick="show()"><img src="../assets/img/menu-burger.png" alt="" id="menuBurger"></button>
+            </div>
+           
+            
         </header>
         
 
