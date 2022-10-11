@@ -1,10 +1,8 @@
 body{
-
- 
-
     text-align: center;
     font-family: dosis;
 }
+
 
 
 #fond{
@@ -17,7 +15,6 @@ body{
  min-height: 100%;
 }
 
-
 div{
     width: 100%;
     height: 200px;
@@ -27,7 +24,6 @@ section#logo{
  position: fixed; 
  margin: 20px;
 
-   
 }
 
 #burger{
@@ -53,7 +49,7 @@ h1 {
   margin-bottom: 80px;
 }
 
-button{
+main button{
 
   
     justify-content: center;
