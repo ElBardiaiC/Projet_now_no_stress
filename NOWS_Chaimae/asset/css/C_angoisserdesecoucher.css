@@ -1,11 +1,69 @@
 body{
-
- 
-
     text-align: center;
     font-family: dosis;
 }
 
+/* Sidenav menu */
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -250px;
+    background-color: #e8e8e8;
+    padding-top: 60px;
+    transition: left 0.5s ease;
+    
+  }
+  
+  /* Sidenav menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    
+    transition: 0.3s;
+    
+  }
+  
+  .sidenav a:hover {
+    color: #111;
+  }
+  
+  .sidenav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Active class */
+  .sidenav.active {
+    left: 0;
+    visibility: none;
+    
+  }
+  
+  /* Close btn */
+  .sidenav .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    visibility: hidden;
+  }
+  
+  /* Icône burger */
+  .burger-icon span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
+  
 
 #fond{
  /* Fixe l'image en haut à gauche de la page */
@@ -17,7 +75,6 @@ body{
  min-height: 100%;
 }
 
-
 div{
     width: 100%;
     height: 200px;
@@ -27,7 +84,6 @@ section#logo{
  position: fixed; 
  margin: 20px;
 
-   
 }
 
 #burger{
@@ -53,7 +109,7 @@ h1 {
   margin-bottom: 80px;
 }
 
-button{
+main button{
 
   
     justify-content: center;
