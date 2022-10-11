@@ -124,13 +124,13 @@ h2 {
 
   
     justify-content: center;
-    background-color:#6A6F92;
+    background-color:#585e91;
     height: 80px;
     width: 350px;
     margin: 30px;
     color: white;
-    border:1.5px solid grey;
-    box-shadow: 5px 5px 10px black; 
+    border:none;
+    box-shadow: 5px 5px 10px #585e91; 
     border-radius: 15px;
     font-size: 30px;
     /* margin-left: 40%; */
