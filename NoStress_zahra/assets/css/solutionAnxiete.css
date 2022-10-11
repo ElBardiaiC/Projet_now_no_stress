@@ -113,19 +113,19 @@ h2{
     text-align: center;
     border:none;
     border-radius: 15px;
-    background-color:#4b548136;
+    background-color:#535e913b;
 }
 
 .reponses{
 
     justify-content: center;
-    background-color:#6A6F92;
+    background-color:#80629b70;
     height: 80px;
-    width: 350px;
+    width: 500px;
     margin: 30px;
     color: white;
-    border:1.5px solid grey;
-    box-shadow: 5px 5px 10px black; 
+    border:none;
+    box-shadow: 3px 3px 6px #1d1e2e; 
     border-radius: 15px;
     font-size: 30px;
 }
