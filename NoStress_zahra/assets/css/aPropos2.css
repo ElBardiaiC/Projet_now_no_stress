@@ -79,6 +79,8 @@ header{
  
     height: 15%;
     width: 100%;
+    display: flex;
+    flex-direction: row;
 }
 #logo{
     width: 300px;
@@ -97,8 +99,6 @@ h2{
     text-align: center;
     
 }
-
-
 .containt{
     color: white;
     font-size: 1.5rem;
@@ -121,7 +121,7 @@ h2{
     color: white;
     border: none;
     border-radius: 15px;
-    box-shadow: 5px 5px 10px #585e91;
+    box-shadow: 3px 3px 6px #585e91;
     font-size: 30px;
 }
 
