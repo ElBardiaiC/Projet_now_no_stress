@@ -68,9 +68,6 @@ a , button{
     background: 0 0; 
  
 }
-/* .burger.open{
- opacity: 0;
-} */
 
 .navBar.active{
     right: 0;
