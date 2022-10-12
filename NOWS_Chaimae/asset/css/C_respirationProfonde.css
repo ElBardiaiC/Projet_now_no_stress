@@ -25,7 +25,7 @@ div{
 section#logo{
 
  position: fixed; 
- margin: 20px;
+ margin: 2%;
 }
 a , button{
     cursor: pointer;
@@ -101,28 +101,30 @@ text-decoration: underline 1px;
 h1{
     position: relative;
     color: white;
-    font-size: 60px;
+    font-size: 2rem;
     margin-top: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     /* text-decoration: underline 2px; */
 }
 p{
     position: relative;
     color: white;
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 
- #connect{
+ #crée{
     position: fixed;
     bottom: 50px;
     right: 20px;
-font-size: 20px;
+font-size: 1.5rem;
 font-weight:500;
 text-decoration: underline 1px;
     color: white;
    margin-right: 100px;
    margin-bottom: 50px;
 }
+
+
 
 #sparrow{
   
@@ -134,12 +136,12 @@ text-decoration: underline 1px;
 
 main #back_content{
 
-    background-color: #525d9141;
+    background-color: #525d9175;
     position: relative;
-    height: 600px;
+    height: 550px;
     width: 50%;
 margin-left: 25%;
-border-radius: 20px;  
+border-radius: 30px;  
 
 }
 
