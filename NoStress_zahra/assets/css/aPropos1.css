@@ -10,13 +10,6 @@ a , button{
     text-decoration: none;
 }
 
-/* nav{
-    position: absolute;
-    top: 100px;
-    right: 50px;
-    width: 250px;
-    
-} */
 
 .navBar{
     position:fixed;

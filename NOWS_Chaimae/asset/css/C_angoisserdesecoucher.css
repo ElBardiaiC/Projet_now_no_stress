@@ -26,8 +26,64 @@ section#logo{
  margin: 20px;
 
 }
+a , button{
+    cursor: pointer;
+    text-decoration: none;
+}
+a{
+    color: white;
+}
+.navBar{
+    position:fixed;
+    right: -500px;
+    width: 350px;
+    height: 100%;
+    /* margin-top: 10%; */
+    background-color:#80629be3;
+    transition: 0.5s;
+}   
+.navBar h3{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+}
 
-#burger{
+.navBar ul li{
+
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    list-style-type:none;
+    font-size: 1,5em;
+    padding: 30px 30px;
+    border-bottom: 1pt solid white;
+}
+#menuBurger{
+   
+    position: fixed; 
+    top: 50px;
+    right: 20px;
+    color: white;
+    margin-right: 100px;
+    height: 40px; 
+    
+}
+.burger{
+    top: 5%;
+    left: 95%;
+    width: 30px;
+    color: white;
+    height: 30px;
+    border: 0;
+    background: 0 0; 
+ 
+}
+.navBar.active{
+    right: 0;
+}
+
+/* #burger{
    
         position: fixed;
         top: 50px;
@@ -40,11 +96,11 @@ section#logo{
      
        height: 40px;
     
-}
+} */
 
 h1 {
     color: white;
-    font-size: 70px;
+    font-size: 60px;
     text-align: center;
     position: relative;
   margin-bottom: 80px;
