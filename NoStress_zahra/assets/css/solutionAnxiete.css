@@ -23,7 +23,8 @@ a , button{
     /* left: 900px; */
     width: 350px;
     height: 100%;
-    background-color:#80629bc2;
+    margin-top: 10%;
+    background-color:#80629be3;
     transition: 0.5s;
 }
 .navBar h3{
@@ -55,7 +56,7 @@ a , button{
 
 }
 .burger{
-    position: fixed;
+    /* position: fixed; */
     top: 5%;
     left: 95%;
     width: 30px;

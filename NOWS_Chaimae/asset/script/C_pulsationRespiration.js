@@ -1,14 +1,4 @@
-const start = document.getElementById('start');
 
-
-start.addEventListener('click' , () => {
-
-
-
-window.location.href='C_pulsationRespiration.html';
-
-
-})
 
 function show() {
   

@@ -28,6 +28,7 @@ nav{
    /* left: 900px; */
    width: 350px;
    height: 100%;
+   margin-top: 10%;
    background-color: #585e91;
    transition: .5s;
 }

@@ -16,6 +16,7 @@ a , button{
     /* left: 900px; */
     width: 350px;
     height: 100%;
+    margin-top: 10%;
     background-color: #585e91;
     transition: 0.5s;
 }
@@ -100,7 +101,7 @@ h2 {
     color: white;
     font-size: 1.5rem;
     padding: 20px;
-    width: auto;
+    /* width: auto; */
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 5%;
@@ -121,7 +122,7 @@ h2 {
     margin: 30px;
     color: white;
     border:none;
-    box-shadow: 5px 5px 10px #585e91; 
+    box-shadow: 3px 3px 6px #585e91; 
     border-radius: 15px;
     font-size: 30px;
     /* margin-left: 40%; */
