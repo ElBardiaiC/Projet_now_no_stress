@@ -29,7 +29,7 @@
 /**  Concernant le header */ 
 /** ************************************************/
 header{
-    height: 150px;
+    height: 125px;
 } 
 
 header > section > div > img{
@@ -169,8 +169,7 @@ align-items: center;
     object-fit: cover;
 }
 .icone-retour:hover{
-    background-color: #784B67;
-        
+    background-color: #784B67;     
 }
 #creer-compte > p > a{
     text-decoration: underline;

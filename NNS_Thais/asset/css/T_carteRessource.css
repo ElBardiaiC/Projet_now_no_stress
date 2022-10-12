@@ -1,7 +1,9 @@
 :root{
     --classic-btn:#E58D6D;
     --color-content:white;
-    --background-carte : #525d9175; 
+    --background-carte : #525d9175;
+    --color-shadow-dark : #1d1e2e;
+
 }
 /**Concernant le fond d'écran*/
 /**************************************************/
@@ -156,7 +158,7 @@ header > div > img{
     color: var(--color-content);
     background-color: var(--classic-btn);
     opacity: 83%;
-    box-shadow: 3px 3px 6px #1d1e2e;
+    box-shadow: 3px 3px 6px var(--color-shadow-dark);
     font-size: 1.5rem;
     
     padding: 2%;

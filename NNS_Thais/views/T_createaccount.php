@@ -95,13 +95,8 @@
                         <article id="formu-part-1">
                             <input placeholder="Nom" type="text" name="nom">
                             <input placeholder="Prénom" type="text" name="prenom">
-<<<<<<< HEAD
-                            <input placeholder="Date de Naissance" type="date" name="dateNaiss"> 
-                            <!-- !Checker comment arranger le placeholder de l'input date-->
-=======
                             <input placeholder="Date de Naissance" type="date" name="dateNaiss">
-                            //!Checker comment arranger le placeholder de l'input date//
->>>>>>> e7a21f323e2b2ed2f16920d790989c78e313eed8
+                                //! Checker comment arranger le placeholder de l'input date//
                         </article>
 
                     </div>
