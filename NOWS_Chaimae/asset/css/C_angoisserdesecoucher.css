@@ -120,6 +120,7 @@ main button{
     border-radius: 15px;
     font-size: 30px;
     
+    
 }
 main{
     display: flex;
@@ -129,13 +130,14 @@ main{
 
 
 }
+#crée {
+    text-decoration: underline ;
+}
 p{
     position: fixed;
     bottom: 50px;
     right: 20px;
-font-size: 20px;
-font-weight:500;
-text-decoration: underline 1px;
+font-size: 1.5rem;
     color: white;
    margin-right: 100px;
    margin-bottom: 50px;
