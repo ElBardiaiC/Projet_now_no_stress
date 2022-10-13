@@ -56,7 +56,7 @@ header > div > img{
     
 }
 h2{
-    font-size: 4rem;
+    font-size: 3rem;
 }
 #content > section{
     margin-top: 5vh;
@@ -194,22 +194,21 @@ form > div{
 }
 .classic-btn{
 
-    width: 30%;
+    width: 225px;
     border: none;
     border-radius: 15px;
     background-color: var(--classic-btn);
     padding: 2%;
     color: var(--color-content);
-    font-weight: bold;
     font-family: dosis;
-    font-size: 1,5rem; /*! Checker pourquoi la size part en cacahouète */
+    font-size: 1.5rem; /*! Checker pourquoi la size part en cacahouète */
 
 }
 .classic-btn:hover{
     background-color: white;
     color: #E58D6D;
 }
-        
+/*todo Normal qu'il n'y ait pas de  section liens (créer compte) sur cette page*/        
  /**Concernant le footer */
 /****************************************************/
 

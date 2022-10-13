@@ -80,26 +80,29 @@ section > p{
 
 .classic-btn{
     border: none;
-    border-radius: 20px;
+    border-radius: 15px;
     color: var(--color-content);
+    width: 210px; /*210 pour welcome.css*/
     background-color: var(--classic-btn);
+    box-shadow: 3px 3px 6px #585e91;
     opacity: 83%;
     font-size: 1.5rem;
     
     padding: 2%;
-    width: 30%;
+    
     
 }
 .classic-btn:hover{
     background-color: white;
     color: #E58D6D;
 }
+/*todo normal qu'il n'y ait pas de section liens (créer compte) sur cette page */
 
 /**Concernant le footer */
 /****************************************************/
 /*! Trouver pourquoi le footer ne se positionne pas bien */
-footer{
+/* footer{
     height: 150px;
     width: 100%;
     background-color: white;
-} 
+}  */
