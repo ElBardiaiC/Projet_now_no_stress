@@ -15,6 +15,7 @@ body{
  min-height: 100%;
 }
 
+/* ---------------------Header---------------- */
 
 div{
     width: 100%;
@@ -23,7 +24,7 @@ div{
 section#logo{
 
  position: fixed; 
- margin: 20px;  
+ margin: 2%;  
 }
 
 a , button{
@@ -33,6 +34,8 @@ a , button{
 a{
     color: white;
 }
+/* ------------Menu Burger---------------- */
+
 .navBar{
     position:fixed;
     right: -500px;
@@ -99,7 +102,11 @@ text-decoration: underline 1px;
 
 } */
 
-h1 {
+
+/* --------------Corps de Page--------- */
+
+
+h1.TitreCombien {
     color: white;
     font-size: 50px;
     text-align: center;
@@ -107,7 +114,10 @@ h1 {
     padding-bottom: 100px;
 }
 
-button{
+
+/* ---Button */
+
+ #btn-moin-30 , #btn-plus-30{
 
   
     justify-content: center;
@@ -119,20 +129,29 @@ button{
     color: white;
     border: none;
     border-radius: 15px;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    box-shadow: 3px 3px 6px #1d1e2e; 
     
 }
-main{
+
+#btn-moin-30:hover , #btn-plus-30:hover{
+    background-color: white;
+    color: #E58D6D;
+}
+main.MainChaimae{
     display: flex;
     flex-direction: column;
     align-items: center;
 
 
 }
+
+/*  FLECHE ET 'SE CONNECTER' */
+
 #crée {
     text-decoration: underline ;
 }
-p{
+p.PasCompte{
     position: fixed;
     bottom: 50px;
     right: 20px;
@@ -141,6 +160,7 @@ font-size: 1.5rem;
    margin-right: 100px;
    margin-bottom: 50px;
 }
+
 #sparrow{
   
     position: fixed; 

@@ -18,7 +18,7 @@
         <header>
             <section>
             <div >
-                <a href="/NNS_Thais/T_index.html">  <section id="logo"><img src="../asset/img/MicrosoftTeams-image (6).png" alt="" height="60px" width="300px"></section></a>
+                <a href="/NNS_Thais/T_index.php">  <section id="logo"><img src="../asset/img/MicrosoftTeams-image (6).png" alt="" height="60px" width="300px"></section></a>
                 <!-- <section><img id="burger" src="../asset/img/Menu-burger new.png" alt=""></section> -->
                 <button class="burger"onclick="show()"><img src="../asset/img/Menu-burger new.png" alt="" id="menuBurger"></button>
                 </section> 
@@ -38,16 +38,16 @@
 
         </header>
 
-        <h1> Quelles sont les problémes que vous rencontrez ? </h1>
+        <h1 class="TitreProbleme"> Quelles sont les problémes que vous rencontrez ? </h1>
 
-        <main>
-            <button id="rep-1">Je rumine, j’appréhende, 
+        <main class="MainChaimae">
+            <button id="btn1">Je rumine, j’appréhende, 
                 je n’arrive pas à calmer mon anxiété</button>
 
-            <button id="rep-2">J’ai manqué d’activité physique
+            <button id="btn2">J’ai manqué d’activité physique
                 durant la journée</button>
    
-            <button id="rep-3">Je ne sais pas m’endormir dans 
+            <button id="btn3">Je ne sais pas m’endormir dans 
                 le silence</button>
 
         </main>
@@ -58,10 +58,11 @@
 
 <a href="/NoStress_zahra/views/ceQuiVousAmene.html"><img  id="sparrow" src="../asset/img/retour new.png" alt=" fleche retour">
 </a>
-<a href="/NNS_Thais/views/T_createaccount.html">
-    <p>Pas de compte? <br>
-        Créez un compte ici</p>
-    </a>
+
+<p class="PasCompte">Pas de compte? <br> 
+    <a href="/NNS_Thais/views/T_createaccount.html">
+   <span id="crée"> Créez un compte ici</span></p>
+</a>
 
 <script src="../asset/script/C_problemeDeSommeil.js"></script>
 </body>
