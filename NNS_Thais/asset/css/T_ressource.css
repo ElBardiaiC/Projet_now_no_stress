@@ -29,7 +29,7 @@
 /**  Concernant le header */ 
 /** ************************************************/
 header{
-    height: 150px;
+    height: 125px;
 } 
 
 header > div > img{
@@ -85,26 +85,27 @@ header > div > img{
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-    }
-    #retour{
-        width: 3%;
-    }
-    .icone-retour{
-        border-radius: 50%;
-        max-width: 100%;
-        object-fit: cover;
-    }
-    .icone-retour:hover{
-        background-color: #784B67;
+}
+#retour{
+    width: 3%;
+}
+.icone-retour{
+     border-radius: 50%;
+    max-width: 100%;
+    object-fit: cover;
+}
+.icone-retour:hover{
+    background-color: #784B67;    
         
-    }
-    #creer-compte > p > a{
-        text-decoration: underline;
+}
+#creer-compte > p > a{
+    text-decoration: underline;
     
-    }
-    #creer-compte{
-        text-align: center;
-    }
+}
+#creer-compte{
+    text-align: center;
+    font-size: 1.5rem;
+}
 
 /*todo Concernant creer compte *********/
 /*todo *********************************/

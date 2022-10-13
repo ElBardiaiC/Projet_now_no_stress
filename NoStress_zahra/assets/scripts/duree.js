@@ -1,5 +1,19 @@
 
 
+'use strict'
+
+const btnMoins30=document.getElementById('moins30');
+
+btnMoins30.addEventListener('click', () =>{
+  location.href='relaxationCourte.html';
+})
+
+const btnPlus30=document.getElementById('plus30');
+
+btnPlus30.addEventListener('click', () =>{
+  location.href='relaxationLongue.html';
+});
+
  
 function show() {
   
