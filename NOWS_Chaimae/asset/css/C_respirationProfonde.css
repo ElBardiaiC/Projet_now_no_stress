@@ -98,7 +98,7 @@ text-decoration: underline 1px;
    height: 40px;
 
 } */
-h1{
+h1.TitreRespiration{
     position: relative;
     color: white;
     font-size: 2rem;
@@ -106,7 +106,7 @@ h1{
     margin-bottom: 50px;
     /* text-decoration: underline 2px; */
 }
-p{
+p.ParaRespiration{
     position: relative;
     color: white;
     font-size: 1.5rem;
@@ -117,19 +117,27 @@ p{
     bottom: 50px;
     right: 20px;
 font-size: 1.5rem;
-font-weight:500;
 text-decoration: underline 1px;
     color: white;
    margin-right: 100px;
-   margin-bottom: 50px;
+   margin-bottom: 40px;
 }
+.PasCompte{
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+font-size: 1.5rem;
 
+    color: white;
+   margin-right: 120px;
+   margin-bottom: 65px;
+}
 
 
 #sparrow{
   
     position: fixed; 
-     bottom: 80px; 
+     bottom: 85px; 
      left: 100px; 
      
 }
@@ -151,7 +159,9 @@ border-radius: 30px;
     margin-top: 15px;
 }
 #start{
-    font-size: 25px;
+    justify-content: center;
+    position: relative;
+    font-size: 1.5rem;
     color: white;
     border-radius: 15px ;
     border-style:  solid;
@@ -159,5 +169,9 @@ border-radius: 30px;
     background-color: #E58D6D;
     margin-top: 50px;
     padding: 10px;
+    box-shadow: 3px 3px 6px #1d1e2e;
+    border: none;
+    height: 50px;
+    width: 180px;
     
 }
