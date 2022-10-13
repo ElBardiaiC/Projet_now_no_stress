@@ -152,7 +152,9 @@ h2{
     
 }
 #imageRelax{
+
     padding-bottom: 0%; 
+
 }
 
 .containt{
@@ -199,6 +201,7 @@ h2{
     font-size: 1.5rem;
 }
 
+
 .containt-solutions > p{
     font-size: 1.5rem;
 }
@@ -206,6 +209,10 @@ h2{
     margin-top: 40%;
 }
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> 13958cb890055581854bbf49552aa6eb52cad591
 .btn-questionnaire{
     background-color: #E58D6D;
     height: 70px;
@@ -217,6 +224,8 @@ h2{
     box-shadow: 3px 3px 6px #585e91;
     font-size: 1.5rem;
 }
+<<<<<<< HEAD
+=======
 .btn-questionnaire:hover{
 
     background-color: white;
@@ -225,6 +234,7 @@ h2{
     
     }
 
+>>>>>>> 13958cb890055581854bbf49552aa6eb52cad591
 
 .reponses{
 

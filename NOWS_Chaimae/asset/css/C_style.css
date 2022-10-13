@@ -17,6 +17,7 @@ body{
  min-height: 100%;
 }
 
+/* ---------------------Header---------------- */
 
 div{
     width: 100%;
@@ -25,7 +26,7 @@ div{
 section#logo{
 
  position: fixed; 
- margin: 20px;
+ margin: 2%;
 
    
 }
@@ -36,6 +37,9 @@ a , button{
 a{
     color: white;
 }
+
+/* ------------Menu Burger---------------- */
+
 .navBar{
     position:fixed;
     right: -500px;
@@ -102,15 +106,17 @@ text-decoration: underline 1px;
 
 } */
 
-h1 {
+
+/* --------------Corps de Page--------- */
+
+h1.TitreProbleme{
     color: white;
     font-size: 50px;
     text-align: center;
     position: relative;
     padding-bottom: 20px;
 }
-
-button{
+button#btn1  ,#btn2 , #btn3{
 
   
     justify-content: center;
@@ -123,16 +129,21 @@ button{
     border: none;
     border-radius: 15px;
     font-size: 1.5rem;
+    box-shadow: 3px 3px 6px #1d1e2e; 
     
 }
-main{
+main.MainChaimae{
     display: flex;
     flex-direction: column;
     align-items: center;
 
 
 }
-p{
+
+#crée {
+    text-decoration: underline ;
+}
+p.PasCompte{
     position: fixed;
     bottom: 50px;
     right: 20px;
