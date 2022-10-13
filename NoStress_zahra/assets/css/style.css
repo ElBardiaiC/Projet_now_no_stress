@@ -153,7 +153,7 @@ h2{
     
 }
 #imageRelax{
-    padding-bottom: 3%; 
+    padding-bottom: 0%; 
 }
 
 .containt{
@@ -199,15 +199,10 @@ h2{
 .containt-relax > p{
     font-size: 1.5rem;
 }
-/* .containt-solutions>h2{
-    
-    font-size: 60px;
-    font-weight: lighter;
-} */
+
 .containt-solutions > p{
     font-size: 1.5rem;
 }
-
 
 .btn-questionnaire{
     background-color: #E58D6D;
@@ -220,6 +215,14 @@ h2{
     box-shadow: 3px 3px 6px #585e91;
     font-size: 1.5rem;
 }
+.btn-questionnaire:hover{
+
+    background-color: white;
+    
+    color: #E58D6D;
+    
+    }
+
 
 .reponses{
 
@@ -268,7 +271,7 @@ h2{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* align-content: center; */
+    align-items: center;
     flex-wrap: nowrap;
     margin-top: 190px;
    
@@ -277,6 +280,7 @@ h2{
     margin-left: 70px;
 }
 .pasDeCompte{ 
+    text-align: center;
     font-size: 1.5rem;
     color: white;
     margin-right: 70px;
