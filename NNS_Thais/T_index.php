@@ -1,3 +1,7 @@
+<?php
+include_once 'NC:\MAMP\htdocs\Projet NNS\Projet_now_no_stress\NOWS_Chaimae\asset\src\C_db_membres.php'
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -38,10 +42,17 @@
             <div id="content-login">
                 <form id="login">
                         
-                    <div>
+                    <!-- <div>
                         <input type="email">
                         <input type="password">
-                    </div>
+                    </div> -->
+
+
+<?php
+
+include_once ('C:\MAMP\htdocs\Projet NNS\Projet_now_no_stress\NOWS_Chaimae\asset\src\include.php')
+
+?>
                     
                     <div>
                         <p><a href="#">Mot de passe oublié?</a></p>

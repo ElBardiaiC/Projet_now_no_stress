@@ -3,8 +3,8 @@
     --color-content:white;
     --background-carte : #525d9175; 
 }
-/** Concernant le fond d'écran*/
-/** ************************************************/
+/*~ Concernant le fond d'écran*/
+/*~ ************************************************/
 #fondecran {
     /* Fixe l'image en haut à gauche de la page */
     position: fixed; 
@@ -16,35 +16,129 @@
     
 }
 
-/** Concernant l'entièreté du container*/
-/** ************************************************/
+/*~ Concernant l'entièreté du container*/
+/*~ ************************************************/
 #container{
     font-family: dosis;
 
     position: absolute;
     width: 100%;
 }
-  
+ /*^ Version mobile container */
+@media screen and (max-width:576px)
+{
+    #container{
+        width: 100%;
+    }
+} 
 
-/**  Concernant le header */ 
-/** ************************************************/
+/*~  Concernant le header */ 
+/*~ ************************************************/
 header{
     height: 125px;
 } 
+header > section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
 
-header > div > img{
+header >  section > div > img{
     
-    width: 20%;
+    width: 17%;
     object-fit: cover;
     padding-left: 2%;
     padding-top: 2%;
 }
+/*^ Version mobile header */
+@media screen and (max-width:576px)
+{
+    
+    header >  section > div > img{
+        width: 50%;
+        object-fit: cover;
 
-/**  Concernant le content */ 
-/** ***********************************************/
+    }
+}
+/*& Concernant le menu burger */
+/*& ***************************/
+a , button{
+    cursor: pointer;
+    text-decoration: none;
+}
+a{
+    color: white;
+}
 
-/*todo Concernant le content général*/
-/*todo ***********************/
+.navBar{
+    position:fixed;
+    right: -500px;
+    /* left: 900px; */
+    width: 350px;
+    height: 100%;
+    /* margin-top: 10%; */
+    background-color: #585e91;
+    transition: 0.5s;
+}   
+.navBar h3{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.navBar ul li{
+
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    list-style-type:none;
+    font-size: 1,5em;
+    padding: 30px 30px;
+    border-bottom: 1pt solid white;
+}
+#menuBurger{
+   
+    position: fixed; 
+    top: 50px;
+    right: 20px;
+    color: white;
+    margin-right: 100px;
+    height: 40px; 
+    /* transition: 0.5; */
+
+}
+
+.burger{
+    /* position: fixed; */
+    top: 5%;
+    left: 95%;
+    width: 30px;
+    color: white;
+    height: 30px;
+    border: 0;
+    background: 0 0; 
+ 
+}
+/*^Version Mobile menu burger*/
+@media screen and (max-width:576px)
+{
+    #menuBurger{
+        align-self: flex-end;
+    }
+
+}
+
+.navBar.active{
+    right: 0;
+}
+
+/*~  Concernant le content */ 
+/*~ ***********************************************/
+
+/*& Concernant le content général*/
+/*& ***********************/
 #content{
     width: 100%;
     height: 80vh;
@@ -61,8 +155,8 @@ header > div > img{
     padding-bottom: 2%;
 }
 
-/*todo Concernant la section carte */
-/* todo *****************************/
+/*& Concernant la section carte */
+/*& *****************************/
 #carte{
     width: 60%;
     height: 800px;
@@ -76,8 +170,8 @@ header > div > img{
     align-items: center;
 }
 
-/*todo Concernant la section liens*/
-/*todo *****************************/
+/*& Concernant la section liens*/
+/*& *****************************/
 #liens{
     width: 70%;
     
@@ -100,15 +194,10 @@ header > div > img{
 }
 #creer-compte > p > a{
     text-decoration: underline;
+    color: white;
     
 }
 #creer-compte{
     text-align: center;
     font-size: 1.5rem;
-}
-
-/*todo Concernant creer compte *********/
-/*todo *********************************/
-#creer-compte > p > a{
-    color: white;
 }

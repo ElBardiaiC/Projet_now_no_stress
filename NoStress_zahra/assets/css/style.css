@@ -23,8 +23,9 @@ a{
     position:fixed;
     right: -500px;
     width: 350px;
+    /* height: 80%; */
     margin-bottom: 10%;
-    margin-top: 10%;
+    margin-top: 18%;
     background-color: #585e91;
     transition: 0.5s;
 }  
@@ -32,6 +33,7 @@ a{
     position:fixed;
     right: -500px;
     width: 350px;
+    height: 100%;
     margin-top: 10%;
     background-color:#80629be3;
     transition: 0.5s;
@@ -137,18 +139,17 @@ h2{
     padding-bottom: 40px;
     text-align: center; 
 }
-.h2-relax{
+/* .h2-relax{
     color: white;
     font-size: 2.5rem;
     padding-top: 0px;
     text-align: center;
   
-}
+} */
 #img-relax{
     width: 250px;
     height:250px ;
     border-radius: 50%; 
-    /* margin-bottom: 15%; */
     
 }
 #imageRelax{
@@ -176,7 +177,7 @@ h2{
     padding: 20px;
     margin-left: 15%;
     margin-right: 15%;
-    /* margin-top: 2%; */
+    margin-top: 2%;
     text-align: center;
     border:none;
     border-radius: 30px;
@@ -208,11 +209,10 @@ h2{
 .audio{
     margin-top: 40%;
 }
+.video{
+    width: 100%;
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 13958cb890055581854bbf49552aa6eb52cad591
+}
 .btn-questionnaire{
     background-color: #E58D6D;
     height: 70px;
@@ -224,8 +224,7 @@ h2{
     box-shadow: 3px 3px 6px #585e91;
     font-size: 1.5rem;
 }
-<<<<<<< HEAD
-=======
+
 .btn-questionnaire:hover{
 
     background-color: white;
@@ -233,8 +232,6 @@ h2{
     color: #E58D6D;
     
     }
-
->>>>>>> 13958cb890055581854bbf49552aa6eb52cad591
 
 .reponses{
 
@@ -275,6 +272,7 @@ h2{
     align-items: center;
     flex-wrap: nowrap;
     margin-top: 30px;
+    margin-bottom: 25px;
    
 }
 #basPage{
@@ -285,7 +283,7 @@ h2{
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
-    margin-top: 170px;
+    margin-top: 190px;
    
 }
 .retour{
@@ -300,4 +298,200 @@ h2{
 }
 .pasDeCompte >p >a{
     text-decoration: underline;
+}
+
+@media screen and (max-width : 900px) {
+
+    #logo{
+    width: 100px;
+    height: 30px;
+    margin-top: 15%; 
+    margin-left: 15%;  
+}
+#menuBurger{
+
+    /* position: fixed;  */
+    top: 25px;
+    right: 25px;
+    color: white;
+    margin-right: 11px;
+    height: 20px;
+}
+
+.navBar{
+    position:fixed;
+    right: -900px; 
+    width: 100%;
+    /* margin-bottom: 10%; */
+    margin-top: 15%;
+    background-color: #585e91;
+    transition: 0.5s;
+}
+
+.navBar ul{
+    margin-bottom: 100px;
+}
+.navBar h3{
+    font-size: 30px;
+    padding-top: 20px;
+}
+.navBar-solutions{
+    position:fixed;
+    right: -900px;
+    width: 100%;
+    /* height: 100%; */
+    margin-top: 45%;
+    background-color:#80629b;
+    transition: 0.5s;
+} 
+.navBar-solutions ul{
+    margin-bottom: 100px;
+}
+
+.navBar-solutions h3{
+    font-size: 30px;
+    padding-top: 20px;
+}
+h2{  
+    font-size: 30px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center; 
+}
+
+.containt{
+display: flex;
+flex-direction: column;
+align-items: center; 
+padding: 20px;
+margin-left: 5%;
+margin-right: 5%;
+margin-top: 0%;
+text-align: justify;
+border: none;
+border-radius: 15px;
+
+}
+
+.containt-solutions{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    text-align: center;
+}
+.containt-relax{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    color: white;
+    font-size: 1rem;
+    padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    text-align: justify;
+    border:none;
+    border-radius: 15px;
+    background-color:#525d9175;
+}
+.containt > p{
+    font-size: 1rem;
+}
+.containt-solutions > p{
+    font-size: 1rem;
+}
+.containt-relax > p{
+    font-size: 1rem;
+}
+#img-relax{
+    width: 150px;
+    height:150px ;
+    border-radius: 50%; 
+    
+}
+
+.btn-questionnaire{
+    background-color: #E58D6D;
+    height: 40px;
+    width: 130px;
+    margin-top: 40px;
+    color: white;
+    border: none;
+    border-radius:10px;
+    box-shadow: 2px 2px 3px #585e91;
+    font-size: 1rem;
+}
+
+.reponses{
+
+    justify-content: center;
+    background-color:#585e9198;
+    height: 50px;
+    width: 150px;
+    margin: 20px;
+    color: white;
+    border:none;
+    box-shadow: 2px 2px 3px #585e91; 
+    border-radius: 10px;
+    font-size: 1rem;
+    
+}
+.btn-reponses{
+
+    justify-content: center;
+    background-color:#80629b70;
+    height: 50px;
+    width: 200px;
+    margin: 20px;
+    color: white;
+    border:none;
+    box-shadow: 2px 2px 3px #1d1e2e; 
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+#basDePage{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: 10px;
+}
+
+#basPage{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: 40px;
+   
+}
+.retour{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+.pasDeCompte{ 
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right: 20px;
+    
+}
+#retourFleche{
+    width: 25px;
+    height: 25px;
+}
+
+
 }

@@ -11,6 +11,12 @@ btnMarche.addEventListener('click', () =>{
   window.location.href='marche.html';
 })
 
+const btnHuile=document.getElementById('huile');
+
+btnHuile.addEventListener('click', () =>{
+  window.location.href='huilesEssentielles.html';
+})
+
 function show() {
   
   document.querySelector('.navBar-solutions').classList.toggle('active');
