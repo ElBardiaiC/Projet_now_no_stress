@@ -48,11 +48,7 @@ include_once 'NC:\MAMP\htdocs\Projet NNS\Projet_now_no_stress\NOWS_Chaimae\asset
                     </div> -->
 
 
-<?php
 
-include_once ('C:\MAMP\htdocs\Projet NNS\Projet_now_no_stress\NOWS_Chaimae\asset\src\include.php')
-
-?>
                     
                     <div>
                         <p><a href="#">Mot de passe oublié?</a></p>
