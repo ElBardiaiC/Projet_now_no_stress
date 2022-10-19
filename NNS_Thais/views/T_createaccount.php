@@ -22,6 +22,7 @@
 
         </header>
         <?php
+        $msg = "";
         if (isset($_POST["submit"])) { //todo → on verifie qu'il y a des données soumises à POST //
 
             if ( //todo ↓ ensuite on vérifie qu'il existe bien un champ nom, un champ prenom etc dans POST //
@@ -49,17 +50,24 @@
                 ]);
                 // redirection vers index.html
 
-                header('location:http://localhost/Projet_now_no_stress/NNS_Thais/T_index.html'); //todo une fois les données enregistrées dans la DB, on redirige le visiteur vers la page de login //
+                header('location:http://localhost/Projet_now_no_stress/NNS_Thais/T_index.php'); //todo une fois les données enregistrées dans la DB, on redirige le visiteur vers la page de login //
 
+            }else{
+                $msg = "<p class='alerte'>Un ou plusieurs champs ne sont pas valides<p>";
             }
         }
         //todo ↓ on dévelope la fonction de validation des inputs values  remplies par l'utilisateur//
         function validateForm()
         {
-            // $dateJour = getdate();
-
+            $dateJour = date_create(date("Y-m-d"));
+            
+            $dateNaissance = date_create($_POST["dateNaiss"]);
+            $interval = date_diff($dateJour , $dateNaissance);
+            $diff = $interval->format("%R%a");
+            
+        
             // if(($_POST["password"] != $_POST["confirm"]) && ($_POST["dateNaiss"]>$dateJour)) {
-            if (($_POST["password"] != $_POST["confirm"])) {
+            if ($diff >= 0 || ($_POST["password"] != $_POST["confirm"])) {
                 return false;
             }
 
@@ -111,6 +119,7 @@
                 </div>
 
                 <div>
+                    <?= $msg ?> <!-- idem que < ? php echo .... -->
                     <div id="bouton">
                         <input name="submit" class="classic-btn" type="submit" value="Créer mon compte">
                     </div>
