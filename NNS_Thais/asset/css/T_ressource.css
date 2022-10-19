@@ -44,7 +44,7 @@ header > section{
     align-items: stretch;
 }
 
-header >  section > div > img{
+header >  section > div > a > img{
     
     width: 17%;
     object-fit: cover;
@@ -55,8 +55,10 @@ header >  section > div > img{
 @media screen and (max-width:576px)
 {
     
-    header >  section > div > img{
+    header >  section > div > a> img{
         width: 50%;
+        padding-left: 4%;
+        padding-top: 4%;
         object-fit: cover;
 
     }
