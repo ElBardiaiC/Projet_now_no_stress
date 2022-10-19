@@ -1,10 +1,10 @@
-body{
+ body{
     font-family: dosis;
     background-image: url(../img/ciel\ officiel.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.solutions{
+.solutions{     /******* classe solution du body des pages avec fond foncé*****/
     font-family: dosis;
     background-image: url(../img/fond-ecran-sombre.png);
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@ a , button{
     cursor: pointer;
     text-decoration: none;
 }
-a{
+a{   /********* j'ai mis les lien en blanc car ils sont bleu par défaut*********/
     color: white;
 }
 
@@ -29,7 +29,7 @@ a{
     background-color: #585e91;
     transition: 0.5s;
 }  
-.navBar-solutions{
+.navBar-solutions{  /*********** classe solution pour la navbar des pages au fond foncé car la couleur de la navbar change**********/
     position:fixed;
     right: -500px;
     width: 350px;
@@ -127,11 +127,11 @@ header{
     margin-left: 10%;  
 }
 
-
+/* 
 .main{
     width: 100%;
     height: 700px;
-}
+} */
 h2{   
     color: white;
     font-size: 50px;
@@ -139,13 +139,7 @@ h2{
     padding-bottom: 40px;
     text-align: center; 
 }
-/* .h2-relax{
-    color: white;
-    font-size: 2.5rem;
-    padding-top: 0px;
-    text-align: center;
-  
-} */
+
 #img-relax{
     width: 250px;
     height:250px ;
@@ -201,7 +195,6 @@ h2{
 .containt-relax > p{
     font-size: 1.5rem;
 }
-
 
 .containt-solutions > p{
     font-size: 1.5rem;
@@ -300,7 +293,9 @@ h2{
     text-decoration: underline;
 }
 
-@media screen and (max-width : 900px) {
+/********* Pour le responsive **********/
+
+@media screen and (max-width : 700px) {
 
     #logo{
     width: 100px;
@@ -351,6 +346,17 @@ h2{
 .navBar-solutions h3{
     font-size: 30px;
     padding-top: 20px;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+    
 }
 h2{  
     font-size: 30px;
