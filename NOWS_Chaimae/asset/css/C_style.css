@@ -144,7 +144,7 @@ main.MainChaimae{
     text-decoration: underline ;
 }
 p.PasCompte{
-    position: fixed;
+    position: absolute;
     bottom: 50px;
     right: 20px;
 font-size: 1.5rem;
@@ -156,8 +156,197 @@ text-decoration: underline 1px;
 
     #sparrow{
   
-        position: fixed; 
+        position: absolute; 
          bottom: 80px; 
          left: 100px; 
          
+    }
+
+.footSom{
+        height: 200px;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.425);
+        position:relative;
+        margin-top: 150px;
+    }
+
+
+    /* --------------------Parti : Angoisse de ce coucher------------ */
+
+    #btn-oui, #btn-non{
+
+  
+        justify-content: center;
+        background-color: #E58D6D;
+        position: relative;
+        height: 80px;
+        width: 150px;
+        margin: 20px;
+        color: white;
+        border:none;
+        border-radius: 15px;
+        font-size: 2rem;
+        box-shadow: 3px 3px 6px #1d1e2e; 
+    }
+    
+    #btn-oui:hover , #btn-non:hover{
+        background-color: white;
+        color: #E58D6D;
+    }
+
+    h1.titreAngois {
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        position: relative;
+      margin-bottom: 80px;
+    }
+
+    .footang{
+        height: 200px;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.425);
+        position:relative;
+        margin-top: 390px;
+    }
+
+    /* ----------------------Parti : Combien de temps disposez-vous -----------------------*/
+
+    h1.TitreCombien {
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        position: relative;
+        padding-bottom: 100px;
+    }
+    
+    .footComb{
+        height: 200px;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.425);
+        position:relative;
+        margin-top: 800px;
+
+    }
+    
+    /* ---Button */
+    
+     #btn-moin-30 , #btn-plus-30{
+    
+      
+        justify-content: center;
+        background-color: #E58D6D;
+        position: relative;
+        height: 80px;
+        width: 200px;
+        margin: 30px;
+        color: white;
+        border: none;
+        border-radius: 15px;
+        font-size: 2rem;
+        box-shadow: 3px 3px 6px #1d1e2e; 
+        
+    }
+    
+    #btn-moin-30:hover , #btn-plus-30:hover{
+        background-color: white;
+        color: #E58D6D;
+    }
+
+    /* ----------Partie : Respiration avec Pulsation------------------ */
+
+    .blob {
+        background: rgba(236, 231, 231, 0.747);
+        border-radius: 50%;
+        margin-left: 40%;
+        margin-top: 50px;
+        height: 400px;
+        width: 400px;
+    
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+        transform: scale(3);
+        animation: pulse 5s infinite;
+    }
+    
+    @keyframes pulse {
+        0% {
+            transform: scale(0.95);
+            box-shadow: 0 0 0 0 rgb(187, 183, 183);
+        }
+    
+        70% {
+            transform: scale(1);
+            box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+        }
+    
+        100% {
+            transform: scale(0.95);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        }
+    }
+
+    .footPulsa{
+        height: 200px;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.425);
+        position:relative;
+        margin-top: 480px;
+    }
+
+    /* --------------Partie : Respiration profonde -----------*/
+
+    h1.TitreRespiration{
+        position: relative;
+        color: white;
+        font-size: 2rem;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        /* text-decoration: underline 2px; */
+    }
+
+    .footRespir{
+        height: 200px;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.425);
+        position:relative;
+        margin-top: 280px;
+    }
+    p.ParaRespiration{
+        position: relative;
+        color: white;
+        font-size: 1.5rem;
+    }
+
+ #back_content{
+
+        background-color: #525d9175;
+        position: relative;
+        height: 550px;
+        width: 50%;
+    margin-left: 25%;
+    border-radius: 30px;  
+    
+    }
+    
+    #yoga-pic{
+    
+        border-radius: 80px;
+        margin-top: 15px;
+    }
+    #start{
+        justify-content: center;
+        position: relative;
+        font-size: 1.5rem;
+        color: white;
+        border-radius: 15px ;
+        border-style:  solid;
+        border-color:white;
+        background-color: #E58D6D;
+        margin-top: 50px;
+        padding: 10px;
+        box-shadow: 3px 3px 6px #1d1e2e;
+        border: none;
+        height: 50px;
+        width: 180px;
+        
     }
