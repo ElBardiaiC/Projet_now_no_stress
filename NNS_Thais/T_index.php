@@ -1,5 +1,71 @@
 <?php
-include_once 'NC:\MAMP\htdocs\Projet NNS\Projet_now_no_stress\NOWS_Chaimae\asset\src\C_db_membres.php'
+session_start();
+var_dump($_SESSION["user"]);
+
+include_once 'NC:\MAMP\htdocs\Projet NNS\Projet_now_no_stress\NOWS_Chaimae\asset\src\C_db_membres.php';
+function execute($query, $params= array(), $fetchMode = null)
+    {
+        $pdo = new PDO("mysql:host=localhost;dbname=noStress.db", "root", "root");
+        // prépare la requete éviter injection SQL
+    	$stmt = $pdo->prepare($query);
+        // exucute la requte
+    	$stmt->execute($params);
+
+    	if ($fetchMode !== null) {
+            // retourne toutes les données sous forme de tableau
+    		return $stmt->fetchAll($fetchMode);
+    	} else {
+    		return $stmt->fetchAll();
+    	}
+    	return $stmt; // Iterator (forearch)
+    }
+function verify($email, $mdp) {
+    if (empty($email) || empty($mdp)) {
+        return false;
+    }
+    try {
+        
+        $requete = "SELECT * FROM user WHERE email = :email";
+        $params = array(
+            ":email" => $email
+        );
+
+        if(execute($requete, $params)!= null){
+            $data = execute($requete, $params)[0];
+            
+           
+            // if(password_verify($mdp, $data['mdp'])) {
+            //     // var_dump('Utilisateur is ok');
+            //     $arrayData = array(
+            //         "id" => $data["user_id"],
+            //         "email" => $data["email"],
+            //         "role" => $data["fk_role"]
+            //     );
+            //     return $arrayData;
+            // }
+            if($mdp == $data['password']){
+                $arrayData = array(
+                            "nom" => $data["nom"],
+                            "prenom" => $data["prenom"]
+                            
+                        );
+                        return $arrayData;
+            }
+            else {
+                // le mot de passe n'est pas valide
+                return false;
+            }
+
+        }
+        else {
+            // l'utilisateur n'existe pas
+            return false;
+        }
+    
+    } catch (PDOException $e) {
+        return false;
+    }
+}
 ?>
 
 <!DOCTYPE html>
@@ -28,7 +94,27 @@ include_once 'NC:\MAMP\htdocs\Projet NNS\Projet_now_no_stress\NOWS_Chaimae\asset
            
             
         </header>
+        <?php 
+          
+          $msg="";
+          if(isset($_POST["email"], $_POST["password"])){
+            
+
+      
+              $user = verify(htmlspecialchars($_POST['email']), htmlspecialchars($_POST['password']));
+              var_dump($user);
+              if($user != false){
+                  $_SESSION["user"] = $user;
+                  var_dump($_SESSION["user"]);
+                  header("Location:views/T_welcome.php");
+              }
+              else{
+                  $msg = "<p style='color:red'>L'email / mot de passe ne sont pas valides</p>";
+              }
+          }
+      
         
+        ?>
 
         <div id="content">
     
@@ -40,12 +126,12 @@ include_once 'NC:\MAMP\htdocs\Projet NNS\Projet_now_no_stress\NOWS_Chaimae\asset
                 </section>
             </div>
             <div id="content-login">
-                <form id="login">
+                <form method="post" action="#" id="login">
                         
-                    <!-- <div>
-                        <input type="email">
-                        <input type="password">
-                    </div> -->
+                    <div>
+                        <input type="email" name="email">
+                        <input type="password" name="password">
+                    </div>
 
 
 

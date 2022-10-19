@@ -1,3 +1,10 @@
+<?php
+session_start();
+// var_dump($_SESSION["user"]);
+$nomPrenom = $_SESSION["user"]["nom"]  . " " . $_SESSION["user"]["prenom"];
+// var_dump($nomPrenom);
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,7 +34,7 @@
             </section>
 
             <section>
-                <p>Le nom en JS</p>
+                <p><?= $nomPrenom ?></p>
             </section>
 
             <section id="bouton">
