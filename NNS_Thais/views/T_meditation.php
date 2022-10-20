@@ -27,10 +27,10 @@
                     <h3>Menu</h3><br>
                     <nav>
                        <ul>
-                            <li><a href="aPropos1.html">A propos de Now no Stress</a></li>
-                            <li><a href="#">Découvrir (Essai rapide)</a></li>
-                            <li><a href="#">Connectez-vous</a></li>
-                            <li><a href="#">Créez un compte</a></li>
+                            <li><a href="aPropos1.php">A propos de Now no Stress</a></li>
+                            <li><a href="aPropos2.php">Découvrir (Essai rapide)</a></li>
+                            <li><a href="#">Contactez-nous</a></li>
+                            <li><a href="T_createaccount.php">Créez un compte</a></li>
                         </ul>     
                     </nav>
                 </div>
@@ -50,7 +50,7 @@
             <section id="liens">
                 
                 <div id="retour">
-                    <a><img class="icone-retour" src="../asset/img/T_retour.png" alt="icone-precedent"></a>
+                    <a href="T_carteMeditation.php"><img class="icone-retour" src="../asset/img/T_retour.png" alt="icone-precedent"></a>
                 </div>
                 <div id="creer-compte">
                     <p>Pas de compte?</p>

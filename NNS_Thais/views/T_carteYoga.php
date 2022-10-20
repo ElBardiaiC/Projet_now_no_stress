@@ -56,7 +56,7 @@
             <section id="liens">
                 
                 <div id="retour">
-                    <a><img class="icone-retour" src="../asset/img/T_retour.png" alt="icone-precedent"></a>
+                    <a href="C_CombiendeTemps"><img class="icone-retour" src="../asset/img/T_retour.png" alt="icone-precedent"></a>
                 </div>
                 <div id="creer-compte">
                     <p>Pas de compte?</p>
@@ -67,9 +67,7 @@
                 
         </div>    
             
-        <footer>
-
-        </footer>
+        
         
 
         </div>

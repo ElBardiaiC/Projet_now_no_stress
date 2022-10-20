@@ -2,7 +2,7 @@
 session_start();
 var_dump($_SESSION["user"]);
 
-include_once 'NC:\MAMP\htdocs\Projet NNS\Projet_now_no_stress\NOWS_Chaimae\asset\src\C_db_membres.php';
+//! ne pas oublier login ne fonctionne pas //
 function execute($query, $params= array(), $fetchMode = null)
     {
         $pdo = new PDO("mysql:host=localhost;dbname=noStress.db", "root", "root");
@@ -164,6 +164,6 @@ function verify($email, $mdp) {
             
 
     
-    <script src="./asset/script/T_versBienvenue.js"></script>
+    <script src="./asset/script/T_versBienvenue.js"></script> 
 </body>
 </html>

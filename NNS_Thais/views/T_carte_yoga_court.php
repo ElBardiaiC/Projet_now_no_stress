@@ -56,7 +56,7 @@
             <section id="liens">
                 
                 <div id="retour">
-                    <a><img class="icone-retour" src="../asset/img/T_retour.png" alt="icone-precedent"></a>
+                    <a><img class="icone-retour" src="../../NoStress_zahra/assets/img/fleche-retour.png" alt="icone-precedent"></a>
                 </div>
                 <div id="creer-compte">
                     <p>Pas de compte?</p>
