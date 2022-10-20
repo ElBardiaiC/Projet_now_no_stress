@@ -6,7 +6,7 @@ btnOui.addEventListener('click' , () => {
 
 
 
-window.location.href='C_CombiendeTemps.html'
+window.location.href='C_CombiendeTemps.php'
 
 
 })
@@ -15,7 +15,7 @@ btnNon.addEventListener('click' , () => {
 
 
 
-    window.location.href='C_CombiendeTemps.html';
+    window.location.href='C_CombiendeTemps.php';
     
     
     })

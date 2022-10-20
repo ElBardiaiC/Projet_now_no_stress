@@ -5,7 +5,7 @@ start.addEventListener('click' , () => {
 
 
 
-window.location.href='C_pulsationRespiration.html';
+window.location.href='C_pulsationRespiration.php';
 
 
 })

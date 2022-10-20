@@ -22,7 +22,7 @@ session_start();
             <header>
                 <section>
                     <div >
-                        <a href=http://localhost/Projet_now_no_stress/NNS_Thais/T_index.php>   <section id="logo"><img src="../asset/img/MicrosoftTeams-image (6).png" alt="" height="60px" width="300px"></section></a>
+                        <a href=../../NNS_Thais/T_index.php>   <section id="logo"><img src="../asset/img/MicrosoftTeams-image (6).png" alt="" height="60px" width="300px"></section></a>
                         <!-- <section><img id="burger" src="../asset/img/Menu-burger new.png"   alt=""></section> -->
                         <button class="burger"onclick="show()"><img src="../asset/img/Menu-burger new.png" alt="" id="menuBurger"></button>
                     </div>
@@ -32,7 +32,7 @@ session_start();
                     <nav>
                             
                         <ul>
-                            <li><a href="/NoStress_zahra/views/aPropos1.php">A propos de Now no Stress</a></li>
+                            <li><a href="../../NoStress_zahra/views/aPropos1.php">A propos de Now no Stress</a></li>
                             <li><a href="#">Découvrir (Essai rapide)</a></li>
                             <li><a href="#">Connectez-vous</a></li>
                             <li><a href="#">Créez un compte</a></li>
@@ -48,10 +48,10 @@ session_start();
             </div>
             </main>
 
-            <a href="/NoStress_zahra/views/ceQuiVousAmene.php"><img  id="sparrow" src="../asset/img/retour new.png" alt=" fleche retour">
+            <a href="../../NOWS_Chaimae/views/C_respirationprofonde.php"><img  id="sparrow" src="../asset/img/retour new.png" alt=" fleche retour">
             </a>
             <p>Pas de compte? <br> 
-                <a href="/NNS_Thais/views/T_createaccount.php">
+                <a href="../../NNS_Thais/views/T_createaccount.php">
                <span id="crée"> Créez un compte ici</span></p>
             </a>
 
