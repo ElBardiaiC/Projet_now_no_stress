@@ -4,7 +4,7 @@
 const btnTension=document.getElementById('se-detendre');
 
 btnTension.addEventListener('click', () =>{
-  location.href='../views/solutionsTensions.php';
+  location.href='solutionsTensions.php';
 })
 
 

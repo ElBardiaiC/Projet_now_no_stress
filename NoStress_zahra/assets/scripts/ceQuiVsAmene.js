@@ -14,7 +14,7 @@ btnAnxiete.addEventListener('click', () =>{
 const btnTension=document.getElementById('rep3');
 
 btnTension.addEventListener('click', () =>{
-  location.href='solutionsTensions.php';
+  location.href='tensions.php';
 });
 
 

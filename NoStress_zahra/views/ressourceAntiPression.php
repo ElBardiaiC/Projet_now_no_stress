@@ -10,9 +10,7 @@
     <title>yoga video</title>
 </head>
 <body class="solutions">
-    <div class="container">
-        
-        <header>
+<header>
             <section>
                 <a href="../../NNS_Thais/T_index.php" src="../assets/img/logo_NoStress.png" id="logo"></a>
             </section>
@@ -28,11 +26,16 @@
                 </nav>
             </div>
         </header>
+
+    <div class="container">
+        
+        <section class="containt-solutions">
+     
         <div>
             <h2>Relaxation anti stress</h2>
         </div>
         
-        <section class="containt-solutions">
+        
                 <div>
                     <video class="video" controls="controls">
                         <source src="../assets/Medias/méditationAntiAnxiete.mp4">
@@ -42,7 +45,7 @@
         </section>
         
     </div>
-    <div id="basPage">
+    <div id="basDePage">
             
         <div class="retour">
             <a href="#"><img src="../assets/img/fleche-retour.png" id="retourFleche"></a>
