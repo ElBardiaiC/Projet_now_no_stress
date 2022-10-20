@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../asset/css/T_container.css">
     <link rel="stylesheet" href="../asset/css/T_carteRessource.css">
     <img id="fondecran" class="fondecran" src="../asset/img/T_fond-maquette3.png">
-    <title>Carte Yoga Court</title>
+    <title>Carte Méditation</title>
 </head>
 <body>
     <div id="container">
@@ -24,31 +24,23 @@
             
             <section id="carte">
 
-                <div id="img-carte">
-                    <img id="img-carte-ressource" src="../asset/img/T_yoga-homme.png" alt="dame qui fait du yoga">
+                <div>
+                    <img id="img-carte-ressource" src="../asset/img/T_meditation.jpg" alt="dame qui medite">
                 </div>
 
                 <div>
-                    <h2>Séance de Yoga </h2>
+                    <h2>Méditation </h2>
                 </div>
 
-                <div>
-                    <p>
-                        Durée : 10 minutes
-                    </p>
-                    <p>
-                        Matériel : une écharpe & une couverture pliée ou un gros livre.
-                    </p>
-                </div>
                 <div>
                     <p id="para">
-                        Effectuer une séance de yoga le soir permet de préparer son corps et son esprit pour le sommeil. Le yoga permet de prendre conscience des différentes tensions enfouies au fond de soi. Atteindre un état de détente profonde permet d'accepter de manière naturelle le moment du sommeil.Installez-vous confortablement et  appuyez sur commencer. Bonne nuit.
-
+                        La méditation est une techique efficace qui permet de se recentrer et d'appaiser ses états de stress et d'angoisse.Cela vous permet de favoriser l'état de lâcher prise et de relaxtion nécéssaire au sommeil.
+                        Installez-vous dans un endroit calme. Baissez ou étaignez la lumière et diminuez au maximum la luminosité de l'écran de votre appareil. Choisissez une position confortable, assis.e ou couché.e. Appuyez sur commencer et fermez les yeux. Répétez autant de fois que vous le souhaitez. Bonne nuit.
                     </p>
                 </div>
 
                 <div class="bouton">
-                    <button class="classic-btn" id="yogaCourt-btn">Commencer</button>
+                    <button class="classic-btn" id="versMeditation-btn">Commencer</button>
                 </div>
 
             </section>
@@ -56,7 +48,7 @@
             <section id="liens">
                 
                 <div id="retour">
-                    <a><img class="icone-retour" src="../asset/img/T_retour.png" alt="icone-precedent"></a>
+                    <a href="../../NOWS_Chaimae/views/C_CombiendeTemps.php"><img class="icone-retour" src="../asset/img/T_retour.png" alt="icone-precedent"></a>
                 </div>
                 <div id="creer-compte">
                     <p>Pas de compte?</p>
@@ -73,6 +65,6 @@
         
 
         </div>
-    <script src="../asset/script/T_versYogaCourt.js"></script>
+    <script src="../asset/script/T_versMeditation.js"></script>
 </body>
 </html>

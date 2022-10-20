@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../asset/css/T_container.css">
     <link rel="stylesheet" href="../asset/css/T_ressource.css">
     <img id="fondecran" class="fondecran" src="../asset/img/T_fond-maquette3.png">
-    <title>Meditation</title>
+    <title>Yoga</title>
 </head>
 <body>
     <div id="container">
@@ -27,10 +27,10 @@
                     <h3>Menu</h3><br>
                     <nav>
                        <ul>
-                            <li><a href="aPropos1.html">A propos de Now no Stress</a></li>
-                            <li><a href="#">Découvrir (Essai rapide)</a></li>
-                            <li><a href="#">Connectez-vous</a></li>
-                            <li><a href="#">Créez un compte</a></li>
+                            <li><a href="aPropos1.php">A propos de Now no Stress</a></li>
+                            <li><a href="aPropos2.php">Découvrir (Essai rapide)</a></li>
+                            <li><a href="#">Contactez-nous</a></li>
+                            <li><a href="T_createaccount.php">Créez un compte</a></li>
                         </ul>     
                     </nav>
                 </div>
@@ -40,9 +40,9 @@
             
             <section id="carte">
                 <div>
-                    <audio controls="controls">
-                        <source src="../asset/médias/T_relaxationSommeil_.mp3">
-                    </audio>
+                    <video controls="controls">
+                        <source src="../asset/médias/yoga30mn.mp4">
+                    </video> 
                 </div>
 
             </section>
@@ -50,7 +50,7 @@
             <section id="liens">
                 
                 <div id="retour">
-                    <a><img class="icone-retour" src="../asset/img/T_retour.png" alt="icone-precedent"></a>
+                    <a href="T_carteYoga.php"><img class="icone-retour" src="../asset/img/T_retour.png" alt="icone-precedent"></a>
                 </div>
                 <div id="creer-compte">
                     <p>Pas de compte?</p>

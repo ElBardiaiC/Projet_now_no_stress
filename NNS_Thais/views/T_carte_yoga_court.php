@@ -25,7 +25,7 @@
             <section id="carte">
 
                 <div id="img-carte">
-                    <img id="img-yoga" src="../asset/img/T_yoga-homme.png" alt="dame qui fait du yoga">
+                    <img id="img-carte-ressource" src="../asset/img/T_yoga-homme.png" alt="dame qui fait du yoga">
                 </div>
 
                 <div>
@@ -41,7 +41,7 @@
                     </p>
                 </div>
                 <div>
-                    <p>
+                    <p id="para">
                         Effectuer une séance de yoga le soir permet de préparer son corps et son esprit pour le sommeil. Le yoga permet de prendre conscience des différentes tensions enfouies au fond de soi. Atteindre un état de détente profonde permet d'accepter de manière naturelle le moment du sommeil.Installez-vous confortablement et  appuyez sur commencer. Bonne nuit.
 
                     </p>
@@ -56,7 +56,7 @@
             <section id="liens">
                 
                 <div id="retour">
-                    <a><img class="icone-retour" src="../asset/img/T_retour.png" alt="icone-precedent"></a>
+                    <a><img class="icone-retour" src="../../NoStress_zahra/assets/img/fleche-retour.png" alt="icone-precedent"></a>
                 </div>
                 <div id="creer-compte">
                     <p>Pas de compte?</p>

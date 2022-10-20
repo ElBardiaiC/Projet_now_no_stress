@@ -48,9 +48,7 @@
             <section id="liens">
                 
                 <div id="retour">
-                    <a><svg class="icone-retour" xmlns="http://www.w3.org/2000/svg" width="69.874" height="69.874" viewBox="0 0 69.874 69.874">
-                        <path id="Icon_awesome-chevron-circle-left" data-name="Icon awesome-chevron-circle-left" d="M35.5,70.436A34.937,34.937,0,1,1,70.436,35.5,34.931,34.931,0,0,1,35.5,70.436ZM19.454,37.894,38.542,56.983a3.367,3.367,0,0,0,4.776,0l2.395-2.395a3.367,3.367,0,0,0,0-4.776L31.4,35.5,45.713,21.187a3.367,3.367,0,0,0,0-4.776l-2.395-2.395a3.367,3.367,0,0,0-4.776,0L19.454,33.1A3.384,3.384,0,0,0,19.454,37.894Z" transform="translate(-0.562 -0.562)" fill="rgba(255,255,255,0.53)"/>
-                      </svg></a>
+                    <a href="../../NOWS_Chaimae/views/C_CombiendeTemps.php"><img src="../../NoStress_zahra/assets/img/fleche-retour.png"></a>
                 </div>
                 <div id="creer-compte">
                     <p>Pas de compte?</p>
