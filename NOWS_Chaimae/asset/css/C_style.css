@@ -19,16 +19,42 @@ body{
 
 /* ---------------------Header---------------- */
 
-div{
+/* div{
     width: 100%;
     height: 200px;
-}
-section#logo{
+} */
+/*section#logo{
 
- position: fixed; 
- margin: 2%;
+position: fixed;  */
+ /* margin: 2%; */
+    /* width: 35%;
+    object-fit: cover;
+    padding-left: 3%;
+    padding-top: 3%;
 
    
+} */
+/*~  Concernant le header */ 
+/*~ ************************************************/
+header{
+    width: 100%;
+    height: 20vh;
+} 
+header > section{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+header >  section > div > a > img{
+    position: fixed;
+    width: 15%;
+    object-fit: cover;
+    padding-left: 1.5%;
+    padding-top: 1.5%;
 }
 a , button{
     cursor: pointer;
