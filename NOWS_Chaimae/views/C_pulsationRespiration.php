@@ -1,3 +1,7 @@
+<?php 
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../asset/css/C_reset.css">
-    <!-- <link rel="stylesheet" href="../asset/css/C_respirationProfonde.css"> -->
+    <!-- <link rel="stylesheet" href="../asset/css/C_pulsationrespiration.css"> -->
     <link rel="stylesheet" href="../asset/css/C_style.css">
     <title>Document</title>
 </head>
@@ -21,43 +25,37 @@
                         <a href=http://localhost/Projet_now_no_stress/NNS_Thais/T_index.php>   <section id="logo"><img src="../asset/img/MicrosoftTeams-image (6).png" alt="" height="60px" width="300px"></section></a>
                         <!-- <section><img id="burger" src="../asset/img/Menu-burger new.png"   alt=""></section> -->
                         <button class="burger"onclick="show()"><img src="../asset/img/Menu-burger new.png" alt="" id="menuBurger"></button>
-                
                     </div>
-                </section>
-
+                </section> 
                 <div class="navBar">
                     <h3>Menu</h3><br>
                     <nav>
                             
                         <ul>
-                            <li><a href="/NoStress_zahra/views/aPropos1.html">A propos de Now no Stress</a></li>
+                            <li><a href="/NoStress_zahra/views/aPropos1.php">A propos de Now no Stress</a></li>
                             <li><a href="#">Découvrir (Essai rapide)</a></li>
                             <li><a href="#">Connectez-vous</a></li>
                             <li><a href="#">Créez un compte</a></li>
                         </ul>
                     </nav>
-                </div>
+                
             </header> 
     
             <main>
-            <div id="back_content">
-                <img id="yoga-pic" src="../asset/img/pngtree-hand-drawn-cute-girl-practice-yoga-png-image_2174532.jpg" alt="" height="150px" width="150px">
-                <h1 class="TitreRespiration">Respiration Profonde :  </h1>
-                <p class="ParaRespiration">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cupiditate asperiores <br>voluptas quaerat officiis illum ullam corporis nam mollitia quia? <br>Fugiat, veniam reiciendis <br>eveniet ullam tenetur similique deleniti quibusdam dolor!</p>
-
-                <button id="start"> Commencer</button>
+            <div id="back_blop">
+                <div class="blob"></div>
+        
             </div>
             </main>
 
-            <a href="/NOWS_Chaimae/views/C_CombiendeTemps.html"><img  id="sparrow" src="../asset/img/retour new.png" alt=" fleche retour">
+            <a href="/NoStress_zahra/views/ceQuiVousAmene.php"><img  id="sparrow" src="../asset/img/retour new.png" alt=" fleche retour">
             </a>
-            <p class="PasCompte">Pas de compte? <br> 
-                <a href="/NNS_Thais/views/T_createaccount.html">
+            <p>Pas de compte? <br> 
+                <a href="/NNS_Thais/views/T_createaccount.php">
                <span id="crée"> Créez un compte ici</span></p>
             </a>
 
-     
-            <footer class="footRespir">
+            <footer class="footPulsa">
         
                 <ul>
                     <li>Contact</li>
@@ -66,6 +64,6 @@
                     <li>info</li>
                 </ul>
             </footer>
-                <script src="../asset/script/C_RespirationProfonde.js"></script>
+        <script src="../asset/script/C_pulsationRespiration.js"></script>
 </body>
 </html>
