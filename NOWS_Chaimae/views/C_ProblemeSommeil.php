@@ -1,3 +1,7 @@
+<?php 
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -55,7 +59,7 @@
                 <div class="navBar">
                     <h3>Menu</h3><br>
                        <ul>
-                            <li><a href="aPropos1.html">A propos de Now no Stress</a></li>
+                            <li><a href="aPropos1.php">A propos de Now no Stress</a></li>
                             <li><a href="#">Découvrir (Essai rapide)</a></li>
                             <li><a href="#">Connectez-vous</a></li>
                             <li><a href="#">Créez un compte</a></li>
@@ -82,11 +86,11 @@
 
 </div>
 
-<a href="/NoStress_zahra/views/ceQuiVousAmene.html"><img  id="sparrow" src="../asset/img/retour new.png" alt=" fleche retour">
+<a href="/NoStress_zahra/views/ceQuiVousAmene.php"><img  id="sparrow" src="../asset/img/retour new.png" alt=" fleche retour">
 </a>
 
 <p class="PasCompte">Pas de compte? <br> 
-    <a href="/NNS_Thais/views/T_createaccount.html">
+    <a href="/NNS_Thais/views/T_createaccount.php">
    <span id="crée"> Créez un compte ici</span></p>
 </a>
 
