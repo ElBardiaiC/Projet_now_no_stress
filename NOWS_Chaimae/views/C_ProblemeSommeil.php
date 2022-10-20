@@ -49,10 +49,10 @@ session_start();
         <header>
             <section>
                  <div>
-                    <a href="http://localhost/Projet_now_no_stress/NNS_Thais/T_index.php"><img id="logo" src="../asset/img/MicrosoftTeams-image (6).png" alt="logo now no stress"></a>
+                    <a href="../../NNS_Thais/T_index.php"><img id="logo" src="../asset/img/MicrosoftTeams-image (6).png" alt="logo now no stress"></a>
                 </div>
                 <div>
-                    <button class="burger"onclick="show()"><img src="../asset/img/menu-burger.png" alt="menu burger" id="menuBurger"></button>
+                    <button class="burger"onclick="show()"><img src="../asset/img/Menu-burger new.png" alt="menu burger" id="menuBurger"></button>
                 </div>
             </section>
             <section>
@@ -86,11 +86,11 @@ session_start();
 
 </div>
 
-<a href="/NoStress_zahra/views/ceQuiVousAmene.php"><img  id="sparrow" src="../asset/img/retour new.png" alt=" fleche retour">
+<a href="../../NoStress_zahra/ceQuiVousAmene.php"><img  id="sparrow" src="../asset/img/retour new.png" alt=" fleche retour">
 </a>
 
 <p class="PasCompte">Pas de compte? <br> 
-    <a href="/NNS_Thais/views/T_createaccount.php">
+    <a href="../../NNS_Thais/views/T_createaccount.php">
    <span id="crée"> Créez un compte ici</span></p>
 </a>
 

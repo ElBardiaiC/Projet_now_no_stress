@@ -1,13 +1,15 @@
-const btn1 = document.getElementById('rep-1');
-const btn2 = document.getElementById('rep-2');
-const btn3 = document.getElementById('rep-3');
+const btn1 = document.getElementById('btn1');
+const btn2 = document.getElementById('btn2');
+const btn3 = document.getElementById('btn3');
 
+
+console.log(btn1 , btn2 ,btn3);
 
 btn1.addEventListener('click' , () => {
 
 
 
-window.location.href='C_angoisserdesecoucher.html';
+window.location.href='C_angoisserdesecoucher.php';
 
 
 })
@@ -16,7 +18,7 @@ btn2.addEventListener('click' , () => {
 
 
 
-    window.location.href='C_angoisserdesecoucher.html';
+    window.location.href='C_angoisserdesecoucher.php';
     
     
     })
@@ -26,7 +28,7 @@ btn2.addEventListener('click' , () => {
 
 
 
-        window.location.href='C_angoisserdesecoucher.html';
+        window.location.href='C_angoisserdesecoucher.php';
         
         
         })
