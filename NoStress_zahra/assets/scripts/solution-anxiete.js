@@ -2,19 +2,19 @@
 const btnRelax=document.getElementById('rel');
 
 btnRelax.addEventListener('click', () =>{
-  window.location.href='relax.html';
+  window.location.href='relax.php';
 })
 
 const btnMarche=document.getElementById('marche');
 
 btnMarche.addEventListener('click', () =>{
-  window.location.href='marche.html';
+  window.location.href='marche.php';
 })
 
 const btnHuile=document.getElementById('huile');
 
 btnHuile.addEventListener('click', () =>{
-  window.location.href='huilesEssentielles.html';
+  window.location.href='huilesEssentielles.php';
 })
 
 function show() {

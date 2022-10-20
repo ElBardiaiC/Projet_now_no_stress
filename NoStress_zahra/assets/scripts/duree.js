@@ -5,13 +5,13 @@
 const btnMoins30=document.getElementById('moins30');
 
 btnMoins30.addEventListener('click', () =>{
-  location.href='relaxationCourte.html';
+  location.href='relaxationCourte.php';
 })
 
 const btnPlus30=document.getElementById('plus30');
 
 btnPlus30.addEventListener('click', () =>{
-  location.href='relaxationLongue.html';
+  location.href='relaxationLongue.php';
 });
 
  

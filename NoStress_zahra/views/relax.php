@@ -7,39 +7,40 @@
     <link rel="stylesheet" href="../assets/css/reset.css">
     <link rel="stylesheet" href="../assets/css/container.css">
     <link rel="stylesheet" href="../assets/css/style.css">
-    <title>Tensions</title>
+    <title>Relaxation</title>
 </head>
+
 <body class="solutions">
-    <div class="container">
-        
-        <header>
+
+    <header>
             <section>
-                 <a href="http://localhost/Projet_now_no_stress/NNS_Thais/T_index.php"><img src="../assets/img/logo_NoStress.png" id="logo"></a>
+                 <a href="../../NNS_Thais/T_index.php"><img src="../assets/img/logo_NoStress.png" id="logo"></a>
             
                 <button class="burger" onclick="show()"><img src="../assets/img/menu-burger.png" alt="" id="menuBurger"></button>
             </section>
 
             <div class="navBar">
-                <h3>Menu</h3>
-                <nav>
+                <h3>Menu</h3><br>
+              
                     <ul>
-                        <li><a href="aPropos1.html">A propos de Now no Stress</a></li>
-                        <li><a href="ceQuiVousAmene.html">Découvrir (Essai rapide)</a></li>
-                        <li><a href="#">Contactez nous</a></li>
-                        <li><a href="#">Créez un compte</a></li>
+                        <li><a href="aPropos1.php">A propos de Now no Stress</a></li>
+                        <li><a href="aPropos2.php">Découvrir (Essai rapide)</a></li>
+                        <li><a href="#">Contactez-nous</a></li>
+                        <li><a href="../../NNS_Thais/views/T_createaccount.php">Créez un compte</a></li>
                     </ul>
-                </nav>
+               
             </div>
+
         </header>
 
-       
+    <div class="container">
         
-        <div class="containt-relax">
+        <div class="containt">
             <div id="imageRelax">
                 <img src="../assets/img/relax1.jpg" alt="" id="img-relax">
             </div>
             <div>
-                <h2>Comment résister aux tensions quotidiens?</h2>
+                <h2>C'est quoi la relaxation?</h2>
             </div>
 
                 <p>
@@ -48,17 +49,18 @@
                 </p>
                 
                 <button class="btn-questionnaire" id="se-relaxer">Se relaxer</button>
+           
         </div>
         
     </div>
     <div id="basDePage">
             
         <div class="retour">
-            <a href="solutionAnxiete.html"><img src="../assets/img/fleche-retour.png" id="retourFleche"></a>
+            <a href="solutionAnxiete.php"><img src="../assets/img/fleche-retour.png"  id="retourFleche"></a>
         </div>
         <div class="pasDeCompte">
             <p>Pas de compte?<br>
-            <a href="http://localhost/Projet_now_no_stress/NNS_Thais/views/T_createaccount.php">Créer un compte ici</a></p>
+            <a href="../../NNS_Thais/views/T_createaccount.php">Créer un compte ici</a></p>
         </div>
     </div>
 
