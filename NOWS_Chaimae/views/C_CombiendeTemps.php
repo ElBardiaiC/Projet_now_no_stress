@@ -56,7 +56,7 @@ session_start();
     <a href="/NOWS_Chaimae/views/C_angoisserdesecoucher.php"><img  id="sparrow" src="../asset/img/retour new.png" alt=" fleche retour">
     </a>
     <p class="PasCompte">Pas de compte? <br> 
-        <a href="/NNS_Thais/views/T_createaccount.php">
+        <a href="../../NNS_Thais/views/T_createaccount.php">
        <span id="crée"> Créez un compte ici</span></p>
     </a>
 

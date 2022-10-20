@@ -47,7 +47,13 @@ session_start();
             <div id="back_content">
                 <img id="yoga-pic" src="../asset/img/pngtree-hand-drawn-cute-girl-practice-yoga-png-image_2174532.jpg" alt="" height="150px" width="150px">
                 <h1 class="TitreRespiration">Respiration Profonde :  </h1>
-                <p class="ParaRespiration">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cupiditate asperiores <br>voluptas quaerat officiis illum ullam corporis nam mollitia quia? <br>Fugiat, veniam reiciendis <br>eveniet ullam tenetur similique deleniti quibusdam dolor!</p>
+                <p class="ParaRespiration">
+                
+                Nous allons vous rediriger vers une pulsation respiratoire , il vous suffirat de Inpirer (comme décrit ci-dessous) quand la Pulsé gonfle et expiré ( décrit comme ci-dessous) quand la pulsé redecend <br>
+                    
+                <span> Comment respirer:</span> par le nez en gonflant votre ventre comme s'il s'agissait d'un ballon.<br> Expirez par la bouche en rentrant progressivement le ventre.<br>  Videz complètement l'air de vos poumons.<br>  À nouveau, inspirez en gonflant le ventre et cette fois bloquez votre respiration quelques secondes.<br>
+
+                <br> </p>
 
                 <button id="start"> Commencer</button>
             </div>
