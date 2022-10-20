@@ -104,16 +104,6 @@ a{   /********* j'ai mis les lien en blanc car ils sont bleu par défaut********
 .navBar-solutions.active{
     right: 0;
 }
-
-.container{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    flex-wrap: nowrap;
-    align-items: center;
-    
-}
 header{
     width: 100vw;
     height: 15%;
@@ -122,6 +112,17 @@ header{
     /* align-items: center; */
     /* align-content: center; */
 }
+.container{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+    
+}
+
 #logo{
     /* width: 300px;
     object-fit: cover;
@@ -142,8 +143,9 @@ header{
 h2{   
     color: white;
     font-size: 50px;
-    padding-top: 60px;
-    padding-bottom: 40px;
+    /* padding-top: 60px;
+    padding-bottom: 40px; */
+    margin-bottom: 5%;
     text-align: center; 
 }
 
@@ -190,7 +192,7 @@ h2{
     padding: 20px;
     margin-left: 20%;
     margin-right: 20%;
-    margin-top: 5%;
+    /* margin-top: 5%; */
     text-align: center;
     /* border:none;
     border-radius: 15px;
@@ -265,25 +267,25 @@ h2{
 
 #basDePage{
     width: 100%;
-    height: 10%;
+    height: 15%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
-    margin-top: 30px;
+    margin-top: 10%;
     margin-bottom: 25px;
    
 }
 #basPage{
     width: 100%;
-    height: 10%;
+    height: 15%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
-    margin-top: 190px;
+    margin-top: 5%;
    
 }
 .retour{

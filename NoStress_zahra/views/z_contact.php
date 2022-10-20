@@ -14,22 +14,21 @@
     <div class="container">
         <header>
             <section >
-                <a href="http://localhost/Projet_now_no_stress/NNS_Thais/T_index.php"><img src="../assets/img/logo_NoStress.png" alt=""id="logo"></a>
+                <a href="../../NNS_Thais/T_index.php"><img src="../assets/img/logo_NoStress.png" alt=""id="logo"></a>
                 
                 <button class="burger"onclick="show()"><img src="../assets/img/menu-burger.png" alt="" id="menuBurger"></button>
             </section> 
 
             <div class="navBar">
                 <h3>Menu</h3><br>
-                <nav>
-                        
+                
                     <ul>
-                        <li><a href="aPropos1.html">A propos de Now no Stress</a></li>
-                        <li><a href="ceQuiVousAmene.html">Découvrir (Essai rapide)</a></li>
-                        <li><a href="#">Connectez-vous</a></li>
-                        <li><a href="#">Créez un compte</a></li>
+                        <li><a href="aPropos1.php">A propos de Now no Stress</a></li>
+                        <li><a href="aPropos2.php">Découvrir (Essai rapide)</a></li>
+                        <li><a href="#">Contactez-nous</a></li>
+                        <li><a href="../../NNS_Thais/views/T_createaccount.php">Créez un compte</a></li>
                     </ul>
-                </nav>
+                
                 </div>
                    
         </header>
