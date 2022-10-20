@@ -47,14 +47,14 @@
                     Elle permet de retrouver très vite une pleine sérénité, un apaisement émotionnel et une meilleure concentration. Elle peut aussi agir sur la dépression et la tension artérielle. Lorsque vous êtes détendu et calme, votre rythme cardiaque est régulier et harmonieux. Installez-vous dans un endroit calme, assis.e ou couché.e. Appuyez sur commencer. Laissez-vous guider. Bonne détente.
                 </p>
                 
-                <button class="btn-questionnaire" id="se-relaxer">Se relaxer</button>
+                <button class="btn-questionnaire" id="se-detendre">Se détendre</button>
         </div>
         
     </div>
     <div id="basDePage">
             
         <div class="retour">
-            <a href="solutionAnxiete.php"><img src="../assets/img/fleche-retour.png" id="retourFleche"></a>
+            <a href="ceQuiVousAmene.php"><img src="../assets/img/fleche-retour.png" id="retourFleche"></a>
         </div>
         <div class="pasDeCompte">
             <p>Pas de compte?<br>
