@@ -141,10 +141,12 @@ h1.TitreProbleme{
     text-align: center;
     position: relative;
     padding-bottom: 20px;
+    font-weight: lighter;
 }
 button#btn1  ,#btn2 , #btn3{
 
   
+    
     justify-content: center;
     background-color: #E58D6D;
     position: relative;
@@ -158,6 +160,14 @@ button#btn1  ,#btn2 , #btn3{
     box-shadow: 3px 3px 6px #1d1e2e; 
     
 }
+
+#btn1:hover ,  #btn2:hover ,  #btn3:hover{
+    background-color: white;
+    color: #E58D6D;
+
+}
+
+
 main.MainChaimae{
     display: flex;
     flex-direction: column;
@@ -174,7 +184,7 @@ p.PasCompte{
     bottom: 50px;
     right: 20px;
 font-size: 1.5rem;
-text-decoration: underline 1px;
+text-decoration:  1px;
     color: white;
    margin-right: 100px;
    margin-bottom: 50px;
@@ -193,7 +203,7 @@ text-decoration: underline 1px;
         width: 100%;
         background-color: rgba(255, 255, 255, 0.425);
         position:relative;
-        margin-top: 150px;
+        margin-top: 200px;
     }
 
 
@@ -212,12 +222,13 @@ text-decoration: underline 1px;
         position: relative;
         height: 80px;
         width: 150px;
-        margin: 20px;
+        margin: 30px;
         color: white;
         border:none;
         border-radius: 15px;
         font-size: 2rem;
         box-shadow: 3px 3px 6px #1d1e2e; 
+        margin-top: 50px;
     }
     
     #btn-oui:hover , #btn-non:hover{
@@ -238,7 +249,7 @@ text-decoration: underline 1px;
         width: 100%;
         background-color: rgba(255, 255, 255, 0.425);
         position:relative;
-        margin-top: 390px;
+        margin-top: 400px;
     }
 
     /* ----------------------Parti : Combien de temps disposez-vous -----------------------*/
@@ -289,8 +300,8 @@ text-decoration: underline 1px;
     .blob {
         background: rgba(236, 231, 231, 0.747);
         border-radius: 50%;
-        margin-left: 40%;
-        margin-top: 50px;
+        margin-left: 45%;
+        margin-top: 10%;
         height: 200px;
         width: 200px;
     
