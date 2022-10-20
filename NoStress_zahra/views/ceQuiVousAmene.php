@@ -11,37 +11,36 @@
 </head>
 <body>
     
-   
-    <div class="container">
-        
-        <header>
+   <header>
             <section>
-                <a href="http://localhost/Projet_now_no_stress/NNS_Thais/T_index.php"><img src="../assets/img/logo_NoStress.png" id="logo"></a>
+                <a href="../../NNS_Thais/T_index.php"><img src="../assets/img/logo_NoStress.png" id="logo"></a>
                 <button class="burger" onclick="show()"><img src="../assets/img/menu-burger.png" alt="" id="menuBurger"></button>
             </section>
 
             <div class="navBar">
-                <h3>Menu</h3>
-                <!-- <nav> -->
+                <h3>Menu</h3><br>
+               
                     <ul>
-                        <li><a href="aPropos1.html">A propos de Now no Stress</a></li>
-                        <li><a href="#">Découvrir (Essai rapide)</a></li>
-                        <li><a href="#">Connectez-vous</a></li>
-                        <li><a href="#">Créez un compte</a></li>
+                        <li><a href="aPropos1.php">A propos de Now no Stress</a></li>
+                        <li><a href="aPropos2.php">Découvrir (Essai rapide)</a></li>
+                        <li><a href="#">Contactez-nous</a></li>
+                        <li><a href="../../NNS_Thais/views/T_createaccount.php">Créez un compte</a></li>
                     </ul>
-                <!-- </nav> -->
+              
             </div>
            
-        </header>
-        
-        <!-- <div class="main"> -->
+    </header>
+
+    <div class="container">
+            
+             
+        <div class="containt-solutions">
+            
             <div>
                 <h2>Qu'est ce qui vous amène sur Now No Stress?</h2>
             </div>
-             
-            <div class="containt-solutions">
-            
-            
+            <div>
+        
                 <div>        
                     <button class="reponses" id="rep1">Mon Sommeil</button>
                 </div>
@@ -54,19 +53,19 @@
                     <button class="reponses">Des tensions</button>
                 </div>
             </div>
-        <!-- </div> -->
-    
-    </div>
-        <div id="basDePage">
-            
-            <div class="retour">
-                <a href="aPropos2.html"><img src="../assets/img/fleche-retour.png" id="retourFleche"></a>
-            </div>
-            <div class="pasDeCompte">
-                <p>Pas de compte?<br>
-                <a href="http://localhost/Projet_now_no_stress/NNS_Thais/views/T_createaccount.php">Créer un compte ici</a></p>
-            </div>
+      
         </div>
+    </div>
+    <div id="basDePage">
+            
+        <div class="retour">
+            <a href="aPropos2.php"><img src="../assets/img/fleche-retour.png" id="retourFleche"></a>
+        </div>
+        <div class="pasDeCompte">
+            <p>Pas de compte?<br>
+            <a href="http://localhost/Projet_now_no_stress/NNS_Thais/views/T_createaccount.php">Créer un compte ici</a></p>
+        </div>
+    </div>
     <script src ="../assets/scripts/ceQuiVsAmene.js"></script>
 </body>
 </html>

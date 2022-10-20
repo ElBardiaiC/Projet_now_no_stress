@@ -4,13 +4,13 @@
 const btnRelax=document.getElementById('se-relaxer');
 
 btnRelax.addEventListener('click', () =>{
-  location.href='../views/duree.html';
+  location.href='../views/duree.php';
 })
 
 const btnAnxiete=document.getElementById('rep2');
 
 btnAnxiete.addEventListener('click', () =>{
-  location.href='solutionAnxiete.html';
+  location.href='solutionAnxiete.php';
 }); 
 
 

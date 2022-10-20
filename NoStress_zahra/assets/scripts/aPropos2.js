@@ -4,7 +4,7 @@
  console.log(btnQuestionnaire);
 
  btnQuestionnaire.addEventListener('click', () => {
-  window.location.href= 'ceQuiVousAmene.html' ;
+  window.location.href= 'ceQuiVousAmene.php' ;
  })
 
  function show() {
