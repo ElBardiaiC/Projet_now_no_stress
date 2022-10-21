@@ -11,38 +11,34 @@ session_start();
     <link rel="stylesheet" href="../asset/css/C_reset.css">
     <!-- <link rel="stylesheet" href="../asset/css/C_angoisserdesecoucher.css"> -->
     <link rel="stylesheet" href="../asset/css/C_style.css">
-    <title>Document</title>
+    <title>angoissee de vous coucher</title>
 </head>
 <body>
     <div id="container">
         <img id="fond" src="../asset/img/autre1.png" alt="">
-    
-    
-            <header>
-                <section>
-                <div >
-                    <a href=../../NNS_Thais/T_index.php> <section id="logo"><img src="../asset/img/MicrosoftTeams-image (6).png" alt="" height="60px" width="300px"></section></a>
-                    
-                        <!-- <img id="burger" src="../asset/img/Menu-burger new.png" alt=""> -->
-                    <button class="burger"onclick="show()"><img src="../asset/img/Menu-burger new.png" alt="" id="menuBurger"></button>
-                    </section> 
-                </div> 
+        <header>
+            <section>
+                 <div>
+                    <a href="../../NNS_Thais/T_index.php"><img id="logo" src="../../NNS_Thais/asset/img/T_logo.png" alt="logo now no stress"></a>
+                </div>
+                <div>
+                    <button class="burger"onclick="show()"><img src="../../NNS_Thais/asset/img/menu-burger.png" alt="menu burger" id="menuBurger"></button>
+                </div>
+            </section>
+            <section>
                 <div class="navBar">
                     <h3>Menu</h3><br>
-                    <nav>
-                            
-                        <ul>
-                            <li><a href="../../NoStress_zahra/views/aPropos1.php">A propos de Now no Stress</a></li>
-                            <li><a href="#">Découvrir (Essai rapide)</a></li>
-                            <li><a href="#">Connectez-vous</a></li>
-                            <li><a href="#">Créez un compte</a></li>
-                        </ul>
-
-                    </nav>
+                       <ul>
+                            <li><a href="aPropos1.php">A propos de Now no Stress</a></li>
+                            <li><a href="aPropos2.php">Découvrir (Essai rapide)</a></li>
+                            <li><a href="#">Contactez-nous</a></li>
+                            <li><a href="T_createaccount.php">Créez un compte</a></li>
+                        </ul>     
                 </div>
-
-
-            </header> 
+            </section>
+        </header>
+    
+            
     
             <h1 class="titreAngois"> Ètes-vous angoissée à l'idée d'aller vous coucher?  </h1>
     <main class="MainChaimae">
