@@ -9,7 +9,7 @@ btn1.addEventListener('click' , () => {
 
 
 
-window.location.href='C_angoisserdesecoucher.php';
+window.location.href='C_CombiendeTemps.php';
 
 
 })
