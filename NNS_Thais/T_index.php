@@ -140,8 +140,8 @@ function verify($email, $mdp) {
                 <form method="post" action="#" id="login">
                         
                     <div>
-                        <input type="email" name="email">
-                        <input type="password" name="password">
+                        <input placeholder="Email" type="email" name="email">
+                        <input placeholder="Mot de Passe" type="password" name="password">
                     </div>
 
 
