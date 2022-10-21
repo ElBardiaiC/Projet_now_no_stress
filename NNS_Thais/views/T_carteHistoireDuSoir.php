@@ -13,11 +13,25 @@
 <body>
     <div id="container">
         <header>
-                
-            <div>
-                <img src="../asset/img/T_logo.png" alt="logo now no stress">
-            </div>
-
+            <section>
+                 <div>
+                    <a href="../T_index.php"><img id="logo" src="../asset/img/T_logo.png" alt="logo now no stress"></a>
+                </div>
+                <div>
+                    <button class="burger"onclick="show()"><img src="../asset/img/menu-burger.png" alt="menu burger" id="menuBurger"></button>
+                </div>
+            </section>
+            <section>
+                <div class="navBar">
+                    <h3>Menu</h3><br>
+                       <ul>
+                            <li><a href="aPropos1.php">A propos de Now no Stress</a></li>
+                            <li><a href="aPropos2.php">Découvrir (Essai rapide)</a></li>
+                            <li><a href="#"><Contactez-nous></Contactez-nous></a></li>
+                            <li><a href="T_createaccount.php">Créez un compte</a></li>
+                        </ul>     
+                </div>
+            </section>
         </header>
 
         <div id="content">
