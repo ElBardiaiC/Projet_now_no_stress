@@ -15,8 +15,8 @@
     
 }
 
-/** Concernant l'entièreté du container*/
-/** ************************************************/
+/*~ Concernant l'entièreté du container*/
+/*~ ************************************************/
 #container{
     font-family: dosis;
 
@@ -25,21 +25,118 @@
 }
   
 
-/**  Concernant la header */ 
-/** ************************************************/
-header{
-    height: 125px;
-} 
 
-header > div > img{
+/*~  Concernant le header */ 
+/*~ ************************************************/
+header{
+    width: 100%;
+    height: 20vh;
+} 
+header > section{
+    width: 100%;
     
-    width: 20%;
-    object-fit: cover;
-    padding-left: 2%;
-    padding-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
 }
 
-/**  Concernant le content */ 
+header >  section > div > a > img{
+    
+    width: 35%;
+    object-fit: cover;
+    padding-left: 3%;
+    padding-top: 3%;
+}
+/*^ Version mobile header */
+@media screen and (max-width:576px)
+{
+    
+    header >  section > div > a> img{
+        width: 50%;
+        padding-left: 4%;
+        padding-top: 4%;
+        object-fit: cover;
+
+    }
+}
+/*& Concernant le menu burger */
+/*& ***************************/
+a , button{
+    cursor: pointer;
+    text-decoration: none;
+}
+a{
+    color: white;
+}
+
+.navBar{
+    position:fixed;
+    right: -500px;
+    width: 350px;
+    height: 50%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: #585e91;
+    transition: 0.5s;
+}   
+.navBar h3{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+.navBar ul li{
+
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    list-style-type:none;
+    font-size: 1,5em;
+    padding: 30px 30px;
+    border-bottom: 1pt solid white;
+}
+.navBar ul{
+    margin-bottom: 50px;
+}
+#menuBurger{
+   
+    position: fixed; 
+    top: 50px;
+    right: 20px;
+    color: white;
+    margin-right: 100px;
+    height: 40px; 
+    /* transition: 0.5; */
+
+}
+
+.burger{
+    /* position: fixed; */
+    top: 5%;
+    left: 95%;
+    width: 30px;
+    color: white;
+    height: 30px;
+    border: 0;
+    background: 0 0; 
+ 
+}
+/*^Version Mobile menu burger*/
+@media screen and (max-width:576px)
+{
+    #menuBurger{
+        align-self: flex-end;
+    }
+
+}
+
+.navBar.active{
+    right: 0;
+}
+
+/*~  Concernant le content */ 
 /** ***********************************************/
 
 /*todo Concernant le Content-Général*/
