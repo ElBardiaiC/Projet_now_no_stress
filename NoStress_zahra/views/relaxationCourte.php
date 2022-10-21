@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="../assets/css/style.css">
     <title>Relaxation</title>
 </head>
+
 <body class="solutions">
-    <div class="container">
-        
+    
         <header>
             <section>
                  <a href="../../NNS_Thais/T_index.php"><img src="../assets/img/logo_NoStress.png" id="logo"></a>
@@ -31,23 +31,26 @@
                 </nav>
             </div>
         </header>
+    <div class="container">
+        
+        <section class="containt">
 
             <div id="imageRelax">
-                <img src="../assets/img/relaxationCourte.jpg" alt="" id="img-relax">
+                <img src="../assets/img/relaxationCourte.jpg" alt="" id="img-relax"><br>
             </div>
-            <section class="containt-solutions">
-                <div>
-                    <audio controls="controls">
-                        <source src="../assets/Medias/Z_lacherPrise.mp3">
-                    </audio> 
-                </div>
+            
+            <div>
+                <audio controls="controls">
+                     <source src="../assets/Medias/Z_lacherPrise.mp3">
+                 </audio> 
+            </div>
 
         </section>
            
         </div>
         
     </div>
-    <div id="basPage">
+    <div id="basDePage">
             
         <div class="retour">
             <a href="solutionAnxiete.php"><img src="../assets/img/fleche-retour.png" id="retourFleche"></a>

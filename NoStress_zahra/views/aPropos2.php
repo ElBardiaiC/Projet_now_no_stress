@@ -33,10 +33,10 @@
             
             <div class="containt">
                 <div>
-                    <h2>A propos du questionnaire</h2>
+                    <h2>A propos du questionnaire</h2><br>
                 </div>
             
-                <p>Nous vous proposons ce petit questionnaire afin de personnaliser votre expérience sur notre site. Celui-ci nous aidera à vous aiguiller vers les ressources les plus adaptées à ce que vous recherchez que ce soit en fonction du temps que vous avez, de la source de votre stress ou de la bonne habitude que vous souhaitez adopter,...</p><br><br><br><br><br>
+                <p>Nous vous proposons ce petit questionnaire afin de personnaliser votre expérience sur notre site. Celui-ci nous aidera à vous aiguiller vers les ressources les plus adaptées à ce que vous recherchez que ce soit en fonction du temps que vous avez, de la source de votre stress ou de la bonne habitude que vous souhaitez adopter,...</p><br><br><br>
 
                 <button class="btn-questionnaire" id="questionnaire" >Questionnaire</button>
        

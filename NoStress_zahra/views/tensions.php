@@ -7,12 +7,10 @@
     <link rel="stylesheet" href="../assets/css/reset.css">
     <link rel="stylesheet" href="../assets/css/container.css">
     <link rel="stylesheet" href="../assets/css/style.css">
-    <title>Tensions</title>
+    <title>Now No Stress</title>
 </head>
 <body class="solutions">
-    <div class="container">
-        
-        <header>
+    <header>
             <section>
                  <a href="../../NNS_Thais/T_index.php"><img src="../assets/img/logo_NoStress.png" id="logo"></a>
             
@@ -32,12 +30,13 @@
             </div>
         </header>
 
+    <div class="container">
        
         
-        <div class="containt-relax">
-            <div id="imageRelax">
+        <div class="containt">
+            <!-- <div id="imageRelax"> -->
                 <img src="../assets/img/relax1.jpg" alt="" id="img-relax">
-            </div>
+            <!-- </div> -->
             <div>
                 <h2>Comment résister aux tensions quotidiens?</h2>
             </div>

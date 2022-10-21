@@ -19,7 +19,7 @@
                 <button class="burger" onclick="show()"><img src="../assets/img/menu-burger.png" alt="" id="menuBurger"></button>
             </section>
             
-            <div class="navBar">
+            <div class="navBar-solutions">
                 <h3>Menu</h3>
                 <nav>
                     <ul>
@@ -57,7 +57,7 @@
         </div>
         
     </div>
-    <div id="basDePage">
+    <div id="basPage">
             
         <div class="retour">
             <a href="solutionAnxiete.php"><img src="../assets/img/fleche-retour.png" id="retourFleche"></a>

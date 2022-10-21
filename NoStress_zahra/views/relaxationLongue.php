@@ -10,8 +10,7 @@
     <title>Relaxation</title>
 </head>
 <body class="solutions">
-    <div class="container">
-        
+
         <header>
             <section>
                  <a href="../../NNS_Thais/T_index.php"><img src="../assets/img/logo_NoStress.png" id="logo"></a>
@@ -32,10 +31,15 @@
             </div>
         </header>
 
+    <div class="container">
+        
+       
+        <section class="containt">
+
             <div id="imageRelax">
                 <img src="../assets/img/relaxationLongue.webp" alt="" id="img-relax">
-            </div>
-            <section class="containt-solutions">
+            </div><br>
+            
                 <div>
                     <audio controls="controls">
                         <source src="../assets/Medias/Z_scanCorporel_meditation_40mn.mp3">
@@ -47,7 +51,7 @@
         </div>
         
     </div>
-    <div id="basPage">
+    <div id="basDePage">
             
         <div class="retour">
             <a href="solutionAnxiete.php"><img src="../assets/img/fleche-retour.png"id="retourFleche" ></a>
