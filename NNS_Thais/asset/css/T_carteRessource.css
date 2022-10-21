@@ -270,7 +270,7 @@ a{
 }
 .icone-retour{ 
     border-radius: 50%;
-    max-width: 100%;
+    max-width: 80%;
     object-fit: cover;
 }
 .icone-retour:hover{

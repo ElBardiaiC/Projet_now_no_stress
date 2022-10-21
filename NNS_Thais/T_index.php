@@ -99,7 +99,7 @@ function verify($email, $mdp) {
                        <ul>
                             <li><a href="aPropos1.php">A propos de Now no Stress</a></li>
                             <li><a href="aPropos2.php">Découvrir (Essai rapide)</a></li>
-                            <li><a href="#"><Contactez-nous></Contactez-nous></a></li>
+                            <li><a href="#">Contactez-nous</a></li>
                             <li><a href="T_createaccount.php">Créez un compte</a></li>
                         </ul>     
                 </div>
