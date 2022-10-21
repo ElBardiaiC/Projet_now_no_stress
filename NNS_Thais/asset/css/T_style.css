@@ -3,8 +3,8 @@
     --color-content:white;
     --color-shadow-light:#585e91; 
 }
-/**Concernant le fond d'écran*/
-/**************************************************/
+/*~Concernant le fond d'écran*/
+/*~ ************************************************/
 #fondecran {
     /* Fixe l'image en haut à gauche de la page */
     position: fixed; 
@@ -16,8 +16,8 @@
     
    }
 
-   /**Concernant l'entièreté du container*/
-/**************************************************/
+/*~ Concernant l'entièreté du container*/
+/*~ ************************************************/
 #container{
     font-family: dosis;
 
@@ -27,57 +27,95 @@
   
     
 }
-/** Concernant le menu burger */
-/*************************************************/
+
+/*~ Concernant le header */ 
+/*~ ************************************************/
+header{
+    width: 100%;
+    height: 20vh;
+} 
+header > section{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+header >  section > div > a > img{
+    
+    width: 35%;
+    object-fit: cover;
+    padding-left: 3%;
+    padding-top: 3%;
+}
+/*^ Version mobile header */
+@media screen and (max-width:576px)
+{
+    
+    header >  section > div > a> img{
+        width: 50%;
+        padding-left: 4%;
+        padding-top: 4%;
+        object-fit: cover;
+
+    }
+}
+/*& Concernant le menu burger */
+/*& ***************************/
 a , button{
     cursor: pointer;
     text-decoration: none;
 }
-
-nav{
-    position: absolute;
-    top: 100px;
-    right: 50px;
-    width: 250px;
+a{
+    color: white;
 }
+
 .navBar{
     position:fixed;
     right: -500px;
-    /* left: 900px; */
     width: 350px;
-    height: 100%;
+    height: 50%;
+    margin-top: 10%;
+    margin-bottom: 10%;
     background-color: #585e91;
-    transition: .5s;
-}
+    transition: 0.5s;
+}   
 .navBar h3{
     color: white;
     text-align: center;
-    font-size: 30px;
-    padding-top: 30px;
+    font-size: 40px;
+    padding-top: 40px;
 }
 
 .navBar ul li{
 
     color: white;
-    text-align: right;
+    text-align: center;
     text-transform: uppercase;
     list-style-type:none;
     font-size: 1,5em;
     padding: 30px 30px;
     border-bottom: 1pt solid white;
 }
+.navBar ul{
+    margin-bottom: 50px;
+}
 #menuBurger{
    
-    position: fixed;
+    position: fixed; 
     top: 50px;
     right: 20px;
     color: white;
     margin-right: 100px;
-    height: 40px;
+    height: 40px; 
+    /* transition: 0.5; */
 
 }
+
 .burger{
-    position: fixed;
+    /* position: fixed; */
     top: 5%;
     left: 95%;
     width: 30px;
@@ -85,26 +123,22 @@ nav{
     height: 30px;
     border: 0;
     background: 0 0; 
+ 
 }
+/*^Version Mobile menu burger*/
+@media screen and (max-width:576px)
+{
+    #menuBurger{
+        align-self: flex-end;
+    }
+
+}
+
 .navBar.active{
     right: 0;
 }
-/** Concernant le header */ 
-/**************************************************/
-header{
-    height: 150px;
-} 
-
-header > div > img{
-    
-    width: 20%;
-    object-fit: cover;
-    padding-left: 2%;
-    padding-top: 2%;
-}
-
-/**Concernant le content */ 
-/**************************************************/
+/*~ Concernant le content */ 
+/*~ ************************************************/
 #content{
     width: 100%;
     height: 70vh;
@@ -114,8 +148,8 @@ header > div > img{
     flex-direction: column;
     justify-content: space-around;
 }
-/*todo Concernant les titres */
-/*todo ***************************/   
+/*& Concernant les titres */
+/*& ***************************/   
 
 #titres{
     display: flex;
@@ -128,8 +162,8 @@ header > div > img{
     padding-right: 2%;
     font-size: 2rem;
 }
-/*todo Concernant le login */
-/*todo **************************/
+/*& Concernant le login */
+/*& **************************/
 #content-login{
     display: flex;
     flex-direction: row;
@@ -162,8 +196,8 @@ header > div > img{
     margin: 10px;
     width: 70%;
 }
-/*todo Concernant l'essai */
-/* todo ***************************/
+/*& Concernant l'essai */
+/*& ***************************/
 
 #essai{
     
@@ -184,8 +218,8 @@ header > div > img{
     color: white;
     text-decoration: underline;
 }
-/** Concernant les boutons /*
-/****************************************************/
+/*~  Concernant les boutons /*
+/*~ **************************************************/
 .classic-btn{
     border: none;
     border-radius: 15px;
@@ -207,8 +241,8 @@ header > div > img{
     text-align: center;
     font-size: 1.5rem;
 }
-/**Concernant le footer */
-/****************************************************/
+/*~ Concernant le footer */
+/*~ **************************************************/
 
 /* footer{
     height: 150px;

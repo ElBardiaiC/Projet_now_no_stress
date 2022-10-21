@@ -21,7 +21,7 @@ window.location.href='../NoStress_zahra/views/aPropos2.php';
 
 // })
 
-//& COncernant le menu Burger //
+//& Concernant le menu Burger //
 function show() {
   
     document.querySelector('.navBar').classList.toggle('active');
@@ -33,8 +33,8 @@ function show() {
     iconMenu.addEventListener('click',function(){
       toggle = !toggle;
       if(toggle){
-        iconMenu.src='../asset/img/menu-burger.png';
+        iconMenu.src='./asset/img/menu-burger.png';
       }else{
-        iconMenu.src='../asset/img/close-icon.png';
+        iconMenu.src='./asset/img/close-icon.png';
       }
     })
