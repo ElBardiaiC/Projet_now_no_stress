@@ -2,8 +2,8 @@
     --classic-btn:#E58D6D;
     --color-content:white; 
 }
-/**Concernant le fond d'écran*/
-/**************************************************/
+/*~ Concernant le fond d'écran*/
+/*~ ************************************************/
 #fondecran {
     /* Fixe l'image en haut à gauche de la page */
     position: fixed; 
@@ -15,8 +15,8 @@
     
    }
 
-   /**Concernant l'entièreté du container*/
-/**************************************************/
+   /*~ Concernant l'entièreté du container*/
+/*~ ************************************************/
 #container{
     font-family: dosis;
 
@@ -137,8 +137,8 @@ a{
 .navBar.active{
     right: 0;
 }
-/** Concernant le content*/
-/****************************************************/
+/*~ Concernant le content*/
+/*~ **************************************************/
 #content{
     width: 100%;
     height: 70vh;
@@ -150,8 +150,8 @@ a{
     align-items: center;
    
 }
-/*todo Concernant les sections*/
-/*todo ********************************/ 
+/*& Concernant les sections*/
+/*& ********************************/ 
 
 #content > section{
     width: 50%;
@@ -171,8 +171,8 @@ section > p{
     font-size: 4rem;
 }
 
-/*todo Les Boutons */
-/*todo *********************************/
+/*& Les Boutons */
+/*& *********************************/
 
 
 
@@ -196,8 +196,8 @@ section > p{
 }
 /*todo normal qu'il n'y ait pas de section liens (créer compte) sur cette page */
 
-/**Concernant le footer */
-/****************************************************/
+/*~ Concernant le footer */
+/*~ **************************************************/
 /*! Trouver pourquoi le footer ne se positionne pas bien */
 /* footer{
     height: 150px;
