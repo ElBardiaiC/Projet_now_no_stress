@@ -38,11 +38,11 @@
                 </div>
                 <div>
                     <div>        
-                        <button class="btn-reponses" id="moins30">- de30    min</button>
+                        <button class="btn-reponses" id="moins30">- de 30 min</button>
                     </div>
 
                     <div>
-                        <button class="btn-reponses" id="plus30">+ de30min</    button>
+                        <button class="btn-reponses" id="plus30">+ de 30 min</button>
                     </div>        
                 </div>
             </div>

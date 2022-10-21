@@ -1,7 +1,7 @@
 
 function show() {
   
-    document.querySelector('.navBar').classList.toggle('active');
+    document.querySelector('.navBar-solutions').classList.toggle('active');
   }
   
     let iconMenu = document.getElementById('menuBurger');

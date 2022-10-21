@@ -85,15 +85,25 @@ function verify($email, $mdp) {
 <body>
     <div id="container">
         <header>
-                
-            <div>
-                <img src="./asset/img/T_logo.png" alt="logo now no stress">
-            </div>
-            <div>
-                 <button class="burger" onclick="show()"><img src="../assets/img/menu-burger.png" alt="" id="menuBurger"></button>
-            </div>
-           
-            
+            <section>
+                 <div>
+                    <a><img id="logo" src="./asset/img/T_logo.png" alt="logo now no stress"></a>
+                </div>
+                <div>
+                    <button class="burger"onclick="show()"><img src="./asset/img/menu-burger.png" alt="menu burger" id="menuBurger"></button>
+                </div>
+            </section>
+            <section>
+                <div class="navBar">
+                    <h3>Menu</h3><br>
+                       <ul>
+                            <li><a href="aPropos1.php">A propos de Now no Stress</a></li>
+                            <li><a href="aPropos2.php">Découvrir (Essai rapide)</a></li>
+                            <li><a href="#"><Contactez-nous></Contactez-nous></a></li>
+                            <li><a href="T_createaccount.php">Créez un compte</a></li>
+                        </ul>     
+                </div>
+            </section>
         </header>
         <?php 
           
@@ -147,7 +157,7 @@ function verify($email, $mdp) {
                     
                     <div id="creer-compte">
                         <p>Pas de compte?</p>
-                        <p><a href="http://localhost/Projet_now_no_stress/NNS_Thais/views/T_createaccount.php">Créer un compte ici</a></p>
+                        <p><a href="./views/T_createaccount.php">Créer un compte ici</a></p>
                     </div>
 
                 </form>

@@ -37,7 +37,7 @@
         <div class="containt-solutions">
             
             <div>
-                <h2>Qu'est ce qui vous amène sur Now No Stress?</h2>
+                <h2>Qu'est ce qui vous amène sur Now No Stress?</h2><br>
             </div>
             <div>
         
