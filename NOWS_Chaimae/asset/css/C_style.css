@@ -66,20 +66,32 @@ a{
 
 /* ------------Menu Burger---------------- */
 
+/*& Concernant le menu burger */
+/*& ***************************/
+a , button{
+    cursor: pointer;
+    text-decoration: none;
+}
+a{
+    color: white;
+}
+
 .navBar{
     position:fixed;
     right: -500px;
     width: 350px;
-    height: 100%;
-    /* margin-top: 10%; */
-    background-color:#80629be3;
+    height: 50%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: #585e91;
     transition: 0.5s;
 }   
 .navBar h3{
     color: white;
     text-align: center;
-    font-size: 30px;
-    padding-top: 30px;
+    font-size: 40px;
+    padding-top: 20px;
+    
 }
 
 .navBar ul li{
@@ -92,6 +104,10 @@ a{
     padding: 30px 30px;
     border-bottom: 1pt solid white;
 }
+.navBar ul{
+    margin-bottom: 50px;
+    
+}
 #menuBurger{
    
     position: fixed; 
@@ -100,9 +116,12 @@ a{
     color: white;
     margin-right: 100px;
     height: 40px; 
-    
+    /* transition: 0.5; */
+
 }
+
 .burger{
+    /* position: fixed; */
     top: 5%;
     left: 95%;
     width: 30px;
@@ -112,6 +131,15 @@ a{
     background: 0 0; 
  
 }
+/*^Version Mobile menu burger*/
+@media screen and (max-width:576px)
+{
+    #menuBurger{
+        align-self: flex-end;
+    }
+
+}
+
 .navBar.active{
     right: 0;
 }
