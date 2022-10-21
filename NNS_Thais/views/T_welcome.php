@@ -14,18 +14,32 @@ $nomPrenom = $_SESSION["user"]["nom"]  . " " . $_SESSION["user"]["prenom"];
     <link rel="stylesheet" href="../asset/css/T_reset.css">
     <link rel="stylesheet" href="../asset/css/T_container.css">
     <link rel="stylesheet" href="../asset/css/T_welcome.css">
-    <img id="fondecran" class="fondecran" src="../asset/img/T_fond-maquette2.png">
+    <img id="fondecran" class="fondecran" title="fondecran" alt="fond d'écran nuageux"src="../asset/img/T_fond-maquette2.png">
     <title>Bienvenue</title>
 </head>
 <body>
     <div id="container">
-
+        
         <header>
-                
-            <div>
-                <img src="../asset/img/T_logo.png" alt="logo now no stress">
-            </div>
-
+            <section>
+                 <div>
+                    <a href="../T_index.php"><img id="logo" src="../asset/img/T_logo.png" title="logo" alt="logo now no stress"></a>
+                </div>
+                <div>
+                    <button class="burger"onclick="show()"><img src="../asset/img/menu-burger.png" alt="menu burger" id="menuBurger"></button>
+                </div>
+            </section>
+            <section>
+                <div class="navBar">
+                    <h3>Menu</h3><br>
+                       <ul>
+                            <li><a href="aPropos1.php">A propos de Now no Stress</a></li>
+                            <li><a href="aPropos2.php">Découvrir (Essai rapide)</a></li>
+                            <li><a href="#">Contactez-nous</a></li>
+                            <li><a href="T_createaccount.php">Créez un compte</a></li>
+                        </ul>     
+                </div>
+            </section>
         </header>
         <div id="content">
 
@@ -41,9 +55,7 @@ $nomPrenom = $_SESSION["user"]["nom"]  . " " . $_SESSION["user"]["prenom"];
                 <button class="classic-btn" id="apropos-questionnaire">Questionnaire</button>
             </section>
         </div>
-        <footer>
-            <p>Footer</p> 
-        </footer>
+        
     </div>
     <script src="../asset/script/T_versApropos2.js"></script>
 </body>
