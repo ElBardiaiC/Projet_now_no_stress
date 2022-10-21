@@ -206,7 +206,7 @@ a{
 /*& Concernant la section liens*/
 /*& *****************************/
 #liens{
-    width: 70%;
+    width: 80%;
     
         display: flex;
         flex-direction: row;
