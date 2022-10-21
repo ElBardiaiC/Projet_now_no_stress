@@ -1,12 +1,12 @@
-const btnOui = document.getElementById('btn-non');
-const btnNon = document.getElementById('btn-oui');
+const btnNon = document.getElementById('btn-non');
+const btnOui = document.getElementById('btn-oui');
 
 
 btnOui.addEventListener('click' , () => {
 
 
 
-window.location.href='C_CombiendeTemps.php'
+window.location.href='../../NNS_Thais/views/T_carteMeditation.php'
 
 
 })

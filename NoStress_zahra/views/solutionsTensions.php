@@ -66,6 +66,6 @@
                 <a href="../../NNS_Thais/views/T_createaccount.php">Créer un compte ici</a></p>
             </div>
         </div>
-    <script src ="../assets/scripts/solution-anxiete.js"></script>
+    <script src ="../assets/scripts/solutionsTensions.js"></script>
 </body>
 </html>

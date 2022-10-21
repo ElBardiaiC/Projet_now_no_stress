@@ -63,6 +63,6 @@
     </div>
 
     
-    <script src ="../assets/scripts/relax.js"></script>
+    <script src ="../assets/scripts/tension.js"></script>
 </body>
 </html>
