@@ -62,7 +62,7 @@
             <section id="liens">
                 
                 <div id="retour">
-                    <a href="../../NOWS_Chaimae/views/C_CombiendeTemps.php"><img class="icone-retour" src="../asset/img/T_retour.png" alt="icone-precedent"></a>
+                    <a href="../../NOWS_Chaimae/views/C_ConnexionCmbDeTmps.php"><img class="icone-retour" src="../asset/img/T_retour.png" alt="icone-precedent"></a>
                 </div>
                 <div id="creer-compte">
                     <p>Pas de compte?</p>
