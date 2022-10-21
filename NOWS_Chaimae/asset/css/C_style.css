@@ -355,6 +355,10 @@ text-decoration:  1px;
         /* text-decoration: underline 2px; */
     }
 
+    span{
+        font-size: 1.1rem;
+    }
+
     .footRespir{
         height: 200px;
         width: 100%;
@@ -393,7 +397,7 @@ text-decoration:  1px;
         border-style:  solid;
         border-color:white;
         background-color: #E58D6D;
-        margin-top: 50px;
+       
         padding: 10px;
         box-shadow: 3px 3px 6px #1d1e2e;
         border: none;
