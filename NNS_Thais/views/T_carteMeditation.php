@@ -38,7 +38,7 @@
             
             <section id="carte">
 
-                <div>
+                <div id="img-carte">
                     <img id="img-carte-ressource" src="../asset/img/T_meditation.jpg" alt="dame qui medite">
                 </div>
 
