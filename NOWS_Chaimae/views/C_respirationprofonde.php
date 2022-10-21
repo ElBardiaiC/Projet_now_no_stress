@@ -52,10 +52,10 @@ session_start();
                 Nous allons vous rediriger vers une pulsation respiratoire , il vous suffirat de Inpirer (comme décrit ci-dessous) quand la Pulsé gonfle et expiré ( décrit comme ci-dessous) quand la pulsé redecend <br>
                     
                 <span> Comment respirer:</span> par le nez en gonflant votre ventre comme s'il s'agissait d'un ballon.<br> Expirez par la bouche en rentrant progressivement le ventre.<br>  Videz complètement l'air de vos poumons.<br>  À nouveau, inspirez en gonflant le ventre et cette fois bloquez votre respiration quelques secondes.<br>
-
+            
                 <br> </p>
-
                 <button id="start"> Commencer</button>
+    
             </div>
             </main>
 

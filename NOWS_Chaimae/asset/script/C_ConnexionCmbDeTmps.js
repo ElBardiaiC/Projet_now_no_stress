@@ -6,7 +6,7 @@ btnMoin.addEventListener('click' , () => {
 
 
    
-window.location.href='C_respirationprofonde.php';
+window.location.href='../../NoStress_zahra/views/SolutionMoin30.php';
 
 
 })
@@ -15,7 +15,7 @@ btnPlus.addEventListener('click' , () => {
 
 
    
-    window.location.href='../../NNS_Thais/views/T_carteHistoireDuSoir.php';
+    window.location.href='../../NoStress_zahra/views/SolutionPlus30.php';
     
     
     })
