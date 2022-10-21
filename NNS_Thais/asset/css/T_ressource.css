@@ -166,7 +166,7 @@ a{
 /*& Concernant la section carte */
 /*& *****************************/
 #carte{
-    width: 60%;
+    width: 50%;
     height: 800px;
     padding: 2%;
     background-color: var(--background-carte);
@@ -176,6 +176,31 @@ a{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+}
+/*& Concernant l'image sur Carte */
+/*& ***********************************/
+
+
+#img-carte{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#img-ressource{
+    width: 25%;
+    height: auto;
+    border-radius:100%;
+}
+/*^Version Mobile Img-Carte */
+@media screen and (max-width:576px)
+{
+    #img-carte-ressource{
+        width: 60%;
+        /*! je n'arrive pas à les recentrer */
+    }
 }
 
 /*& Concernant la section liens*/

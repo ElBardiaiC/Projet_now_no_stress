@@ -38,6 +38,9 @@
         </header>
         <div id="content"> 
             <section id="carte">
+                <div id="img-carte">
+                    <img id="img-ressource" src="../asset/img/T_histoires.png" alt="image meditation">
+                </div>
                 <div>
                     <audio controls="controls">
                         <source src="../asset/médias/histoireDuSoir44mn.mp3">

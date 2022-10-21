@@ -39,6 +39,9 @@
         <div id="content">
             
             <section id="carte">
+                <div id="img-carte">
+                    <img id="img-ressource" src="../asset/img/T_meditation.jpg" alt="image meditation">
+                </div>
                 <div>
                     <audio controls="controls">
                         <source src="../asset/médias/T_relaxationSommeil_.mp3">
