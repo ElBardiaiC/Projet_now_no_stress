@@ -1,24 +1,25 @@
-const btnNon = document.getElementById('btn-non');
-const btnOui = document.getElementById('btn-oui');
+const btnPlus = document.getElementById('btn-plus-30');
+const btnMoin = document.getElementById('btn-moin-30');
 
 
-btnOui.addEventListener('click' , () => {
+btnMoin.addEventListener('click' , () => {
 
 
-
-window.location.href='../../NNS_Thais/views/T_carteMeditation.php'
+   
+window.location.href='C_respirationprofonde.php';
 
 
 })
 
-btnNon.addEventListener('click' , () => {
+btnPlus.addEventListener('click' , () => {
 
 
-
-    window.location.href='C_ConnexionCmbDeTmps.php';
+   
+    window.location.href='../../NNS_Thais/views/T_carteHistoireDuSoir.php';
     
     
     })
+
     function show() {
   
         document.querySelector('.navBar').classList.toggle('active');
@@ -37,4 +38,3 @@ btnNon.addEventListener('click' , () => {
                 iconMenu.src='../asset/img/Close-icone.png';
           }
         })
-
