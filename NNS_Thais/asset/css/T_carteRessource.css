@@ -145,7 +145,7 @@ a{
     right: 0;
 }
 
-/*~Concernant le content */
+/*~ Concernant le content */
 /*~ ************************************************/
 
 /*& Concernant le content-général */
@@ -258,7 +258,7 @@ a{
 /*& *********************************/
 
 #liens{
-    width: 70%;
+    width: 80%;
 
     display: flex;
     flex-direction: row;
@@ -268,7 +268,7 @@ a{
 #retour{
     width: 4%;
 }
-.icone-retour{ /*! arranger l'icone  + media queries icone*/
+.icone-retour{ 
     border-radius: 50%;
     max-width: 100%;
     object-fit: cover;
