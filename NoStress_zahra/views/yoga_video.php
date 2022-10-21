@@ -10,43 +10,52 @@
     <title>yoga video</title>
 </head>
 <body class="solutions">
-    <div class="container">
-        
+
         <header>
             <section>
-                <a href="../../NNS_Thais/T_index.php"><img src="../assets/img/logo_NoStress.png" id="logo"></a>
-            </section>
-            <div class="navBar-solutions">
+                 <a href="../../NNS_Thais/T_index.php"><img src="../assets/img/logo_NoStress.png" id="logo"></a>
+            
                 <button class="burger" onclick="show()"><img src="../assets/img/menu-burger.png" alt="" id="menuBurger"></button>
-                <nav>
+            </section>
+
+            <div class="navBar">
+                <h3>Menu</h3>
+                
                     <ul>
                         <li><a href="aPropos1.php">A propos de Now no Stress</a></li>
                         <li><a href="aPropos2.php">Découvrir (Essai rapide)</a></li>
                         <li><a href="#">Contactez-nous</a></li>
                         <li><a href="../../NNS_Thais/views/T_createaccount.php">Créez un compte</a></li>
                     </ul>
-                </nav>
+               
             </div>
+
         </header>
+
+    <div class="container">
+
+        <section class="containt">
+
         <div>
-            <h2>Video</h2>
+            <h2>Yoga soulage Tension</h2>
         </div>
         
-        <section class="containt">
-                <div>
-                    <video controls="controls">
-                        <source src="../assets/Medias/Z_yoga_antistress.mp4">
-                    </video> 
-                </div>
+         <div>
+             <video controls="controls">
+                 <source src="../assets/Medias/Z_yoga_antistress.mp4">
+             </video> 
+         </div>
 
         </section>
         
     </div>
+
     <div id="basPage">
             
         <div class="retour">
-            <a href="#"><img src="../assets/img/fleche-retour.png" id="retourFleche"></a>
+            <a href="solutionsTensions.php"><img src="../assets/img/fleche-retour.png" id="retourFleche"></a>
         </div>
+        
         <div class="pasDeCompte">
             <p>Pas de compte?<br>
             <a href="../../NNS_Thais/views/T_createaccount.php">Créer un compte ici</a></p>

@@ -10,7 +10,7 @@
     <title>yoga video</title>
 </head>
 
-<body class="solutions">
+<body class="anxiete">
     <div class="container">
         
         <header>

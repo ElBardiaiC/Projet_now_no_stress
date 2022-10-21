@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../assets/css/style.css">
     <title>Relaxation</title>
 </head>
-<body class="solutions">
+<body class="anxiete">
 
         <header>
             <section>
@@ -51,10 +51,11 @@
         </div>
         
     </div>
-    <div id="basDePage">
+    
+    <div id="basDePageTension">
             
         <div class="retour">
-            <a href="solutionAnxiete.php"><img src="../assets/img/fleche-retour.png"id="retourFleche" ></a>
+            <a href="duree.php"><img src="../assets/img/fleche-retour.png"id="retourFleche" ></a>
         </div>
         <div class="pasDeCompte">
             <p>Pas de compte?<br>

@@ -10,7 +10,7 @@
     <title>Relaxation</title>
 </head>
 
-<body class="solutions">
+<body class="anxiete">
 
     <header>
             <section>
@@ -48,7 +48,7 @@
                     Elle permet de retrouver très vite une pleine sérénité, un apaisement émotionnel et une meilleure concentration. Elle peut aussi agir sur la dépression et la tension artérielle. Lorsque vous êtes détendu et calme, votre rythme cardiaque est régulier et harmonieux. Installez-vous dans un endroit calme, assis.e ou couché.e. Appuyez sur commencer. Laissez-vous guider. Bonne détente.
                 </p>
                 
-                <button class="btn-questionnaire" id="se-relaxer">Se relaxer</button>
+                <button class="btn-relax" id="se-relaxer">Se relaxer</button>
            
         </div>
         

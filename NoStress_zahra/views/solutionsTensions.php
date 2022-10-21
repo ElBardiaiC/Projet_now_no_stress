@@ -39,7 +39,7 @@
         <div class="containt-solutions">
             
             <div>
-                <h2>Veuillez choisir une solution</h2>
+                <h2>Veuillez choisir une solution</h2><br><br>
             </div>
            
                 <div>        
@@ -56,7 +56,7 @@
         
     
     </div>
-        <div id="basPage">
+        <div id="basDePageTension">
             
             <div class="retour">
                 <a href="ceQuiVousAmene.php"><img src="../assets/img/fleche-retour.png"  id="retourFleche"></a>

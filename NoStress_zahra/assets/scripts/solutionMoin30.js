@@ -1,13 +1,13 @@
 
-const btnRelax=document.getElementById('rel');
+const btnSommeil1=document.getElementById('sommeil1');
 
-btnRelax.addEventListener('click', () =>{
+btnSommeil1.addEventListener('click', () =>{
   window.location.href='../../NNS_Thais/views/T_carte_yoga_court.php';
 })
 
-const btnMarche=document.getElementById('marche');
+const btnSommeil2=document.getElementById('sommeil2');
 
-btnMarche.addEventListener('click', () =>{
+btnSommeil2.addEventListener('click', () =>{
   window.location.href='../../NOWS_Chaimae/views/C_respirationprofonde.php';
 })
 

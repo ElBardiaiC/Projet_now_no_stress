@@ -10,7 +10,7 @@
     <title>Relaxation</title>
 </head>
 
-<body class="solutions">
+<body class="anxiete">
     
         <header>
             <section>
@@ -36,8 +36,8 @@
         <section class="containt">
 
             <div id="imageRelax">
-                <img src="../assets/img/relaxationCourte.jpg" alt="" id="img-relax"><br>
-            </div>
+                <img src="../assets/img/relaxationCourte.jpg" alt="" id="img-relax">
+            </div><br>
             
             <div>
                 <audio controls="controls">
@@ -50,10 +50,11 @@
         </div>
         
     </div>
-    <div id="basDePage">
+
+    <div id="basDePageTension">
             
         <div class="retour">
-            <a href="solutionAnxiete.php"><img src="../assets/img/fleche-retour.png" id="retourFleche"></a>
+            <a href="duree.php"><img src="../assets/img/fleche-retour.png" id="retourFleche"></a>
         </div>
         <div class="pasDeCompte">
             <p>Pas de compte?<br>

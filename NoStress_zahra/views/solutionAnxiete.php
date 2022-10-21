@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../assets/css/style.css">
     <title>Now,No Stress</title>
 </head>
-<body class="solutions">
+<body class="anxiete">
 
     <header>
             <section>

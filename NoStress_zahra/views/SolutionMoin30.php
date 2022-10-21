@@ -20,7 +20,7 @@
             </section>
 
             <div class="navBar-solutions">
-                <h3>Menu</h3>
+                <h3>Menu</h3><br>
                 
                     <ul>
                         <li><a href="aPropos1.php">A propos de Now no Stress</a></li>
@@ -43,11 +43,11 @@
             </div>
            
                 <div>        
-                    <button class="btn-reponses" id="rel" >Séance de yoga de 10 min</button>
+                    <button class="btn-reponses" id="sommeil1" >Méditation courte</button>
                 </div>
                 
                 <div>
-                    <button class="btn-reponses" id="marche">Respiration Profonde</button>
+                    <button class="btn-reponses" id="sommeil2"></button>
                 </div>
 
              

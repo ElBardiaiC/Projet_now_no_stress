@@ -33,7 +33,7 @@
     <div class="container">
        
         
-        <div class="containt">
+        <div class="containt-relax">
             <!-- <div id="imageRelax"> -->
                 <img src="../assets/img/relax1.jpg" alt="" id="img-relax">
             <!-- </div> -->
@@ -50,7 +50,7 @@
         </div>
         
     </div>
-    <div id="basDePage">
+    <div id="basPage">
             
         <div class="retour">
             <a href="ceQuiVousAmene.php"><img src="../assets/img/fleche-retour.png" id="retourFleche"></a>

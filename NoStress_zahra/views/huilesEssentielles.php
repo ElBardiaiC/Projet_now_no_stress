@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../assets/css/style.css">
     <title>huiles essentielles</title>
 </head>
-<body class="solutions">
+<body class="anxiete">
     <div class="container">
         
         <header>

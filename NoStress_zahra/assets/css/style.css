@@ -10,7 +10,12 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.anxiete{
+    font-family: dosis;
+    background-image: url(../img/fondAnxiete.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 a , button{
     cursor: pointer;
     text-decoration: none;
@@ -29,14 +34,14 @@ a{   /********* j'ai mis les lien en blanc car ils sont bleu par défaut********
     background-color: #585e91;
     transition: 0.5s;
 }  
-.navBar-solutions{  /*********** classe solution pour la navbar des pages au fond foncé car la couleur de la navbar change**********/
+.navBar-solutions{  /*********** classe solution pour la navbar des pages au fond anxieté car la couleur de la navbar change**********/
     position:fixed;
     right: -500px;
     width: 350px;
     /* height: 100%; */
     margin-top: 18%;
     margin-bottom: 10%;
-    background-color:#80629be3;
+    background-color:#525d91ec;
     transition: 0.5s;
 } 
 .navBar h3{
@@ -179,8 +184,8 @@ h2{
     color: white;
     font-size: 1.5rem;
     padding: 1%;
-    margin-left: 12%;
-    margin-right: 12%;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-top: 2%;
     text-align: center;
     border:none;
@@ -213,7 +218,10 @@ h2{
     margin-top: 40%;
 }
 .video{
-    width: 100%;
+    width: 70%;
+    /* height: 80%; */
+    object-fit: cover;
+
 
 }
 .btn-questionnaire{
@@ -262,16 +270,30 @@ h2{
 .btn-reponses{
 
     justify-content: center;
-    background-color:#E58D6D;
+    background-color:#e58d6d91;
     height: 80px;
     width: 500px;
     margin: 30px;
     color: white;
     border:none;
-    box-shadow: 3px 3px 6px #1d1e2e; 
+    box-shadow: 3px 3px 6px  #44487298; 
     border-radius: 15px;
     font-size: 30px;
 }
+.btn-relax{
+
+    justify-content: center;
+    background-color:#e58d6d91;
+    height: 70px;
+    width: 230px;
+    margin: 30px;
+    color: white;
+    border:none;
+    box-shadow: 3px 3px 6px #44487298; 
+    border-radius: 15px;
+    font-size: 30px;
+}
+
 
 .btn-reponses:hover{
 
@@ -289,7 +311,7 @@ h2{
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
-    margin-top: 8%;
+    margin-top: 5%;
     margin-bottom: 30px;
    
 }
@@ -304,7 +326,7 @@ h2{
     margin-top: 3%;
    
 }
-/* #basPageSolutions{
+#basDePageTension{
     width: 100%;
     height: 15%;
     display: flex;
@@ -315,15 +337,15 @@ h2{
     margin-top: 10%;
     margin-bottom: 25px;
    
-} */
+}
 .retour{
-    margin-left: 70px;
+    margin-left: 200px;
 }
 .pasDeCompte{ 
     text-align: center;
     font-size: 1.5rem;
     color: white;
-    margin-right: 70px;
+    margin-right: 200px;
     
 }
 .pasDeCompte >p >a{

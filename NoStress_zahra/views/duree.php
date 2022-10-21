@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../asset/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/reset.css">
     <link rel="stylesheet" href="../assets/css/container.css">
     <link rel="stylesheet" href="../assets/css/style.css">
     <title>Durée de relaxation</title>
 </head>
-<body class="solutions">
+<body class="anxiete">
 
     <header>
                 <section >
@@ -32,7 +32,7 @@
 
     <div class="container">
 
-            <div class="containt-solutions">
+            <div class="containt">
                 <div>
                     <h2>De combien de temps disposez-vous pour vous relaxer?</h2>
                 </div>
@@ -51,7 +51,7 @@
     <div id="basDePage">
                 
             <div class="retour">
-                <a href="aPropos2.php"><img src="../assets/img/fleche-retour.png" id="retourFleche"></a>
+                <a href="relax.php"><img src="../assets/img/fleche-retour.png" id="retourFleche"></a>
             </div>
             <div class="pasDeCompte">
                 <p>Pas de compte?<br>
