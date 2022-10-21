@@ -44,11 +44,15 @@
            
           
                 <div>
-                    <button class="btn-reponses" id="marche">Séance de yoga de 30 min</button>
+                    <button class="btn-reponses" id="sommeil3">Bruits de la nature</button>
                 </div>
 
                 <div>
-                    <button class="btn-reponses" id="huile">Histoire du soir</button>
+                    <button class="btn-reponses" id="sommeil4">Yoga sérénité</button>
+                </div>
+
+                <div>
+                    <button class="btn-reponses" id="sommeil5">Méditation scan corporel</button>
                 </div>
         
                 

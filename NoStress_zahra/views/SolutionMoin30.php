@@ -47,8 +47,9 @@
                 </div>
                 
                 <div>
-                    <button class="btn-reponses" id="sommeil2"></button>
+                    <button class="btn-reponses" id="sommeil2">S'endormir en 15 min</button>
                 </div>
+              
 
              
                 
@@ -59,13 +60,13 @@
         <div id="basPage">
             
             <div class="retour">
-                <a href="ceQuiVousAmene.php"><img src="../assets/img/fleche-retour.png"  id="retourFleche"></a>
+                <a href=".php"><img src="../assets/img/fleche-retour.png"  id="retourFleche"></a>
             </div>
             <div class="pasDeCompte">
                 <p>Pas de compte?<br>
                 <a href="../../NNS_Thais/views/T_createaccount.php">Créer un compte ici</a></p>
             </div>
         </div>
-    <script src ="../assets/scripts/solutionMoin30 copy.js"></script>
+    <script src ="../assets/scripts/solutionMoin30.js"></script>
 </body>
 </html>

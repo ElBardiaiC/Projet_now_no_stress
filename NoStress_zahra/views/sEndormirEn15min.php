@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../assets/css/reset.css">
     <link rel="stylesheet" href="../assets/css/container.css">
     <link rel="stylesheet" href="../assets/css/style.css">
-    <title>Now No Stress</title>
+    <title>No, No Stress</title>
 </head>
 <body class="solutions">
 
@@ -20,42 +20,45 @@
 
             <div class="navBar">
                 <h3>Menu</h3>
-                
+                <nav>
                     <ul>
                         <li><a href="aPropos1.php">A propos de Now no Stress</a></li>
                         <li><a href="aPropos2.php">Découvrir (Essai rapide)</a></li>
                         <li><a href="#">Contactez-nous</a></li>
                         <li><a href="../../NNS_Thais/views/T_createaccount.php">Créez un compte</a></li>
                     </ul>
-               
+                </nav>
             </div>
-
         </header>
 
     <div class="container">
-
+        
+       
         <section class="containt">
 
-        <div>
-            <h2>Yoga apaisante</h2>
-        </div>
-        
-         <div>
-             <video controls="controls">
-                 <source src="../assets/Medias/Z_yoga_antistress.mp4">
-             </video> 
-         </div>
+            <h2>S'endormir en 15 min</h2>
+
+            <div id="imageRelax">
+                <img src="../assets/img/sommeil1.jpg" alt="" id="img-relax">
+            </div><br>
+            
+                <div>
+                    <audio controls="controls">
+                        <source src="../assets/Medias/T_sommeil_en_15mn.mp3">
+                    </audio> 
+                </div>
 
         </section>
-        
-    </div>
-
-    <div id="basPage">
-            
-        <div class="retour">
-            <a href="solutionsTensions.php"><img src="../assets/img/fleche-retour.png" id="retourFleche"></a>
+           
         </div>
         
+    </div>
+    
+    <div id="basDePageTension">
+            
+        <div class="retour">
+            <a href="SolutionMoin30.php"><img src="../assets/img/fleche-retour.png"id="retourFleche" ></a>
+        </div>
         <div class="pasDeCompte">
             <p>Pas de compte?<br>
             <a href="../../NNS_Thais/views/T_createaccount.php">Créer un compte ici</a></p>
@@ -63,6 +66,6 @@
     </div>
 
     
-    <script src ="../assets/scripts/yoga_video.js"></script>
+    <script src ="../assets/scripts/SolutionMoin30.js.js"></script>
 </body>
 </html>

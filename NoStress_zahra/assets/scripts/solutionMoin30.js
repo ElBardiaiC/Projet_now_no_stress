@@ -2,14 +2,15 @@
 const btnSommeil1=document.getElementById('sommeil1');
 
 btnSommeil1.addEventListener('click', () =>{
-  window.location.href='../../NNS_Thais/views/T_carte_yoga_court.php';
+  window.location.href='meditationCourte.php';
 })
 
 const btnSommeil2=document.getElementById('sommeil2');
 
 btnSommeil2.addEventListener('click', () =>{
-  window.location.href='../../NOWS_Chaimae/views/C_respirationprofonde.php';
+  window.location.href='sEndormirEn15min.php';
 })
+
 
 
 function show() {

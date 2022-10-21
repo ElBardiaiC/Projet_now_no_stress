@@ -1,16 +1,23 @@
 
 
-const btnMarche=document.getElementById('marche');
+const btnBruit=document.getElementById('sommeil3');
 
-btnMarche.addEventListener('click', () =>{
-  window.location.href='../../NNS_Thais/views/T_carteYoga.php';
+btnBruit.addEventListener('click', () =>{
+  window.location.href='bruitNature.php';
 })
 
-const btnHuile=document.getElementById('huile');
+const btnYogaSerenite=document.getElementById('sommeil4');
 
-btnHuile.addEventListener('click', () =>{
-  window.location.href='../../NNS_Thais/views/T_carteHistoireDuSoir.php';
+btnYogaSerenite.addEventListener('click', () =>{
+  window.location.href='yogaSerenite.php';
 })
+
+const btnMedit=document.getElementById('sommeil5');
+
+btnMedit.addEventListener('click', () =>{
+  window.location.href='MeditationLongue.php';
+})
+
 
 function show() {
   
