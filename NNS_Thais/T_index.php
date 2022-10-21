@@ -2,7 +2,7 @@
 session_start();
 var_dump($_SESSION["user"]);
 
-//! ne pas oublier login ne fonctionne pas //
+
 function execute($query, $params= array(), $fetchMode = null)
     {
         $pdo = new PDO("mysql:host=localhost;dbname=nostress.db", "root", "root");
@@ -67,7 +67,8 @@ function verify($email, $mdp) {
     }
 }
 ?>
-
+//& Partie HTML //
+//& **************************************************************//
 <!DOCTYPE html>
 <html lang="en">
 <head>

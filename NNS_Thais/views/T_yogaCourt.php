@@ -16,7 +16,7 @@
         <header>
             <section>
                  <div>
-                    <a href="http://localhost/Projet_now_no_stress/NNS_Thais/T_index.php"><img id="logo" src="../asset/img/T_logo.png" alt="logo now no stress"></a>
+                    <a href="../T_index.php"><img id="logo" src="../asset/img/T_logo.png" alt="logo now no stress"></a>
                 </div>
                 <div>
                     <button class="burger"onclick="show()"><img src="../asset/img/menu-burger.png" alt="menu burger" id="menuBurger"></button>
