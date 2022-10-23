@@ -1,13 +1,14 @@
 
 
-const btnCommencer=document.getElementById('btn-commencer');
-// console.log(btnCommencer);
+const btnScan=document.getElementById('scan-btn');
 
-btnCommencer.addEventListener('click', () =>{
-    window.location.href= 'aPropos2.php' ;
- })
+btnScan.addEventListener('click', () =>{
+  window.location.href='MeditationLongue.php';
 
- function show() {
+})
+
+
+function show() {
   
   document.querySelector('.navBar').classList.toggle('active');
 }
@@ -16,12 +17,12 @@ btnCommencer.addEventListener('click', () =>{
   let toggle=true;
 
   iconMenu.addEventListener('click',function(){
+
     toggle = !toggle;
+    
     if(toggle){
       iconMenu.src='../assets/img/menu-burger.png';
     }else{
       iconMenu.src='../assets/img/close-icon.png';
     }
   })
- 
-

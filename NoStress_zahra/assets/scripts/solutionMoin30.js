@@ -8,7 +8,7 @@ btnSommeil1.addEventListener('click', () =>{
 const btnSommeil2=document.getElementById('sommeil2');
 
 btnSommeil2.addEventListener('click', () =>{
-  window.location.href='sEndormirEn15min.php';
+  window.location.href='./T_carte_sommeil15mn.php';
 })
 
 

@@ -5,40 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/reset.css">
-    <link rel="stylesheet" href="../../NNS_Thais/asset/css/T_carteRessource.css">
-    <img id="fondecran" class="fondecran" src="../assets/img/fond-ecran-sombre.png">
-    <title>Carte Yoga Sérénité</title>
-</head>
-<body>
-    <div id="container">
-        <header>
-            <section>
-                 <div>
-                    <a href="../../NNS_Thais/T_index.php"><img id="logo" src="../../NNS_Thais/asset/img/T_logo.png" alt="logo now no stress"></a>
-                </div>
-                <div>
-                    <button class="burger"onclick="show()"><img src="../../NNS_Thais/asset/img/menu-burger.png" alt="menu burger" id="menuBurger"></button>
-                </div>
-            </section>
-            <section>
-                <div class="navBar">
-                    <h3>Menu</h3><br>
-                       <ul>
-                            <li><a href="aPropos1.php">A propos de Now no Stress</a></li>
-                            <li><a href="aPropos2.php">Découvrir (Essai rapide)</a></li>
-                            <li><a href="#">Contactez-Nous</a></li>
-                            <li><a href="../../NNS_Thais/views/T_createaccount.php">Créez un compte</a></li>
-                        </ul>     
-                </div>
-            </section>
-        </header>
+    <link rel="stylesheet" href="../assets/css/container.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Carte yoga serenité</title>
 
-        <div id="content">
-            
-            <section id="carte">
+</head>
+
+<body class="solutions"> 
+
+<header>
+            <section >
+                <a href="http://localhost/Projet_now_no_stress/NNS_Thais/T_index.php"><img src="../assets/img/logo_NoStress.png" alt=""id="logo"></a>
+                
+                <button class="burger"onclick="show()"><img src="../assets/img/menu-burger.png" alt="" id="menuBurger"></button>
+            </section> 
+
+            <div class="navBar">
+
+                <h3>Menu</h3><br>
+                        
+                    <ul>
+                        <li><a href="aPropos1.php">A propos de Now no Stress</a></li>
+                        <li><a href="ceQuiVousAmene.php">Découvrir (Essai rapide)</a></li>
+                        <li><a href="contactezNous.php">Contactez-nous</a></li>
+                        <li><a href="../../NNS_Thais/views/T_createaccount.php">Créez un compte</a></li>
+                    </ul>
+             
+                </div>
+                   
+    </header>
+
+        <div class="containt">
+        
 
                 <div id="img-carte">
-                    <img id="img-carte-ressource" src="../../NNS_Thais/asset/img/T_yoga.png" alt="yoga">
+                    <img id="img-relax" src="../../NNS_Thais/asset/img/T_yoga.png" alt="yoga">
                 </div>
 
                 <div>
@@ -61,30 +62,25 @@
                 </div>
 
                 <div class="bouton">
-                    <button class="classic-btn" id="yogaCourt-btn">Commencer</button>
+                    <button class="btn-questionnaire" id="yogaSerenite">Commencer</button>
                 </div>
 
-            </section>
-           
-            <section id="liens">
-               
-                <div id="retour"> 
-                    
-                    <a href="../../NOWS_Chaimae/views/C_ConnexionCmbDeTmps.php"><img class="icone-retour" src="../../NoStress_zahra/assets/img/fleche-retour.png" alt="icone-precedent"></a> 
-                </div>
-                <div id="creer-compte">
-                    <p>Pas de compte?</p>
-                    <p><a href="../../NNS_Thais/views/T_createaccount.php">Créer un compte ici</a></p>
-                </div>
-                    
-            </section>
-                
-        </div>    
-            
-        
-
+        </div>
     </div>
-        //! Je te laisse aussi faire le lien vers js? //
-    <script src="../asset/script/T_versYogaCourt.js"></script>
+           
+            <div id="basDePage">
+        
+        <div class="retour">
+            <a href="SolutionPlus30.php"><img src="../assets/img/fleche-retour.png" id="retourFleche" ></a>
+        </div>
+
+        <div class="pasDeCompte">
+            <p>Pas de compte?<br>
+            <a href="../../NNS_Thais/views/T_createaccount.php">Créer un compte ici</a></p>
+        </div>
+    </div>
+                
+        
+    <script src="../assets/scripts/yogaSerenite.js"></script>
 </body>
 </html>

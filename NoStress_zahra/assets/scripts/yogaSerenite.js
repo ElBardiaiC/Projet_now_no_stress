@@ -1,13 +1,13 @@
 
+const btnSerenite=document.getElementById('yogaSerenite');
 
-const btnCommencer=document.getElementById('btn-commencer');
-// console.log(btnCommencer);
+btnSerenite.addEventListener('click', () =>{
+  window.location.href='yogaSerenite.php';
 
-btnCommencer.addEventListener('click', () =>{
-    window.location.href= 'aPropos2.php' ;
- })
+})
 
- function show() {
+
+function show() {
   
   document.querySelector('.navBar').classList.toggle('active');
 }
@@ -23,5 +23,3 @@ btnCommencer.addEventListener('click', () =>{
       iconMenu.src='../assets/img/close-icon.png';
     }
   })
- 
-

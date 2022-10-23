@@ -22,7 +22,8 @@
                     <ul>
                         <li><a href="aPropos1.php">A propos de Now no Stress</a></li>
                         <li><a href="ceQuiVousAmene.php">Découvrir (Essai rapide)</a></li>
-                        <li><a href="#">Contactez-nous</a></li>
+                        <li><a href="">Contactez-nous</a></li>
+                        <li><a href="contactezNous.php">Contactez-nous</a></li>
                         <li><a href="../../NNS_Thais/views/T_createaccount.php">Créez un compte</a></li>
                     </ul>
                 

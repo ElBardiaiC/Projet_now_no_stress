@@ -67,7 +67,7 @@ session_start();
    <span id="crée"> Créez un compte ici</span></p>
 </a>
 
-
+<!-- 
 <footer class="footSom">
         
     <ul>
@@ -76,7 +76,7 @@ session_start();
         <li>Adresse</li>
         <li>info</li>
     </ul>
-</footer>
+</footer> -->
 <script src="../asset/script/C_problemeDeSommeil.js"></script>
 </body>
 </html>

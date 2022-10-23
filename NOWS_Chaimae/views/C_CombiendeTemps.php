@@ -58,7 +58,7 @@ session_start();
         <a href="../../NNS_Thais/views/T_createaccount.php">
        <span id="crée"> Créez un compte ici</span></p>
     </a>
-
+<!-- 
     <footer class="footComb">
         
         <ul>
@@ -67,7 +67,7 @@ session_start();
             <li>Adresse</li>
             <li>info</li>
         </ul>
-    </footer>
+    </footer> -->
 
     <script src="../asset/script/C_combiendetemps.js"></script>
 </body>

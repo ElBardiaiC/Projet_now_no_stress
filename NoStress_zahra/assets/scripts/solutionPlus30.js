@@ -9,13 +9,13 @@ btnBruit.addEventListener('click', () =>{
 const btnYogaSerenite=document.getElementById('sommeil4');
 
 btnYogaSerenite.addEventListener('click', () =>{
-  window.location.href='yogaSerenite.php';
+  window.location.href='T_carteYogaSerenite.php';
 })
 
 const btnMedit=document.getElementById('sommeil5');
 
 btnMedit.addEventListener('click', () =>{
-  window.location.href='MeditationLongue.php';
+  window.location.href='T_scanCorporel.php';
 })
 
 

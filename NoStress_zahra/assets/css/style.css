@@ -16,6 +16,51 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/******* formulaire de contact *****/
+
+/* form{
+   
+    font-weight: bold;
+} */
+
+/* .success{
+    color:green;
+} */
+.error{
+    color:darkred;
+}
+.popup{
+    background-color: #585e9175;
+    z-index: 1;
+    
+}
+.show{
+    display: block;
+    position: relative;
+}
+.hide{
+    display: none;
+}
+.close-btn{
+    position: absolute;
+    top:2%;
+    right:2%;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.close-btn:hover{
+    cursor:pointer;
+    color:white;
+}
+
+
+#confirmEnvoi{
+     width: 65%;
+}
+
+       /**********************************************************************/
+
 a , button{
     cursor: pointer;
     text-decoration: none;
@@ -235,6 +280,12 @@ h2{
     box-shadow: 3px 3px 6px #585e91;
     font-size: 1.5rem;
 }
+.containt-solutions > div > .btn-questionnaire{
+    height: 80px;
+    width: 500px;
+    margin: 30px;
+    box-shadow: 3px 3px 6px #1d1e2e;
+}
 
 .btn-questionnaire:hover{
 
@@ -293,6 +344,24 @@ h2{
     border-radius: 15px;
     font-size: 30px;
 }
+.btn-envoi{
+    background-color: #E58D6D;
+    height: 30px;
+    width: 170px;
+    margin: 20px;
+    color: white;
+    border: none;
+    border-radius:10px;
+    box-shadow: 1px 1px 2px #585e91;
+    font-size: 1.2rem; 
+}
+.btn-envoi:hover{
+
+    background-color: white;
+    
+    color: #E58D6D;
+    
+    }
 
 
 .btn-reponses:hover{

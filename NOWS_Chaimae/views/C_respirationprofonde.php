@@ -65,7 +65,7 @@ session_start();
             </a>
 
      
-            <footer class="footRespir">
+            <!-- <footer class="footRespir">
         
                 <ul>
                     <li>Contact</li>
@@ -73,7 +73,7 @@ session_start();
                     <li>Adresse</li>
                     <li>info</li>
                 </ul>
-            </footer>
+            </footer> -->
                 <script src="../asset/script/C_RespirationProfonde.js"></script>
 </body>
 </html>

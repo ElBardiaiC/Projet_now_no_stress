@@ -25,7 +25,7 @@
                     <ul>
                         <li><a href="aPropos1.php">A propos de Now no Stress</a></li>
                         <li><a href="aPropos2.php">Découvrir (Essai rapide)</a></li>
-                        <li><a href="#">Contactez-nous</a></li>
+                        <li><a href="contactezNous.php">Contactez-nous</a></li>
                         <li><a href="../../NNS_Thais/views/T_createaccount.php">Créez un compte</a></li>
                     </ul>
                
@@ -44,18 +44,16 @@
            
           
                 <div>
-                    <button class="btn-reponses" id="sommeil3">Bruits de la nature</button>
+                    <button class="btn-questionnaire" id="sommeil3">Sons de la nature</button>
                 </div>
 
                 <div>
-                    <button class="btn-reponses" id="sommeil4">Yoga sérénité</button>
+                    <button class="btn-questionnaire" id="sommeil4">Yoga sérénité</button>
                 </div>
 
                 <div>
-                    <button class="btn-reponses" id="sommeil5">Méditation scan corporel</button>
+                    <button class="btn-questionnaire" id="sommeil5">Méditation scan corporel</button>
                 </div>
-        
-                
         </div>
         
     
@@ -63,7 +61,7 @@
         <div id="basPage">
             
             <div class="retour">
-                <a href="ceQuiVousAmene.php"><img src="../assets/img/fleche-retour.png"  id="retourFleche"></a>
+                <a href="../../NOWS_Chaimae/views/C_ConnexionCmbDeTmps.php"><img src="../assets/img/fleche-retour.png"  id="retourFleche"></a>
             </div>
             <div class="pasDeCompte">
                 <p>Pas de compte?<br>

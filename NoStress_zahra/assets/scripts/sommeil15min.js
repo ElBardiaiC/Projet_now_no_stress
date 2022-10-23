@@ -1,13 +1,14 @@
 
 
-const btnCommencer=document.getElementById('btn-commencer');
-// console.log(btnCommencer);
+const btn15min=document.getElementById('yogaCourt-btn');
 
-btnCommencer.addEventListener('click', () =>{
-    window.location.href= 'aPropos2.php' ;
- })
+btn15min.addEventListener('click', () =>{
+  window.location.href='./sEndormirEn15min.php';
 
- function show() {
+})
+
+
+function show() {
   
   document.querySelector('.navBar').classList.toggle('active');
 }
@@ -23,5 +24,3 @@ btnCommencer.addEventListener('click', () =>{
       iconMenu.src='../assets/img/close-icon.png';
     }
   })
- 
-
