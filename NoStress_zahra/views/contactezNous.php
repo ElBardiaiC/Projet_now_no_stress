@@ -41,22 +41,22 @@
                 <form class=contact name="contactForm" method="post" action="javascript:void(0)">
                     <div>
                         <label for="nom">Nom et Prénom</label>
-                        <input name="nom" id="nom" type="text"/>
+                        <input name="nom" id="nom" placeholder="Votre nom et Prénom" type="text"/>
                     <div id="nom-error"></div>
             
                     <div>
                         <label for="phone">Numéro de tél</label>
-                        <input name="phone" id="phone" type="tel"/>
+                        <input name="phone" id="phone" placeholder="n de tél" type="tel"/>
                         <div id="phone-error"></div>
                     </div>
                     <div>
                         <label for="email">Adresse email</label>
-                        <input name="email" id="email" type="email"/>
+                        <input name="email" id="email" placeholder="Email" type="email"/>
                         <div id="email-error"></div>
                     </div>
                     <div>
                         <label for="votreMsg">Veuillez entrer votre message</label>
-                        <input name="votreMsg" id="votreMsg" type="text"/>
+                        <input name="votreMsg" id="votreMsg" placeholder="Votre message ici" type="text"/>
                         <div id="votreMsg-error"></div>
                     </div><br>
                     <div>

@@ -21,8 +21,23 @@
 
 /* form{
    
-    font-weight: bold;
+    width: 100%;
 } */
+form div label{
+    display: block;
+    margin: 10px 0;
+    text-align: left;
+}
+form div input{
+    background-color: #525d9100;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #D3D3D3;
+    box-sizing: border-box;
+    outline: none;
+
+}
 
 /* .success{
     color:green;
@@ -346,7 +361,7 @@ h2{
 }
 .btn-envoi{
     background-color: #E58D6D;
-    height: 30px;
+    height: 40px;
     width: 170px;
     margin: 20px;
     color: white;
@@ -421,7 +436,219 @@ h2{
     text-decoration: underline;
 }
 
-/********* Pour le responsive **********/
+/***********************Le responsive ecran pc portable**************/
+
+/* @media screen and (max-width :1300px) {
+    body{
+        height: 100vh;
+    }
+    .solutions{
+        height: 100vh;
+    }
+
+    #logo{
+    width: 35%;
+    object-fit: cover;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+#menuBurger{
+
+    top: 35px;
+    right: 35px;
+    color: white;
+    margin-right: 15px;
+    height: 40px;
+}
+
+.navBar{
+    position:fixed;
+    right: -600px; 
+    width: 25%;
+    margin-top: 12%;
+    background-color: #585e91;
+    transition: 0.5s;
+}
+
+.navBar ul{
+    margin-bottom: 100px;
+}
+.navBar h3{
+    font-size: 40px;
+    padding-top: 30px;
+}
+.navBar-solutions{
+    position:fixed;
+    right: -900px;
+    width: 25%;
+    margin-top: 12%;
+    background-color:#80629b;
+    transition: 0.5s;
+} 
+.navBar-solutions ul{
+    margin-bottom: 100px;
+}
+
+.navBar-solutions h3{
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+.container{
+    width: 100%;
+    height:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+    
+}
+h2{  
+    font-size: 50px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center; 
+}
+
+.containt{
+display: flex;
+flex-direction: column;
+align-items: center; 
+padding: 20px;
+margin-left: 5%;
+margin-right: 5%;
+margin-top: 0%;
+text-align: justify;
+border: none;
+border-radius: 15px;
+
+}
+
+.containt-solutions{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    text-align: center;
+}
+.containt-relax{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    color: white;
+    font-size: 1rem;
+    padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    text-align: justify;
+    border:none;
+    border-radius: 15px;
+    background-color:#525d9175;
+}
+.containt > p{
+    font-size: 1.5rem;
+}
+.containt-solutions > p{
+    font-size: 1.5rem;
+}
+.containt-relax > p{
+    font-size: 1.1rem;
+}
+#img-relax{
+    width: 150px;
+    height:150px ;
+    border-radius: 50%; 
+    
+}
+
+.btn-questionnaire{
+    background-color: #E58D6D;
+    height: 40px;
+    width: 130px;
+    margin-top: 40px;
+    color: white;
+    border: none;
+    border-radius:10px;
+    box-shadow: 2px 2px 3px #585e91;
+    font-size: 1rem;
+}
+
+.reponses{
+
+    justify-content: center;
+    background-color:#585e9198;
+    height: 50px;
+    width: 150px;
+    margin: 20px;
+    color: white;
+    border:none;
+    box-shadow: 2px 2px 3px #585e91; 
+    border-radius: 10px;
+    font-size: 1rem;
+    
+}
+.btn-reponses{
+
+    justify-content: center;
+    background-color:#80629b70;
+    height: 50px;
+    width: 200px;
+    margin: 20px;
+    color: white;
+    border:none;
+    box-shadow: 2px 2px 3px #1d1e2e; 
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+#basDePage{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: 10px;
+}
+
+#basPage{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: 40px;
+   
+}
+.retour{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+.pasDeCompte{ 
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right: 20px;
+    
+}
+#retourFleche{
+    width: 25px;
+    height: 25px;
+}
+
+
+} */
+
+/******** Pour le responsive smartphone**********/
 
 @media screen and (max-width : 700px) {
     body{
@@ -636,6 +863,4 @@ border-radius: 15px;
     width: 25px;
     height: 25px;
 }
-
-
 }
