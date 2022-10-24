@@ -68,6 +68,9 @@ form div input{
     cursor:pointer;
     color:white;
 }
+::placeholder{
+    color: black;
+}
 
 
 #confirmEnvoi{
