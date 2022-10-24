@@ -78,7 +78,7 @@
          <div id="basDePage">
             
             <div class="retour">
-                <a href="../../NNS_Thais/T_index.php.php"><img src="../assets/img/fleche-retour.png" id="retourFleche"></a>
+                <a href="../../NNS_Thais/T_index.php"><img src="../assets/img/fleche-retour.png" id="retourFleche"></a>
             </div>
             <div class="pasDeCompte">
                 <p>Pas de compte?<br>
