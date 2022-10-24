@@ -40,7 +40,7 @@
             
             <div>
                 <h2>Veuillez choisir une solution</h2>
-            </div>
+            </div><br>
            
           
                 <div>
@@ -53,7 +53,7 @@
 
                 <div>
                     <button class="btn-questionnaire" id="sommeil5">Méditation scan corporel</button>
-                </div>
+                </div><br><br>
         </div>
         
     

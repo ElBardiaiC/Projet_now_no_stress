@@ -34,7 +34,7 @@
     <div class="container">
         
        
-        <section class="containt">
+        <section class="containt-relax">
 
             <div>
                 <h2>Méditation courte pour mieux dormir</h2>
