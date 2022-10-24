@@ -3,9 +3,12 @@ let formulaire=document.contactForm;
 let nomPrenom=formulaire.nom;
 let phone=formulaire.phone;
 let email=formulaire.email;
-let votreMsg=formulaire.votreMsg;
+let msg=formulaire.votreMsg;
 
 let nomError=document.getElementById("nom-error");
+let phoneError=document.getElementById("phone-error");
+let emailError=document.getElementById("email-error");
+let msgError=document.getElementById("votreMsg-error")
 let popup=document.getElementById("valid-popup");
 
 function envoi()
@@ -17,12 +20,36 @@ function envoi()
       nomError.classList.add("error");
   }
   
+   if(phone.value ==""|| phone.value.trim()=="")
+  {
+      phoneError.innerHTML="<p>Ce champs est obligatoire!</p>";
+      phoneError.classList.remove("success");
+      phoneError.classList.add("error");
+  }
 
-    if(nomPrenom.value !='' && phone.value !='' && email.value !='')
+  if(email.value ==""|| email.value.trim()=="")
+  {
+      emailError.innerHTML="<p>Ce champs est obligatoire!</p>";
+      emailError.classList.remove("success");
+      emailError.classList.add("error");
+  }
+
+  if(msg.value ==""|| msg.value.trim()=="")
+  {
+      msgError.innerHTML="<p>Ce champs est obligatoire!</p>";
+      msgError.classList.remove("success");
+      msgError.classList.add("error");
+  }
+    if(nomPrenom.value !='' && email.value !='' && phone.value !='' && msg.value !='')
     {
         popup.classList.remove('hide');
         popup.classList.add('show');
     }
+
+ 
+  
+
+  
  }  
   
 function closePopup()
