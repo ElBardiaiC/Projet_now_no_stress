@@ -27,10 +27,10 @@
                     <h3>Menu</h3><br>
                     <nav>
                        <ul>
-                            <li><a href="aPropos1.php">A propos de Now no Stress</a></li>
-                            <li><a href="aPropos2.php">Découvrir (Essai rapide)</a></li>
-                            <li><a href="#">Contactez-nous</a></li>
-                            <li><a href="T_createaccount.php">Créez un compte</a></li>
+                       <li><a href="../../NoStress_zahra/views/aPropos1.php">A propos de Now no Stress</a></li>
+                            <li><a href="../../NoStress_zahra/views/aPropos2.php">Découvrir (Essai rapide)</a></li>
+                            <li><a href="../../NoStress_zahra/views/contactezNous.php">Contactez-nous</a></li>
+                            <li><a href="../../NNS_Thais/views/T_createaccount.php">Créez un compte</a></li>
                         </ul>     
                     </nav>
                 </div>
