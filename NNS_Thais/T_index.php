@@ -131,8 +131,9 @@ function verify($email, $mdp) {
     
             <div id="titres-div">
                 <section id="titres">
-                    <h2>Connectez-vous</h2>
-                    <h2>Découvrir?</h2>
+                    <h2 id="connec">Connectez-vous</h2>
+                    <div id="line-invisible"></div>
+                    <h2 id="discovery">Découvrir?</h2>
             
                 </section>
             </div>
@@ -161,6 +162,9 @@ function verify($email, $mdp) {
                     </div>
 
                 </form>
+                <div id="line">
+
+                </div>
                 <section id="essai">
                     <button class="classic-btn" id="essai-btn" type="submit">Essai</button>
                 </section>
