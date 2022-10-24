@@ -36,7 +36,7 @@
         
           <H2>Contactez nous</H2><br>
 
-            <div class="containt">
+            <div class="containt-relax">
                 
                 <form class=contact name="contactForm" method="post" action="javascript:void(0)">
                     <div>
