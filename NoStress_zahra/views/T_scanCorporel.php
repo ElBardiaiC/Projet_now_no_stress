@@ -37,7 +37,7 @@
     <div id="container">
         
 
-        <div class="containt">
+        <div class="containt-relax">
             
 
                 <div id="img-carte">

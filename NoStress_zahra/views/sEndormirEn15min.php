@@ -34,7 +34,7 @@
     <div class="container">
         
        
-        <section class="containt">
+        <section class="containt-relax">
 
             <h2>S'endormir en 15 min</h2>
 
@@ -57,7 +57,7 @@
     <div id="basDePageTension">
             
         <div class="retour">
-            <a href="T_carte_sommeil15min.php"><img src="../assets/img/fleche-retour.png"id="retourFleche" ></a>
+            <a href="T_carte_sommeil15mn.php"><img src="../assets/img/fleche-retour.png"id="retourFleche" ></a>
         </div>
         <div class="pasDeCompte">
             <p>Pas de compte?<br>
