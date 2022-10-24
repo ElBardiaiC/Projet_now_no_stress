@@ -49,7 +49,8 @@ header >  section > div > a > img{
     width: 35%;
     object-fit: cover;
     padding-left: 3%;
-    padding-top: 3%;
+    padding-top: 1.9%;
+   
 }
 /*^ Version mobile header */
 @media screen and (max-width:576px)
