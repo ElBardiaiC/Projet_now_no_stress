@@ -34,9 +34,9 @@
 
         <div class="container">
         
-        <H2>Contactez nous</H2><br>
+          <H2>Contactez nous</H2><br>
 
-            <section class="containt">
+            <div class="containt">
                 
                 <form class=contact name="contactForm" method="post" action="javascript:void(0)">
                     <div>
@@ -64,7 +64,7 @@
                         <input type ="reset" value= "Recommencer" class="btn-envoi">
                     </div>
     
-                 </form>
+                </form>
 
                 <div id="valid-popup" class="popup hide">
                     <div id="btn" class ="close-btn" onclick="closePopup()">X</div>
@@ -72,5 +72,18 @@
                     <h3>Merci, votre message est envoyé!</h3><br>
                     <img src="../assets/img/envoi.png" alt="" id="confirmEnvoi">
                 </div>
+            </div> 
+        </div>
+            
+         <div id="basDePage">
+            
+            <div class="retour">
+                <a href="../../NNS_Thais/T_index.php.php"><img src="../assets/img/fleche-retour.png" id="retourFleche"></a>
+            </div>
+            <div class="pasDeCompte">
+                <p>Pas de compte?<br>
+                <a href="http://localhost/Projet_now_no_stress/NNS_Thais/views/T_createaccount.php">Créer un compte ici</a></p>
+            </div>
+         </div>
                 
         <script src="../assets/scripts/contact.js"></script>
