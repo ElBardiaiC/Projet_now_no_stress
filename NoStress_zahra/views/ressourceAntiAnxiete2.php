@@ -33,12 +33,12 @@
             <h2>Relaxation rapide</h2>
         </div>
         
-        <section class="containt-solutions">
+        <section class="containt-relax">
                 <div>
                     <video class="video" controls="controls">
                         <source src="../assets/Medias/méditationAntiAnxiete.mp4">
                     </video> 
-                </div>
+                </div><br><br><br>
 
         </section>
         

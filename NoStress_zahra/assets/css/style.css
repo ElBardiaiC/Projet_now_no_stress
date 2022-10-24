@@ -30,6 +30,7 @@ form div label{
 }
 form div input{
     background-color: #525d9100;
+    color:white;
     width: 100%;
     padding: 10px;
     border: none;
@@ -69,7 +70,7 @@ form div input{
     color:white;
 }
 ::placeholder{
-    color: black;
+    color: white;
 }
 
 
@@ -658,6 +659,9 @@ border-radius: 15px;
         height: 100vh;
     }
     .solutions{
+        height: 100vh;
+    }
+    .anxiete{
         height: 100vh;
     }
 
